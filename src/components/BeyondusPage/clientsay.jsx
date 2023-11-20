@@ -5,7 +5,7 @@ import profilepic from "../../assets/testimonial.jpg";
 
 export default function Clientsay() {
   return (
-    <div className="Clientsay">
+    <div className="Clientsay" style={{padding:"80px 0 25px 0"}}>
       <div className="container">
         <div className="clientsay-container">
           <div className="clientsay-left col-lg-6 col-md-12 col-sm-12">

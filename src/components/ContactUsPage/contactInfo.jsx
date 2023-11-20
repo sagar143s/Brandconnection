@@ -6,24 +6,20 @@ export default function ContactInfo() {
       <div className="container">
         <div className="contactinfo-container">
           <div className="location-box">
-            <h3>Location</h3>
-            <div>
+            <h3>Office:</h3>
+            <div >
               <p>
-                Babolat Flagship store, Box Park,
-                <br></br> Al Wasl road (near Mcdonalds)
+              Marasi Drive, Business Bay District
+                <br></br>Burlington Tower, office 411<br/>Dubai- UAE +971 4 341 0500
               </p>
             </div>
           </div>
           <div className="contactus-box">
-            <h3>Contact Support</h3>
+            <h3>Store:</h3>
             <div>
               <p>
-                Phone:
-                <a href="tel:+9715077082291">+971 507 708 2291</a>
-              </p>
-              <p>
-                WhatsApp:
-                <a href="https://wa.me/9715077082291">+971 507 708 2291</a>
+              Jumeirah, Al Wasl road
+                <br></br>Boxpark Shopping <br/>Dubai- UAE+  <br/>971 56 896 4005
               </p>
             </div>
           </div>
@@ -33,6 +29,7 @@ export default function ContactInfo() {
               <p>
                 Monday - Friday: 09:00 to 18:00 (GMT +8).
                 <br></br> Closed on Saturday Sunday.
+                <div style={{padding:" 16px"}}></div>
               </p>
             </div>
           </div>

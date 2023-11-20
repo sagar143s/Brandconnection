@@ -51,21 +51,21 @@ export default function Header() {
           <a href="/BeyondUsPage" className="header-nav-tags">
             BEYOND US
           </a>
-          <a href="/HistoryPage" className="header-nav-tags">
-            HISTORY
+          <a href="/Ecom" className="header-nav-tags">
+            E-COM
           </a>
           <a href="/ContactUsPage" className="header-nav-tags">
             CONTACT
           </a>
         </div>
         <div className="header-right">
-          <a href="tel:+971 507 7082291" alt="" className="header-phone">
+          {/* <a href="tel:+971 507 7082291" alt="" className="header-phone">
             +971 507 708 2291
-          </a>
-          <div className="divider1"></div>
-          <div>
+          </a> */}
+          {/* <div className="divider1"></div> */}
+          {/* <div>
             <button className="visit-office-button">VISIT OFFICE</button>
-          </div>
+          </div> */}
         </div>
         <div className="mobile-header-nav-toggle">
           <button className="Mobile-Menu-toggle" onClick={(e) => toggleMenu(e)}>

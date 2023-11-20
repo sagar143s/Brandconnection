@@ -2,7 +2,9 @@ import Beyondbrand from "./beyondbrand";
 import Beyondusbg from "./beyondusbg";
 import Clientsay from "./clientsay";
 import Counter from "./counter";
-import Marquee from "./marquee";
+import Team from './team'
+import History from '../HistoryPage/HistoryPage'
+
 
 function BeyondUsPage() {
   return (
@@ -10,8 +12,10 @@ function BeyondUsPage() {
       <Beyondusbg />
       <Beyondbrand />
       <Counter />
-      <Clientsay />
-      <Marquee />
+      {/* <Clientsay /> */}
+      <History/>
+      <Team/>
+      
     </div>
   );
 }

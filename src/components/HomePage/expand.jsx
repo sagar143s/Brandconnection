@@ -5,7 +5,7 @@ import jewelry from "../../assets/diamond_6521270.png";
 import watches from "../../assets/wristwatch_8892345.png";
 export default function Expand() {
   return (
-    <div className="expand">
+    <div className="expand" >
       <div className="container">
         <div className="expand-container">
           <h1>
@@ -13,7 +13,7 @@ export default function Expand() {
           </h1>
           <div className="box-container">
             <div className="box">
-              <div class="boxicon">SPORTSWEAR</div>
+              <div class="boxicon">SPORTS FASHION</div>
               <div className="boxicon-image">
                 <img src={shirt} alt="" />
               </div>
@@ -25,15 +25,15 @@ export default function Expand() {
               </div>
             </div>
             <div className="box">
-              <div class="boxicon">JEWELRY</div>
+              <div class="boxicon">WATCHES</div>
               <div className="boxicon-image">
-                <img src={jewelry} alt="" />
+              <img src={watches} alt="" />
               </div>
             </div>
             <div className="box">
-              <div class="boxicon">WATCHES</div>
+              <div class="boxicon">ACCESSORIES</div>
               <div className="boxicon-image">
-                <img src={watches} alt="" />
+              <img src={jewelry} alt="" />
               </div>
             </div>
           </div>

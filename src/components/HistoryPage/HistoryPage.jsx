@@ -24,9 +24,9 @@ const HistoryContent = () => {
     ));
   return (
     <>
-      <Historybg />
+      {/* <Historybg /> */}
       <Box>
-        <Box
+        {/* <Box
           sx={{
             display: "flex",
             flexDirection: "column",
@@ -36,7 +36,7 @@ const HistoryContent = () => {
           }}
         >
           <Typography
-            fontFamily="poppins"
+            fontFamily="Rounded Elegance"
             fontSize="15px"
             fontWeight="500"
             align="center"
@@ -45,9 +45,8 @@ const HistoryContent = () => {
           >
             HOW DO WE WORK
           </Typography>
-          {/* <Typography fontFamily='poppins' fontSize='45px' fontWeight='400'  align='center' width={600} letterSpacing={2} marginTop='2rem'  sx={{wordSpacing:'5px'}}>Our Mission is to Become The best Company</Typography>      */}
-        </Box>
-        <Box>
+        </Box> */}
+        {/* <Box>
           <Container>
             <Box
               sx={{
@@ -57,7 +56,7 @@ const HistoryContent = () => {
                 height: "600px",
               }}
             >
-              {/* {Video goes Here} */}
+
               <img
                 className="historyimg"
                 src={VideoImg}
@@ -71,12 +70,12 @@ const HistoryContent = () => {
               />
             </Box>
           </Container>
-        </Box>
+        </Box> */}
 
         <Box sx={{ marginTop: "4rem" }}>
           <Container>
             <Typography
-              fontFamily="poppins"
+              fontFamily="Rounded Elegance"
               fontSize="20px"
               fontWeight="500"
               align="center"
@@ -92,7 +91,7 @@ const HistoryContent = () => {
               <Box sx={{ flex: 2 }}>
                 <Box sx={{ height: "300px" }}>
                   <Typography
-                    fontFamily="poppins"
+                    fontFamily="Rounded Elegance"
                     fontSize="35px"
                     fontWeight="300"
                     align="right"
@@ -102,7 +101,7 @@ const HistoryContent = () => {
                     2018
                   </Typography>
                   <Typography
-                    fontFamily="poppins"
+                    fontFamily="Rounded Elegance"
                     fontSize="18px"
                     fontWeight="300"
                     align="right"
@@ -135,7 +134,7 @@ const HistoryContent = () => {
                 </Box>
                 <Box sx={{ height: "300px" }}>
                   <Typography
-                    fontFamily="poppins"
+                    fontFamily="Rounded Elegance"
                     fontSize="35px"
                     fontWeight="300"
                     align="right"
@@ -145,7 +144,7 @@ const HistoryContent = () => {
                     2020
                   </Typography>
                   <Typography
-                    fontFamily="poppins"
+                    fontFamily="Rounded Elegance"
                     fontSize="18px"
                     fontWeight="300"
                     align="right"
@@ -178,7 +177,7 @@ const HistoryContent = () => {
                 </Box>
                 <Box sx={{ height: "200px" }}>
                   <Typography
-                    fontFamily="poppins"
+                    fontFamily="Rounded Elegance"
                     fontSize="35px"
                     fontWeight="300"
                     align="right"
@@ -188,7 +187,7 @@ const HistoryContent = () => {
                     2022
                   </Typography>
                   <Typography
-                    fontFamily="poppins"
+                    fontFamily="Rounded Elegance"
                     fontSize="18px"
                     fontWeight="300"
                     align="right"
@@ -911,7 +910,7 @@ const HistoryContent = () => {
                 </Box>
                 <Box sx={{ height: "300px" }}>
                   <Typography
-                    fontFamily="poppins"
+                    fontFamily="Rounded Elegance"
                     fontSize="35px"
                     fontWeight="300"
                     align="left"
@@ -921,7 +920,7 @@ const HistoryContent = () => {
                     2019
                   </Typography>
                   <Typography
-                    fontFamily="poppins"
+                    fontFamily="Rounded Elegance"
                     fontSize="18px"
                     fontWeight="300"
                     align="left"
@@ -949,7 +948,7 @@ const HistoryContent = () => {
                 </Box>
                 <Box sx={{ height: "300px" }}>
                   <Typography
-                    fontFamily="poppins"
+                    fontFamily="Rounded Elegance"
                     fontSize="35px"
                     fontWeight="300"
                     align="left"
@@ -959,7 +958,7 @@ const HistoryContent = () => {
                     2021
                   </Typography>
                   <Typography
-                    fontFamily="poppins"
+                    fontFamily="Rounded Elegance"
                     fontSize="18px"
                     fontWeight="300"
                     align="left"
@@ -986,7 +985,7 @@ const HistoryContent = () => {
                 </Box>
                 <Box sx={{ height: "300px" }}>
                   <Typography
-                    fontFamily="poppins"
+                    fontFamily="Rounded Elegance"
                     fontSize="35px"
                     fontWeight="300"
                     align="left"
@@ -996,7 +995,7 @@ const HistoryContent = () => {
                     2023
                   </Typography>
                   <Typography
-                    fontFamily="poppins"
+                    fontFamily="Rounded Elegance"
                     fontSize="18px"
                     fontWeight="300"
                     align="left"

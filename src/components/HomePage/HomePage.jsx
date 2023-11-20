@@ -4,6 +4,8 @@ import Wedeliversol from "./wedeliversol";
 import Ournetwork from "./ournetwork";
 import Expand from "./expand";
 import Ourbrands from "./ourbrands";
+import Insta from './instavideos'
+import Marquee from '../BeyondusPage/marquee'
 
 function HomePage() {
   return (
@@ -13,7 +15,11 @@ function HomePage() {
       <Wedeliversol />
       <Ournetwork />
       <Expand />
-      <Ourbrands />
+      {/* <Ourbrands /> */}
+    
+      <Insta/>
+      <Marquee />
+  
     </div>
   );
 }

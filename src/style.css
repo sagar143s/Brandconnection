@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Rounded Elegance', sans-serif;
 
 }
 ::-webkit-scrollbar {
@@ -33,7 +34,7 @@ body{
     text-decoration: none;
     display: flex;
     justify-content: center;
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     align-items: center;
     font-size: 15px;
     padding-left: 15px;
@@ -43,7 +44,7 @@ body{
     color: white;
     display: flex;
     justify-content: center;
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     align-items: center;
     font-size: 15px;
     padding-right: 15px;
@@ -77,7 +78,7 @@ body{
 .header-nav-tags{
     text-decoration: none;
     color: black;
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size: 15px;
     padding-left: 20px;
     padding-right: 20px;
@@ -105,13 +106,13 @@ body{
 .header-phone{
     text-decoration: none;
     color: rgb(73, 72, 72);
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size: 15px;
     font-weight: 500;
 }
 
 .visit-office-button{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size:  15px;
     font-weight: bold; 
     border: none; 
@@ -133,7 +134,7 @@ body{
     padding: 10px 20px; 
     background-color: transparent;
     color: black;
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size: 15px;
     font-weight: 500;
 }
@@ -195,7 +196,7 @@ body{
   }
   .mobile-menu a {
     color: black;
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     padding: 12px 16px;
     text-decoration: none;
     display: flex;
@@ -225,13 +226,13 @@ body{
     
 }
 .footer1-left{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size: 16px;
     color: white;
 }
 
 .footer1-right{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size: 16px;
     color: rgb(173, 27, 73);
 }
@@ -251,8 +252,8 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-left: 100px;
-    padding-right: 100px;
+    /* padding-left: 100px; */
+    /* padding-right: 100px; */
 }
 .column{
     display: flex;
@@ -272,7 +273,7 @@ body{
 }
 
 .menu-list a{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size: 16px;
     text-decoration: none;
     color: white;
@@ -294,31 +295,34 @@ body{
 
 .body1-title{
     padding-top: 200px;
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     padding: 0px;
     margin: 0px;
-    font-size: 64px;
+    font-size: 66px;
+    font-weight: bold;
     color: white;
 }
 
 .body1-title1 {
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     padding: 0px;
     margin: 0px;
-    font-size: 64px;
+    font-size: 66px;
+    font-weight: bold;
     color: white;
 }
 
 .body1-button{
-    font-family: Poppins;
-    font-size:  15px;
+      font-family: 'Rounded Elegance', sans-serif;
+    font-size:  25px;
     font-weight: bold; 
     border: none; 
-    padding: 10px 20px; 
-    border-radius: 5px;
+    padding: 15px 25px; 
+    margin: 25px 0;
+    border-radius: 10px;
     background-color: black;
     color: white;
-    transition: 0.7s color background-color;
+ 
 }
 .body1-button:hover{
     background-color: #ffffff;
@@ -328,7 +332,7 @@ body{
 
 .newsletter{
     margin-top: -40px;
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     color: white;
     font-size: 16px;
 }
@@ -343,7 +347,7 @@ body{
     padding: 10px 15px;
     transition: border-color .3s;
     width: 180px;
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
 }
 .subscribe-button {
     background-color: #d3d1d1;
@@ -352,7 +356,7 @@ body{
     color: #000;
     cursor: pointer;
     font-weight: 700;
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     margin-top: 0;
     padding: 10px 15px;
 }
@@ -389,27 +393,27 @@ body{
     visibility: hidden;
 }
 .whatwedo-up h6{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-weight: bold; 
     margin-top: 50px;
 }
 .whatwedo-up h3{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-weight: bold; 
     padding-bottom: 20px;
 }
 
 .whatwedo-right h6{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-weight: bold; 
     margin-top: 50px;
 }
 .whatwedo-right p{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     text-align: left;
 }
 .whatwedo-left h3{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-weight: bold; 
     padding-bottom: 20px;
     text-align: left;
@@ -435,7 +439,8 @@ body{
     padding-top: 50px;
     padding-bottom: 100px;
     color: white;
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
+    font-size: 35px;
     font-weight: 500;
 }
 .wedeliver-icons-div {  
@@ -443,11 +448,11 @@ body{
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
-    padding-bottom: 150px;
+    padding-bottom: 80px;
 }
 .wedeliver-icon-box p{
     color: white;
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     text-align: center;
     font-size: 20px;
     font-weight: 700;
@@ -472,7 +477,7 @@ body{
 
 .wedeliver-icon img{
     max-width: 50px;
-    padding-bottom: 13px;
+    /* padding-bottom: 13px; */
 }
 .video1{
     display: flex;
@@ -509,11 +514,11 @@ body{
 .video1-right h2{
     color: white;
     font-size: 32px;
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
 }
 
 .ournetwork{
-    padding-top: 350px;
+    padding-top: 300px;
     z-index: 0;
     height: 1216px;
 }
@@ -538,10 +543,10 @@ body{
 }
 
 .ournetwork-body1-left h1{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
 }
 .ournetwork-body1-left h2{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
 }
 .divider {
     background-color: hsla(0,9%,89%,.705);
@@ -559,10 +564,10 @@ body{
     height: 80px;
 }
 .ournetwork-premium-content h3{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
 }
 .ournetwork-premium-content p{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     padding-left: 30px;
 }
 .gallery {
@@ -625,10 +630,10 @@ body{
     flex: 50%;
 }
 .testi h3{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
 }
 .testi h6{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -640,7 +645,7 @@ body{
 .testimonial-text {
     margin-top: 30px;
     color: #353535;
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size: 16px;
     font-style: italic;
     text-decoration: none;
@@ -664,12 +669,12 @@ body{
     margin-top: 10px;
 }
 .profile-name{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size: 14px;
     font-weight: 700;
 }
 .profile-job {
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     color: #888;
     font-size: 14px;
     margin-top: 5px;
@@ -686,9 +691,9 @@ body{
 }
 
 .expand-container h1{
-    padding-top: 230px;
+    padding-top: 320px;
     color: white;
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-weight: 400;
     padding-bottom: 50px;
 }
@@ -711,7 +716,7 @@ body{
     padding: 100px;
     background-color: transparent;
     color: white;
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size: 25px;
     display: flex;
     align-items: center;
@@ -722,21 +727,32 @@ body{
     background-color: white;
     color: black;
 }
-
+.boxicon:hover .boxicon-image{
+    margin-top: 50px;
+}
 .boxicon-image{
     translate: 90px -255px;
-    background-color: #666;
-    -webkit-clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);
-    clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);
+    background-color: #d3d3d3;
+    /* -webkit-clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);
+    clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%); */
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100px;
     height: 100px;
 }
-.boxicon-image img{
-    width: 62px;
-    height: 62px;
+.boxicon-image:hover{
+    background-color: #ffffff;
+}
+.boxicon-image img {
+    width: 55px;
+    height: 55px;
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.boxicon-image img:hover {
+    transform: scale(1.2); /* Adjust the scale factor as needed for your zoom effect */
 }
 
 .ourbrand{
@@ -761,15 +777,15 @@ body{
     flex: 50%;
 }
 .ourbrand-right p{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size: 25px;
 }
 .ourbrand-left p{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size: 25px;
 }
 .ourbrand-left h2{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size: 25px;
 }
 .ourbrand-left{
@@ -781,7 +797,7 @@ body{
     text-align: start;
 }
 .ourbrand-right button{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size:  15px;
     font-weight: bold; 
     border: none; 
@@ -799,7 +815,7 @@ body{
     height: 280px;
 }
 .brandbg-container h1{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     color: white;
     font-size: 60px;
     padding-top: 100px;
@@ -834,7 +850,7 @@ body{
     transform: scale(1.2);
 }
 .image-text{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
@@ -870,7 +886,7 @@ body{
 }
 
 .partnerbg-container h1{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     color: white;
     font-size: 60px;
     padding-top: 100px;
@@ -919,7 +935,7 @@ body{
 }
 
 .directbg-container h1{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     color: white;
     font-size: 60px;
     padding-top: 100px;
@@ -995,7 +1011,7 @@ body{
     padding-top: 40px;
 }
 .beyondusbg-container h1{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     color: white;
     font-size: 60px;
     padding-top: 100px;
@@ -1013,7 +1029,7 @@ body{
     height: 519px;
 }
 .beyondbrand-right{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -1057,7 +1073,7 @@ body{
     align-items: center;
 }
 .clientsay-right h1{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size: 50px;
     font-weight: 400;
     padding-top: 30px;
@@ -1072,7 +1088,7 @@ body{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .saytestimonial p{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-style: italic;
     padding: 20px;
 }
@@ -1091,27 +1107,39 @@ body{
     font-weight: 600;
 }
 
-.marquee-container{
+.marquee-container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-image: url("/src/assets/h2-map-1.05b664b8ce1fe66d30dd.png"); 
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 20px;
     overflow: hidden;
-}
-marquee{
-    animation: scroll 15s linear infinite;
+  }
+  
+  .marquee {
     display: flex;
-    white-space: nowrap;
-}
-marquee img{
-    width: 220px;
+    animation: rotate 20s linear infinite;
+  }
+  
+  .marquee img {
+    width: 120px;
     padding: 20px 50px;
-}
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  
+  @keyframes rotate {
+    0% {
+      transform: translateX(100%) rotate(0deg);
+    }
+    100% {
+      transform: translateX(-100%) rotate(360deg);
+    }
+  }
+  
 .counter{
     background-image: url("/src/assets/footer-banner.jpg"); 
     background-size: cover; 
@@ -1133,7 +1161,7 @@ marquee img{
     flex-direction: column;
 }
 .counter-text{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size: 32px;
     font-weight: 400;
     color: white;
@@ -1156,7 +1184,7 @@ marquee img{
 }
 
 .contactusbg-container h1{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     color: white;
     font-size: 60px;
     padding-top: 100px;
@@ -1167,13 +1195,13 @@ marquee img{
 }
 
 .contactheader-container h1{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size: 48px;
     font-weight: 400;
 }
 
 .contactheader-container p{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #777777;
@@ -1228,7 +1256,7 @@ marquee img{
 }
 
 .location-box h3{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size: 28px;
     font-weight: 400;
 }
@@ -1237,7 +1265,7 @@ marquee img{
 }
 
 .workinghours-box h3{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size: 28px;
     font-weight: 400;
 }
@@ -1246,7 +1274,7 @@ marquee img{
 }
 
 .contactus-box h3{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size: 28px;
     font-weight: 400;
 }
@@ -1255,7 +1283,7 @@ marquee img{
     color: #777777;
 }
 .contactus-box a{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     color: #777777;
     text-decoration: none;
     font-weight: bold;
@@ -1274,7 +1302,7 @@ iframe{
     margin-bottom: 30px;
 }
 .contactform h2{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     font-size: 24px;
     font-weight: 300;
 }
@@ -1291,7 +1319,7 @@ form{
     padding: 10px;
 }
 .form-group input, .form-group textarea {
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 16px;
@@ -1300,7 +1328,7 @@ form{
 }
 .sm{
     background-color: #000000;
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -1316,7 +1344,7 @@ form{
     height: 280px;
 }
 .historybg-container h1{
-    font-family: Poppins;
+      font-family: 'Rounded Elegance', sans-serif;
     color: white;
     font-size: 60px;
     padding-top: 100px;

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Display</title>
+    <style>
+        .container01 {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            overflow: hidden;
+        }
+
+        .logo {
+            max-width: 100px;
+            height: auto;
+            margin: 10px;
+            transition: transform 0.3s ease-in-out; /* Add transition effect */
+        }
+
+        .logo:hover {
+            transform: scale(1.2); /* Zoom out on hover */
+        }
+
+        /* Media query for screens below 480px */
+        @media screen and (max-width: 480px) {
+            .container01 {
+                flex-wrap: nowrap; /* Prevent wrapping in small screens */
+                overflow-x: auto; /* Enable horizontal scrolling */
+                -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container01">
+        <a href="https://www.amazon.ae/s?k=Bossini&ref=nb_sb_noss" target="blank"><img class="logo" target="blank"
+                src="https://cdn.shopify.com/s/files/1/0564/5818/2787/files/05_1.png?v=1700047016" alt="Logo 1"></a>
+        <img class="logo" target="blank"
+            src="https://cdn.shopify.com/s/files/1/0564/5818/2787/files/04_1.png?v=1700047016" alt="Logo 2">
+        <img class="logo" src="https://cdn.shopify.com/s/files/1/0564/5818/2787/files/06_1.png?v=1700047016" alt="Logo 3">
+        <img class="logo" src="https://cdn.shopify.com/s/files/1/0564/5818/2787/files/03_2.png?v=1700047016" alt="Logo 7">
+        <img class="logo" src="https://cdn.shopify.com/s/files/1/0564/5818/2787/files/01_1.png?v=1700047016" alt="Logo 4">
+        <a href="https://shopcin.com/collections/bossini" target=""blank> <img class="logo"
+                src="https://cdn.shopify.com/s/files/1/0564/5818/2787/files/08_0ceb7adb-afbb-4ad6-89b4-43fd05d94a63.png?v=1700047016"
+                alt="Logo 5"></a>
+        <img class="logo" src="https://cdn.shopify.com/s/files/1/0564/5818/2787/files/02_1_1.png?v=1700047016"
+            alt="Logo 6">
+
+    </div>
+
+    <script>
+       
+        var container = document.querySelector('.container01');
+
+        function scrollRight() {
+            container.scrollBy({
+                left: 200, 
+                behavior: 'smooth'
+            });
+        }
+
+       
+        function scrollLeft() {
+            container.scrollBy({
+                left: -200, 
+                behavior: 'smooth'
+            });
+        }
+    </script>
+
+</body>
+
+</html>

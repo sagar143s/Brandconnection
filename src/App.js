@@ -12,7 +12,8 @@ import PartnerPage from "./components/Partner/PartnerPage";
 import DirectPage from "./components/DirectPage/DirectPage";
 import BeyondUsPage from "./components/BeyondusPage/BeyondUsPage";
 import ContactUsPage from "./components/ContactUsPage/ContactUsPage";
-import HistoryPage from "./components/HistoryPage/HistoryPage";
+// import HistoryPage from "./components/HistoryPage/HistoryPage";
+import Ecom from './components/E-com/ecom'
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
           <Route path="/DirectPage" element={<DirectPage />} />
           <Route path="/BeyondUsPage" element={<BeyondUsPage />} />
           <Route path="/ContactUsPage" element={<ContactUsPage />} />
-          <Route path="/HistoryPage" element={<HistoryPage />} />
+          {/* <Route path="/HistoryPage" element={<HistoryPage />} /> */}
+          <Route path='/Ecom' element={<Ecom/>}/>
         </Routes>
         <Footer />
         <Footer1 />

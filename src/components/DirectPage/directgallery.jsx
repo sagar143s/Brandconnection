@@ -1,5 +1,5 @@
 import React from "react";
-import babolatimg from "../../assets/babolat.jpg";
+import babolatimg from "../../assets/bablot.jpg";
 import babolatpng from "../../assets/babplat.png";
 import hummelimg from "../../assets/Hummel.jpg";
 import hummelpng from "../../assets/hummel.png";

@@ -1,13 +1,13 @@
 import React from "react";
-import shoppingbag from "../../assets/shopping-bag_8826155.png";
-import worldmap from "../../assets/world-map_5067216.png";
-import network from "../../assets/management_5782851.png";
+import shoppingbag from "../../assets/icons/5503.png";
+import worldmap from "../../assets/icons/5502.png";
+import network from "../../assets/icons/5501.png";
 import center from "../../assets/center.png";
-import topleft from "../../assets/topleft.jpg";
-import topright from "../../assets/topright.jpg";
+import topleft from "../../assets/home/01.png";
+import topright from "../../assets/home/02.png";
 import bottomleft from "../../assets/bottomleft.jpg";
-import bottomright from "../../assets/bottomright.jpg";
-import profileimg from "../../assets/testimonial.jpg";
+import bottomright from "../../assets//home/03.png";
+import profileimg from "../../assets//home/04.png";
 
 export default function Ournetwork() {
   return (

@@ -53,7 +53,7 @@ export default function Wedeliversol() {
       <div className="container">
         <div className="wedeliver-container">
           <div class="wedeliver-banner">
-            <h1>We Deliver Solution with the Goal of Trusting Relationships</h1>
+            <h1>We Deliver Solution with the Goal<br></br> of Trusting Relationships</h1>
           </div>
           <div className="wedeliver-icons-div">
             {calm.map((si) => (
