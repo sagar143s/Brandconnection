@@ -1,5 +1,5 @@
 import React from "react";
-import aboutus from "../../assets/about-us-2.jpg";
+import aboutus from "../../assets//frame 02.png";
 
 export default function Whatwedo() {
   return (

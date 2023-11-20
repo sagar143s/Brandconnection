@@ -23,11 +23,11 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/BrandPage" element={<BrandPage />} />
-          <Route path="/PartnerPage" element={<PartnerPage />} />
-          <Route path="/DirectPage" element={<DirectPage />} />
-          <Route path="/BeyondUsPage" element={<BeyondUsPage />} />
-          <Route path="/ContactUsPage" element={<ContactUsPage />} />
+          <Route path="/Brands" element={<BrandPage />} />
+          <Route path="/Partner" element={<PartnerPage />} />
+          <Route path="/Direct" element={<DirectPage />} />
+          <Route path="/BeyondUs" element={<BeyondUsPage />} />
+          <Route path="/ContactUs" element={<ContactUsPage />} />
           {/* <Route path="/HistoryPage" element={<HistoryPage />} /> */}
           <Route path='/Ecom' element={<Ecom/>}/>
         </Routes>
