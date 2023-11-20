@@ -69,14 +69,10 @@ export default function Wedeliversol() {
           </div>
         </div>
         <div className="video1">
-          <div className="video1-left">
-            <img src={youtubelogo} alt="" />
-          </div>
-          <div className="video1-right">
-            <h2 class="youtubeh1">
-              <b>Agency Excited With Our Solutions</b>
-            </h2>
-          </div>
+        <iframe className="youtube-video" src="https://www.youtube.com/embed/BVCiEqbCL6Y?autoplay=1&controls=0&mute=1" frameBorder="0" allowFullScreen />
+
+      
+         
         </div>
         <div className="youtube-player-overlay ">
           <div className="youtuber-player-popup">

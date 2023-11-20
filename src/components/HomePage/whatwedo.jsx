@@ -22,7 +22,7 @@ export default function Whatwedo() {
               <h6>WHAT WE DO?</h6>
             </div>
             <div>
-              <h3>Brand Builders and Developers</h3>
+              <h3>Brand Builders & Developers</h3>
             </div>
             <p>
               <div>

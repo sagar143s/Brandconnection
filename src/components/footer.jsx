@@ -45,7 +45,8 @@ export default function Footer() {
           <div className="column">
             <div className="newsletter">
               {/* <h3>Newsletter</h3> */}
-              <p>Sign up now to receive the latest news and updates.</p>
+          
+              <p>Sign up to receive news & updates.</p>
               <div className="subscribe-container">
                 <div className="input-button-container">
                   <input
