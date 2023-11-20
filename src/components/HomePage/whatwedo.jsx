@@ -52,7 +52,7 @@ export default function Whatwedo() {
               our journey as we continue to shape the future of lifestyle brand
               distribution in the Middle East.
             </p>
-            <a href="./about-us">
+            <a href="./BeyondUs">
               <button class="whatwedo-button">READ MORE</button>
             </a>
           </div>

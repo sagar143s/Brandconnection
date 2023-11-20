@@ -16,19 +16,19 @@ export default function Footer() {
           <div className="column">
             <ul className="menu-list">
               <li>
-                <a href="/BrandPage">Brands</a>
+                <a href="/Brands">Brands</a>
               </li>
               <li>
-                <a href="/PartnerPage">Retail</a>
+                <a href="/Partner">Retail</a>
               </li>
               <li>
-                <a href="/BeyondUsPage">Beyond Us</a>
+                <a href="/BeyondUs">Beyond Us</a>
               </li>
               <li>
-                <a href="/HistoryPage">History</a>
+                <a href="/Ecom">E-com</a>
               </li>
               <li>
-                <a href="/ContactUsPage">Contact Us</a>
+                <a href="/ContactUs">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
           <div className="column">
             <div className="newsletter">
-              <h3>Newsletter</h3>
+              {/* <h3>Newsletter</h3> */}
               <p>Sign up now to receive the latest news and updates.</p>
               <div className="subscribe-container">
                 <div className="input-button-container">

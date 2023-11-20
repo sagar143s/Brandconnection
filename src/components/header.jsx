@@ -34,27 +34,27 @@ export default function Header() {
           </a>
         </div>
         <div className="header-nav">
-          <a href="/BrandPage" className="header-nav-tags">
+          <a href="/Brands" className="header-nav-tags">
             BRANDS
           </a>
           <div className="dropdown">
             <button className="dropbtn">RETAIL</button>
             <div className="dropdown-content">
-              <a href="/PartnerPage" className="dropdown-content-link">
+              <a href="/Partner" className="dropdown-content-link">
                 Partners
               </a>
-              <a href="/DirectPage" className="dropdown-content-link">
+              <a href="/Direct" className="dropdown-content-link">
                 Direct Retails
               </a>
             </div>
           </div>
-          <a href="/BeyondUsPage" className="header-nav-tags">
+          <a href="/BeyondUs" className="header-nav-tags">
             BEYOND US
           </a>
           <a href="/Ecom" className="header-nav-tags">
             E-COM
           </a>
-          <a href="/ContactUsPage" className="header-nav-tags">
+          <a href="/ContactUs" className="header-nav-tags">
             CONTACT
           </a>
         </div>
@@ -73,22 +73,22 @@ export default function Header() {
           </button>
           {isMobileMenuOpen && (
             <div className="mobile-menu" ref={mobileMenuRef}>
-              <a href="/BrandPage" onClick={handleLinkClick}>
+              <a href="/Brands" onClick={handleLinkClick}>
                 BRANDS
               </a>
-              <a href="/PartnerPage" onClick={handleLinkClick}>
+              <a href="/Partner" onClick={handleLinkClick}>
                 PARTNERS
               </a>
-              <a href="/DirectPage" onClick={handleLinkClick}>
+              <a href="/Direct" onClick={handleLinkClick}>
                 DIRECT RETAILS
               </a>
-              <a href="/BeyondUsPage" onClick={handleLinkClick}>
+              <a href="/BeyondUs" onClick={handleLinkClick}>
                 BEYOND US
               </a>
-              <a href="/HistoryPage" onClick={handleLinkClick}>
-                HISTORY
+              <a href="/Ecom" onClick={handleLinkClick}>
+              E-COM
               </a>
-              <a href="/ContactUsPage" onClick={handleLinkClick}>
+              <a href="/ContactUs" onClick={handleLinkClick}>
                 CONTACT
               </a>
             </div>
