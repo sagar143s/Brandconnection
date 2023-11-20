@@ -5,7 +5,7 @@ export default function Partnerbg() {
     <div className="partnerbg">
       <div className="container">
         <div className="partnerbg-container">
-          <h1>Our Brands</h1>
+          <h1>Partners</h1>
         </div>
       </div>
     </div>

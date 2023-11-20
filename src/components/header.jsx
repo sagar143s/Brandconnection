@@ -41,7 +41,7 @@ export default function Header() {
             <button className="dropbtn">RETAIL</button>
             <div className="dropdown-content">
               <a href="/PartnerPage" className="dropdown-content-link">
-                Partner
+                Partners
               </a>
               <a href="/DirectPage" className="dropdown-content-link">
                 Direct Retails

@@ -5,7 +5,7 @@ export default function Directbg() {
     <div className="directbg">
       <div className="container">
         <div className="directbg-container">
-          <h1>Direct Retails</h1>
+          <h1>Direct Retail</h1>
         </div>
       </div>
     </div>

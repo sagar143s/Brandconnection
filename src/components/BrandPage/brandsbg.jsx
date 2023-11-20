@@ -5,7 +5,7 @@ export default function Brandsbg() {
     <div className="brandsbg">
       <div className="container">
         <div className="brandbg-container">
-          <h1>Our Brands</h1>
+          <h1>Brands</h1>
         </div>
       </div>
     </div>

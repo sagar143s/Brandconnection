@@ -24,20 +24,20 @@ export default function Body1() {
           <h1 className="body1-title1">Fitness</h1>
           <button className="body1-button">GET STARTED</button>
         </div>
-        <div className="body1-slide body1">
+        <div className="body1-slide body2">
         <h1 className="body1-title" style={{ paddingTop: "200px" }}>
             Fashion Meet 
           </h1>
           <h1 className="body1-title1">Fitness</h1>
           <button className="body1-button">GET STARTED</button>
         </div>
-        <div className="body1-slide body1">
+        {/* <div className="body1-slide body3">
         <h1 className="body1-title" style={{ paddingTop: "200px" }}>
             Fashion Meet 
           </h1>
           <h1 className="body1-title1">Fitness</h1>
           <button className="body1-button">GET STARTED</button>
-        </div>
+        </div> */}
       </Slider>
     </div>
   );
