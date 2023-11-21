@@ -1,5 +1,5 @@
 import React from "react";
-import branding from "../../assets/about-us-2.jpg";
+import branding from "../../assets/frame 02.png";
 
 export default function Beyondbrand() {
   return (
@@ -10,8 +10,8 @@ export default function Beyondbrand() {
             <img src={branding} alt="" />
           </div>
           <div className="beyondbrand-right col-lg-6 col-md-12 col-sm-12">
-            <div>
-              <h1>Brand Connection</h1>
+            <div style={{padding:"20px 0"}}>
+              {/* <h1>About Us</h1> */}
             </div>
             <p>
               Established in 2017 and based in Dubai, Brand Connection Trading

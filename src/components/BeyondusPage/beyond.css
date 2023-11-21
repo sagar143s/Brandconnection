@@ -1,0 +1,35 @@
+@media only screen and (max-width:480px){
+    .counter-container{
+        flex-direction: row;
+    }
+    .counter-text{
+        font-size: 15px;
+    }
+    .counter-num {
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg,#5411f1,red);
+        color: transparent;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .counter {
+        background-image: url("/src/assets/footer-banner.jpg"); 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        overflow: hidden;
+    }
+    .historyimg{
+        max-width: 150px;
+        max-height: 100px;
+    }
+    .texthistory{
+        font-size: 12px !important;
+    }
+    .css-gbjm4w-MuiTypography-root{
+        font-size: 12px !important;
+    }
+}

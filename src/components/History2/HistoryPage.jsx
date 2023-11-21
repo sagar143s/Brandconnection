@@ -8,7 +8,7 @@ import Typography from "@mui/material/Typography";
 import Historybg from "./historybg";
 
 const HistoryContent = () => {
-  const boxArray = Array(197)
+  const boxArray = Array(123)
     .fill()
     .map((_, index) => (
       <Box
@@ -72,7 +72,7 @@ const HistoryContent = () => {
           </Container>
         </Box> */}
 
-        <Box sx={{ marginTop: "4rem" }}>
+        <Box sx={{ marginTop: "5rem" }}>
           <Container>
             <Typography
               fontFamily="Rounded Elegance"
@@ -89,20 +89,20 @@ const HistoryContent = () => {
           <Container>
             <Box sx={{ display: "flex" }}>
               <Box sx={{ flex: 2 }}>
-                <Box sx={{ height: "300px" }}>
+                <Box sx={{ height: "250px" }}>
                   <Typography
                     fontFamily="Rounded Elegance"
                     fontSize="35px"
                     fontWeight="300"
                     align="right"
-                    paddingTop="4rem"
+                    paddingTop="2rem"
                     sx={{ wordSpacing: "5px" }}
                   >
                     2018
                   </Typography>
                   <Typography
                     fontFamily="Rounded Elegance"
-                    fontSize="18px"
+                    fontSize="11px"
                     fontWeight="300"
                     align="right"
                     sx={{ wordSpacing: "2px" }}
@@ -115,10 +115,10 @@ const HistoryContent = () => {
                 </Box>
                 <Box
                   sx={{
-                    height: "320px",
+                    height: "150px",
                     borderRadius: "20px",
                     overflow: "hidden",
-                    paddingTop: "2.5rem",
+                    paddingTop: "0rem",
                   }}
                 >
                   <img
@@ -133,13 +133,13 @@ const HistoryContent = () => {
                     }}
                   />
                 </Box>
-                <Box sx={{ height: "300px" }}>
+                <Box sx={{ height: "240px" }}>
                   <Typography
                     fontFamily="Rounded Elegance"
                     fontSize="35px"
                     fontWeight="300"
                     align="right"
-                    paddingTop="9rem"
+                    paddingTop="0rem"
                     sx={{ wordSpacing: "5px" }}
                   >
                     2020
@@ -159,10 +159,10 @@ const HistoryContent = () => {
                 </Box>
                 <Box
                   sx={{
-                    height: "410px",
+                    height: "150px",
                     borderRadius: "20px",
                     overflow: "hidden",
-                    paddingTop: "8rem",
+                    paddingTop: "1rem",
                   }}
                 >
                   <img
@@ -177,13 +177,13 @@ const HistoryContent = () => {
                     }}
                   />
                 </Box>
-                <Box sx={{ height: "200px" }}>
+                <Box sx={{ height: "240px" }}>
                   <Typography
                     fontFamily="Rounded Elegance"
                     fontSize="35px"
                     fontWeight="300"
                     align="right"
-                    paddingTop="7rem"
+                    paddingTop="0rem"
                     sx={{ wordSpacing: "5px" }}
                   >
                     2022
@@ -203,10 +203,10 @@ const HistoryContent = () => {
                 </Box>
                 <Box
                   sx={{
-                    height: "450px",
+                    height: "196px",
                     borderRadius: "20px",
                     overflow: "hidden",
-                    paddingTop: "10rem",
+                    paddingTop: "1rem",
                   }}
                 >
                   <img
@@ -228,8 +228,27 @@ const HistoryContent = () => {
                   <Box sx={{ position: "absolute", left: "50%" }}>
                     {boxArray}
                   </Box>
+                        {/* Right Dots */}
+                        <Box sx={{ position: "absolute", top: "0px", left: "43%" }}>
+                    <Box sx={{ display: "flex", alignItems: "center" }}>
+                      <Box
+                        sx={{
+                          width: "15px",
+                          height: "15px",
+                          borderRadius: "15%",
+                          background:
+                            "linear-gradient(to right, #ec6ead, #3494e6)",
+                          marginTop: "5px",
+                        }}
+                      ></Box>
+                      
+                      
+                      
+                    </Box>
+                  </Box>
+                  {/* Column Dots */}
                   {/* Right Dots */}
-                  <Box sx={{ position: "absolute", top: "150px", left: "48%" }}>
+                  <Box sx={{ position: "absolute", top: "120px", left: "45%" }}>
                     <Box sx={{ display: "flex", alignItems: "center" }}>
                       <Box
                         sx={{
@@ -261,83 +280,17 @@ const HistoryContent = () => {
                           marginLeft: "5px",
                         }}
                       ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
+                     
+                     
+                     
+                     
                     </Box>
                   </Box>
                   {/* Column Dots */}
 
                   {/* Left Dots */}
                   <Box
-                    sx={{ position: "absolute", top: "470px", right: "45%" }}
+                    sx={{ position: "absolute", top: "290px", right: "38%" }}
                   >
                     <Box
                       sx={{
@@ -377,82 +330,14 @@ const HistoryContent = () => {
                           marginLeft: "5px",
                         }}
                       ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
+                     
+                     
                     </Box>
                   </Box>
                   {/* Column Dots */}
 
                   {/* Right Dots */}
-                  <Box sx={{ position: "absolute", top: "850px", left: "48%" }}>
+                  <Box sx={{ position: "absolute", top: "490px", left: "45%" }}>
                     <Box sx={{ display: "flex", alignItems: "center" }}>
                       <Box
                         sx={{
@@ -484,83 +369,15 @@ const HistoryContent = () => {
                           marginLeft: "5px",
                         }}
                       ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
+                      
+                      
                     </Box>
                   </Box>
                   {/* Column Dots */}
 
                   {/* Left Dots */}
                   <Box
-                    sx={{ position: "absolute", top: "1170px", right: "45%" }}
+                    sx={{ position: "absolute", top: "690px", right: "38%" }}
                   >
                     <Box
                       sx={{
@@ -600,324 +417,143 @@ const HistoryContent = () => {
                           marginLeft: "5px",
                         }}
                       ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
+                      
                     </Box>
                   </Box>
                   {/* Column Dots */}
                   {/* Right Dots */}
-                  <Box
-                    sx={{ position: "absolute", top: "1520px", left: "48%" }}
-                  >
-                    <Box sx={{ display: "flex", alignItems: "center" }}>
-                      <Box
-                        sx={{
-                          width: "15px",
-                          height: "15px",
-                          borderRadius: "50%",
-                          background:
-                            "linear-gradient(to right, #ec6ead, #3494e6)",
-                          marginTop: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                    </Box>
-                  </Box>
+                
 
-                  <Box
-                    sx={{ position: "absolute", top: "1820px", right: "45%" }}
-                  >
-                    <Box
-                      sx={{
-                        display: "flex",
-                        flexDirection: "row-reverse",
-                        alignItems: "center",
-                      }}
-                    >
-                      <Box
-                        sx={{
-                          width: "15px",
-                          height: "15px",
-                          borderRadius: "50%",
-                          background:
-                            "linear-gradient(to right, #ec6ead, #3494e6)",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                      <Box
-                        sx={{
-                          width: "5px",
-                          height: "5px",
-                          borderRadius: "50%",
-                          background: "#707070",
-                          marginTop: "5px",
-                          marginLeft: "5px",
-                        }}
-                      ></Box>
-                    </Box>
-                  </Box>
+                  
                 </Box>
+                 {/* Right Dots */}
+                 <Box sx={{ position: "absolute", top: "870px", left: "45%" }}>
+                    <Box sx={{ display: "flex", alignItems: "center" }}>
+                      <Box
+                        sx={{
+                          width: "15px",
+                          height: "15px",
+                          borderRadius: "50%",
+                          background:
+                            "linear-gradient(to right, #ec6ead, #3494e6)",
+                          marginTop: "5px",
+                        }}
+                      ></Box>
+                      <Box
+                        sx={{
+                          width: "5px",
+                          height: "5px",
+                          borderRadius: "50%",
+                          background: "#707070",
+                          marginTop: "5px",
+                          marginLeft: "5px",
+                        }}
+                      ></Box>
+                      <Box
+                        sx={{
+                          width: "5px",
+                          height: "5px",
+                          borderRadius: "50%",
+                          background: "#707070",
+                          marginTop: "5px",
+                          marginLeft: "5px",
+                        }}
+                      ></Box>
+                      
+                      
+                    </Box>
+                  </Box>
+                  {/* Column Dots */}
+                  {/* Left Dots */}
+                  <Box
+                    sx={{ position: "absolute", top: "1080px", right: "38%" }}
+                  >
+                    <Box
+                      sx={{
+                        display: "flex",
+                        flexDirection: "row-reverse",
+                        alignItems: "center",
+                      }}
+                    >
+                      <Box
+                        sx={{
+                          width: "15px",
+                          height: "15px",
+                          borderRadius: "50%",
+                          background:
+                            "linear-gradient(to right, #ec6ead, #3494e6)",
+                          marginTop: "5px",
+                          marginLeft: "5px",
+                        }}
+                      ></Box>
+                      <Box
+                        sx={{
+                          width: "5px",
+                          height: "5px",
+                          borderRadius: "50%",
+                          background: "#707070",
+                          marginTop: "5px",
+                          marginLeft: "5px",
+                        }}
+                      ></Box>
+                      <Box
+                        sx={{
+                          width: "5px",
+                          height: "5px",
+                          borderRadius: "50%",
+                          background: "#707070",
+                          marginTop: "5px",
+                          marginLeft: "5px",
+                        }}
+                      ></Box>
+                      
+                    </Box>
+                  </Box>
+                  {/* Column Dots */}
+                 {/* Right Dots */}
+                 <Box sx={{ position: "absolute", top: "1210px", left: "43%" }}>
+                    <Box sx={{ display: "flex", alignItems: "center" }}>
+                      <Box
+                        sx={{
+                          width: "15px",
+                          height: "15px",
+                          borderRadius: "15%",
+                          background:
+                            "linear-gradient(to right, #ec6ead, #3494e6)",
+                          marginTop: "5px",
+                        }}
+                      ></Box>
+                      
+                      
+                      
+                    </Box>
+                  </Box>
+                  {/* Column Dots */}
+
               </Box>
               <Box sx={{ flex: 2 }}>
                 <Box
                   sx={{
-                    height: "300px",
+                    height: "150px",
                     borderRadius: "20px",
                     overflow: "hidden",
+                    marginTop:"5rem" 
                   }}
                 >
                   <img
                     src={Image1}
                     className="historyimg"
                     alt="Img1"
-                    style={{ width: "100%", height: "100%", objectFit: "fill" }}
+                    style={{ width: "100%", height: "100%", objectFit: "fill",borderRadius:"20px"}}
                   />
                 </Box>
-                <Box sx={{ height: "300px" }}>
+                <Box sx={{ height: "220px" }}>
                   <Typography
                     fontFamily="Rounded Elegance"
                     fontSize="35px"
                     fontWeight="300"
                     align="left"
-                    marginTop="5rem"
+                    marginTop="0rem"
                     sx={{ wordSpacing: "5px" }}
                   >
                     2019
@@ -937,26 +573,26 @@ const HistoryContent = () => {
                 </Box>
                 <Box
                   sx={{
-                    height: "300px",
+                    height: "150px",
                     borderRadius: "20px",
                     overflow: "hidden",
-                    marginTop: "2rem",
+                    marginTop: "0rem",
                   }}
                 >
                   <img
                     src={Image3}
                     className="historyimg"
                     alt="Img1"
-                    style={{ width: "100%", height: "100%", objectFit: "fill" }}
+                    style={{ width: "100%", height: "100%", objectFit: "fill",borderRadius:"20px" }}
                   />
                 </Box>
-                <Box sx={{ height: "300px" }}>
+                <Box sx={{ height: "230px" }}>
                   <Typography
                     fontFamily="Rounded Elegance"
                     fontSize="35px"
                     fontWeight="300"
                     align="left"
-                    marginTop="5rem"
+                    marginTop="0rem"
                     sx={{ wordSpacing: "5px" }}
                   >
                     2021
@@ -976,7 +612,7 @@ const HistoryContent = () => {
                 </Box>
                 <Box
                   sx={{
-                    height: "300px",
+                    height: "150px",
                     borderRadius: "20px",
                     overflow: "hidden",
                   }}
@@ -985,16 +621,16 @@ const HistoryContent = () => {
                     src={Image1}
                     className="historyimg"
                     alt="Img1"
-                    style={{ width: "100%", height: "100%", objectFit: "fill" }}
+                    style={{ width: "100%", height: "100%", objectFit: "fill",borderRadius:"20px" }}
                   />
                 </Box>
-                <Box sx={{ height: "300px" }}>
+                <Box sx={{ height: "150px" }}>
                   <Typography
                     fontFamily="Rounded Elegance"
                     fontSize="35px"
                     fontWeight="300"
                     align="left"
-                    marginTop="4rem"
+                    marginTop="0rem"
                     sx={{ wordSpacing: "5px" }}
                   >
                     2023

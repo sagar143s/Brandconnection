@@ -850,11 +850,28 @@ body{
     background-repeat: no-repeat;
     height: 250px;
 }
+@media only screen and (max-width:480px){
+    .brandsbg{
+        background-image: url("/src/assets/breadcrumb/B\ v8.jpg"); 
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 150px;
+    }
+}
 .brandbg-container h1{
       font-family: 'Rounded Elegance', sans-serif;
     color: white;
     font-size: 60px;
     padding-top: 100px;
+}
+@media only screen and (max-width:480px){
+    .brandbg-container h1{
+        font-family: 'Rounded Elegance', sans-serif;
+      color: white;
+      font-size: 35px;
+      padding-top: 50px;
+  }
 }
 
 .gallerybrand-container{
@@ -922,7 +939,16 @@ body{
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-    height: 280px;
+    height: 250px;
+}
+@media only screen and (max-width:480px){
+    .partnerbg{
+        background-image: url("/src/assets/brands-banner.jpg"); 
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 150px;
+    }
 }
 
 .partnerbg-container h1{
@@ -931,7 +957,15 @@ body{
     font-size: 60px;
     padding-top: 100px;
 }
+@media only screen and (max-width:480px){
 
+    .partnerbg-container h1{
+        font-family: 'Rounded Elegance', sans-serif;
+      color: white;
+      font-size: 35px;
+      padding-top: 50px;
+  }
+}
 .partnergallery-container{
     display: flex;
     flex-direction: row;
@@ -973,6 +1007,17 @@ body{
     background-repeat: no-repeat;
     height: 250px;
 }
+@media only screen and (max-width:480px){
+    
+.directbg{
+    background-image: url("/src/assets//breadcrumb/B\ v6.jpg"); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+
+}
 .ecombg{
     background-image: url("/src/assets/breadcrumb/B\ v3.jpg"); 
     background-size: cover; 
@@ -980,6 +1025,17 @@ body{
     background-repeat: no-repeat;
     height: 250px;
 }
+@media only screen and (max-width:480px){
+    
+   
+    .ecombg{
+        background-image: url("/src/assets/breadcrumb/B\ v3.jpg"); 
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 150px;
+    }
+    }
 
 .directbg-container h1{
       font-family: 'Rounded Elegance', sans-serif;
@@ -987,6 +1043,15 @@ body{
     font-size: 60px;
     padding-top: 100px;
 }
+@media only screen and (max-width:480px){
+    
+    .directbg-container h1{
+        font-family: 'Rounded Elegance', sans-serif;
+      color: white;
+      font-size: 35px;
+      padding-top: 50px;
+  }
+    }
 
 .directgallery-container{
     display: flex;
@@ -1053,6 +1118,17 @@ body{
     background-repeat: no-repeat;
     height: 250px;
 }
+@media only screen and (max-width:480px){
+   
+.beyondusbg{
+    background-image: url("/src/assets/breadcrumb/B\ v5.jpg"); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+
+  }
 .beyondbrand-container{
     display: flex;
     flex-wrap: wrap;
@@ -1063,6 +1139,14 @@ body{
     color: white;
     font-size: 60px;
     padding-top: 100px;
+}
+@media only screen and (max-width:480px){
+    .beyondusbg-container h1 {
+        font-family: 'Rounded Elegance', sans-serif;
+        color: white;
+        font-size: 35px;
+        padding-top: 54px;
+    }
 }
 
 .beyondbrand-left{
@@ -1230,6 +1314,16 @@ body{
     background-repeat: no-repeat;
     height: 250px;
 }
+@media only screen and (max-width:480px){
+    
+    .contactusbg{
+        background-image: url("/src/assets/breadcrumb/B\ v2.jpg"); 
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 150px;
+    }
+  }
 
 .contactusbg-container h1{
       font-family: 'Rounded Elegance', sans-serif;
@@ -1237,6 +1331,15 @@ body{
     font-size: 60px;
     padding-top: 100px;
 }
+@media only screen and (max-width:480px){
+    
+    .contactusbg-container h1{
+        font-family: 'Rounded Elegance', sans-serif;
+      color: white;
+      font-size: 35px;
+      padding-top: 50px;
+  }
+  }
 
 .contactheader-container{
     padding-top: 40px;
@@ -1425,9 +1528,7 @@ form{
     }
 }
 @media only screen and (max-width: 526px){
-    .counter-container{
-        flex-direction: column;
-    }
+   
 }
 
 @media only screen and (max-width:520px){
@@ -1742,7 +1843,7 @@ form{
     } */
     .beyondbrand-left img{
         max-width: 331px;
-        max-height: 409px;
+        max-height: 330px;
     }
 }
 @media only screen and (max-width: 511px){
