@@ -64,8 +64,8 @@ export default function Ournetwork() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12">
-              <img src={Gall} alt="image" style={{maxWidth:"600px"}}/>
+            <div className="ourimg col-lg-6 col-md-6 col-sm-12">
+              <img src={Gall} alt="image" />
           
             </div>
           </div>
