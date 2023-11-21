@@ -70,9 +70,6 @@ export default function Wedeliversol() {
         </div>
         <div className="video1">
         <iframe className="youtube-video" src="https://www.youtube.com/embed/BVCiEqbCL6Y?autoplay=1&controls=0&mute=1" frameBorder="0" allowFullScreen />
-
-
-         
         </div>
 
       </div>

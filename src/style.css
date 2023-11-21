@@ -522,7 +522,7 @@ body{
 .youtube-video {
     width: 100%;
     height: 100%;
-    border-radius: 55px;
+    border-radius: 35px;
     object-fit: fill;
 }
 
@@ -1788,7 +1788,7 @@ form{
 @media only screen and (max-width: 518px){
    
     .expand {
-        margin: 0px 0 0 0px;
+        margin: 230px 0 0 0px;
         height: 621px;
     }
     .testimonial{
@@ -1896,7 +1896,7 @@ form{
         align-items: center;
         overflow: hidden;
         position: relative;
-        height: 280px;
+        height: 220px;
     }
     .ournetwork{
         padding-top: 100px;
@@ -1905,6 +1905,14 @@ form{
     }
     .imagedisplay{
         display: none;
+        
+    }
+    .wedeliver-icons-div {
+        grid-gap: 20px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+        padding-bottom: 10px;
     }
     
     
