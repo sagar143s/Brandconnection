@@ -844,11 +844,11 @@ body{
     cursor: pointer;
 }
 .brandsbg{
-    background-image: url("/src/assets/brands-banner.jpg"); 
+    background-image: url("/src/assets/breadcrumb/B\ v8.jpg"); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-    height: 280px;
+    height: 250px;
 }
 .brandbg-container h1{
       font-family: 'Rounded Elegance', sans-serif;
@@ -967,11 +967,18 @@ body{
 
 
 .directbg{
-    background-image: url("/src/assets/brands-banner.jpg"); 
+    background-image: url("/src/assets//breadcrumb/B\ v6.jpg"); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-    height: 280px;
+    height: 250px;
+}
+.ecombg{
+    background-image: url("/src/assets/breadcrumb/B\ v3.jpg"); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
 }
 
 .directbg-container h1{
@@ -1040,11 +1047,11 @@ body{
 }
 
 .beyondusbg{
-    background-image: url("/src/assets/brands-banner.jpg"); 
+    background-image: url("/src/assets/breadcrumb/B\ v5.jpg"); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-    height: 280px;
+    height: 250px;
 }
 .beyondbrand-container{
     display: flex;
@@ -1217,11 +1224,11 @@ body{
 }
 
 .contactusbg{
-    background-image: url("/src/assets/brands-banner.jpg"); 
+    background-image: url("/src/assets/breadcrumb/B\ v2.jpg"); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-    height: 280px;
+    height: 250px;
 }
 
 .contactusbg-container h1{
@@ -1382,7 +1389,7 @@ form{
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-    height: 280px;
+    height: 250px;
 }
 .historybg-container h1{
       font-family: 'Rounded Elegance', sans-serif;
