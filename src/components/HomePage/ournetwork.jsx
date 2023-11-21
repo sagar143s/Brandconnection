@@ -64,7 +64,7 @@ export default function Ournetwork() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12" style={{padding:"80px 0 0 0"}}>
+            <div className="col-lg-6 col-md-6 col-sm-12">
               <img src={Gall} alt="image" style={{maxWidth:"600px"}}/>
           
             </div>
