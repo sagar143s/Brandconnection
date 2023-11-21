@@ -8,14 +8,15 @@ import topright from "../../assets/home/02.png";
 import bottomleft from "../../assets/bottomleft.jpg";
 import bottomright from "../../assets//home/03.png";
 import profileimg from "../../assets//home/04.png";
+import Gall from '../../assets/Retailer.png'
 
 export default function Ournetwork() {
   return (
     <div className="ournetwork">
       <div className="container">
         <div className="ournetwork-container">
-          <div className="ournetwork-body1">
-            <div className="ournetwork-body1-left">
+          <div className="ournetwork-body1 container col-lg-12 col-md-12 col-sm-12">
+            <div className="col-lg-6 col-md-6 col-sm-12">
               <div>
                 <h2>
                   <b>OUR NETWORK</b>
@@ -63,24 +64,9 @@ export default function Ournetwork() {
                 </div>
               </div>
             </div>
-            <div className="ournetwork-body1-right">
-              <div className="gallery">
-                <div className="center-image">
-                  <img src={center} alt="" />
-                </div>
-                <div className="top-left-image">
-                  <img src={topleft} alt="" />
-                </div>
-                <div className="top-right-image">
-                  <img src={topright} alt="" />
-                </div>
-                <div className="bottom-left-image">
-                  <img src={bottomleft} alt="" />
-                </div>
-                <div className="bottom-right-image">
-                  <img src={bottomright} alt="" />
-                </div>
-              </div>
+            <div className="col-lg-6 col-md-6 col-sm-12" style={{padding:"80px 0 0 0"}}>
+              <img src={Gall} alt="image" style={{maxWidth:"600px"}}/>
+          
             </div>
           </div>
           <div className="testimonial">
