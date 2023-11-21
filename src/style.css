@@ -1743,8 +1743,7 @@ form{
         height: 1350px;
     }
     .ourimg{
-        max-width: 200px;
-        max-height: 200px;
+
         display: none;
     }
 }
@@ -1758,6 +1757,7 @@ form{
     .ournetwork{
         height: 1700px;
     }
+
     
 }
 @media only screen and (max-width: 384px){
@@ -1788,7 +1788,7 @@ form{
 @media only screen and (max-width: 518px){
    
     .expand {
-        margin: 261px 0 0 0px;
+        margin: 0px 0 0 0px;
         height: 621px;
     }
     .testimonial{
@@ -1884,6 +1884,29 @@ form{
         width: 72px;
         height: 72px;
     }
+    .ourimg img{
+
+        display: none;
+    }
+    .video1 {
+        display: flex;
+        border-radius: 50px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+        height: 280px;
+    }
+    .ournetwork{
+        padding-top: 100px;
+        z-index: 0;
+        height: 782px;
+    }
+    .imagedisplay{
+        display: none;
+    }
+    
     
 }
 @media only screen and (max-width: 1041px) {

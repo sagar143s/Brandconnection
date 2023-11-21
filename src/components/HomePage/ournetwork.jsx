@@ -65,7 +65,7 @@ export default function Ournetwork() {
               </div>
             </div>
             <div className="ourimg col-lg-6 col-md-6 col-sm-12">
-              <img src={Gall} alt="image" />
+              <img src={Gall} alt="image" className="imagedisplay" />
           
             </div>
           </div>

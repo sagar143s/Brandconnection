@@ -71,22 +71,10 @@ export default function Wedeliversol() {
         <div className="video1">
         <iframe className="youtube-video" src="https://www.youtube.com/embed/BVCiEqbCL6Y?autoplay=1&controls=0&mute=1" frameBorder="0" allowFullScreen />
 
-      
+
          
         </div>
-        <div className="youtube-player-overlay ">
-          <div className="youtuber-player-popup">
-            <iframe
-              width="960"
-              height="616"
-              src="https://www.youtube.com/embed/BVCiEqbCL6Y?si=lXoN3-ORMDByXxAx"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
+
       </div>
     </div>
   );
