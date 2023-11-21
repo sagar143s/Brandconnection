@@ -14,6 +14,8 @@ import BeyondUsPage from "./components/BeyondusPage/BeyondUsPage";
 import ContactUsPage from "./components/ContactUsPage/ContactUsPage";
 // import HistoryPage from "./components/HistoryPage/HistoryPage";
 import Ecom from './components/E-com/ecom'
+import Terms from './components/policies/terms'
+import Privacy from './components/policies/privacy'
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
           <Route path="/ContactUs" element={<ContactUsPage />} />
           {/* <Route path="/HistoryPage" element={<HistoryPage />} /> */}
           <Route path='/Ecom' element={<Ecom/>}/>
+          <Route path='/Terms&condition' element={<Terms/>}/>
+          <Route path='/Privacy&policy' element={<Privacy/>}/>
         </Routes>
         <Footer />
         <Footer1 />

@@ -35,10 +35,10 @@ export default function Footer() {
           <div className="column">
             <ul className="menu-list">
               <li>
-                <a href="#">Terms &amp; Conditions</a>
+                <a href="/Terms&condition">Terms &amp; Conditions</a>
               </li>
               <li>
-                <a href="#">Privacy Policy</a>
+                <a href="/Privacy&policy">Privacy Policy</a>
               </li>
             </ul>
           </div>
