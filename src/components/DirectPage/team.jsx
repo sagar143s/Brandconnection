@@ -8,11 +8,12 @@ import Image5 from '../../assets/team/RIC05946.jpg';
 import Image7 from '../../assets/team/WhatsApp Image 2023-10-07 at 18.31.10_2c9a894d.jpg';
 import Image8 from '../../assets/team/boxpark store image.jpg'
 import Image9 from '../../assets/team/IMG_20221229_175746.jpg'
+import './direct.css';
 
 const TeamMember = ({ imageUrl }) => {
   return (
-    <div className="team-member" style={styles.teamMember}>
-      <img src={imageUrl} alt="Team Member" style={styles.image} />
+    <div className="teamMember">
+      <img src={imageUrl} alt="Team Member" className='image'/>
     </div>
   );
 };
@@ -33,8 +34,8 @@ const Team = () => {
   return (
     <div style={{padding:"25px 0 50px"}}>
     <div className='container' >
-      <h2 style={styles.heading}></h2>
-      <div className="team-gallery" style={styles.teamGallery}>
+      <h2 className='heading'></h2>
+      <div className="teamGallery " >
         {teamMembers.map((member, index) => (
           <TeamMember key={index} {...member} />
         ))}
@@ -44,37 +45,6 @@ const Team = () => {
   );
 };
 
-const styles = {
-  heading: {
-    textAlign: 'center',
-    color: '#333',
-    fontSize: '28px',
-    margin: '20px 0',
-  },
-  teamGallery: {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
-    gap: '20px',
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: '20px',
-  },
-  teamMember: {
-    borderRadius: '12px',
-    overflow: 'hidden',
-    boxShadow: '0 0 15px rgba(0, 0, 0, 0.1)',
-    transition: 'transform 0.3s ease-in-out',
-    '&:hover': {
-      transform: 'scale(1.05)',
-    },
-  },
-  image: {
-    width: '100%',
-    height: 'auto', 
-    objectFit: 'cover', 
-    borderRadius: '12px',
-    maxHeight:'270px',
-  },
-};
+
 
 export default Team;

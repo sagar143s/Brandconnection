@@ -11,6 +11,7 @@ import azae from "../../assets/amazon.ae.png";
 import gosport from "../../assets/gosport.png";
 import namshi from "../../assets/namshi.png";
 import chalhoub from "../../assets/chalhoub.png";
+import './partner.css';
 
 export default function Partnergallery() {
   const imgs = [

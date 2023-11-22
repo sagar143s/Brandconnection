@@ -1,6 +1,5 @@
 import Directbg from "./directbg";
-import Directgallery from "./directgallery";
-import Team from '../BeyondusPage/team'
+import Team from './/team'
 
 function DirectPage() {
   return (

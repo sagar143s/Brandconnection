@@ -9,6 +9,7 @@ import bottomleft from "../../assets/bottomleft.jpg";
 import bottomright from "../../assets//home/03.png";
 import profileimg from "../../assets//home/04.png";
 import Gall from '../../assets/Retailer.png'
+import './home.css';
 
 export default function Ournetwork() {
   return (
@@ -16,7 +17,7 @@ export default function Ournetwork() {
       <div className="container">
         <div className="ournetwork-container">
           <div className="ournetwork-body1 container col-lg-12 col-md-12 col-sm-12">
-            <div className="col-lg-6 col-md-6 col-sm-12">
+            <div className="col-lg-6 col-md-12 col-sm-12">
               <div>
                 <h2>
                   <b>OUR NETWORK</b>

@@ -3,7 +3,7 @@ import Beyondbrand from "./beyondbrand";
 import Beyondusbg from "./beyondusbg";
 import Clientsay from "./clientsay";
 import Counter from "./counter";
-import Team from './team';
+
 import './beyond.css';
 import History from '../HistoryPage/HistoryPage';
 import Historymobile from '../History2/HistoryPage';
@@ -35,7 +35,7 @@ function BeyondUsPage() {
       <Counter />
       {/* <Clientsay /> */}
       {isMobile ? <Historymobile /> : <History />}
-      <Team />
+    
     </div>
   );
 }

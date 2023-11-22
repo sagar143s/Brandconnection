@@ -18,12 +18,12 @@ export default function Whatwedo() {
             <img src={aboutus} className="whatwedo-image" alt="" />
           </div>
           <div className="whatwedo-right col-lg-6 col-md-12 col-sm-12">
-            <div>
-              <h6>WHAT WE DO?</h6>
-            </div>
-            <div>
+          <center> <div>
+             <h6>WHAT WE DO?</h6>
+            </div></center> 
+            <center><div>
               <h3>Brand Builders & Developers</h3>
-            </div>
+            </div></center> 
             <p>
               <div>
                 <br></br>

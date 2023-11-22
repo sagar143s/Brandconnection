@@ -21,7 +21,7 @@ import minecraftimg from "../../assets/minecraft.jpg";
 import minecraftpng from "../../assets/minecraft.png";
 import winnieimg from "../../assets/winnie-the-pooh.jpg";
 import winniepng from "../../assets/winnie-the-pool.png";
-
+import './brand.css';
 export default function Gallery() {
   const info = [
     {
@@ -97,7 +97,7 @@ export default function Gallery() {
         <div className="gallerybrand-container">
           {info.map((data) => (
             <div className="image-item">
-              <div className="image-container">
+              <div className="image-container01">
                 <img src={data.imgcontainer} alt="" />
                 <div class="image-text">
                   <img src={data.imglogo} alt="" class="logo1" />

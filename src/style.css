@@ -377,9 +377,9 @@ body{
     padding: 10px 15px;
 }
 .whatwedo{
-    padding:100px;
+    padding:80px 20px ;
     padding-top: 0px;
-    padding-left: 150px;
+    /* padding-left: 150px; */
 }
 .whatwedo-container{
     display: flex;
@@ -715,81 +715,6 @@ body{
     margin-top: 5px;
 }
 
-.expand{
-    background-image: url("/src/assets/banner-building.jpg"); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 731px;
-    z-index: 0;
-    position: relative;
-}
-
-.expand-container h1{
-    padding-top: 220px;
-    color: white;
-      font-family: 'Rounded Elegance', sans-serif;
-    font-weight: 400;
-    padding-bottom: 50px;
-}
-
-.box-container{
-    padding-top: 50px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}   
-
-.boxicon{
-    width: 280px;
-    height: 202px;
-    border:1px solid #fff;
-    border: 1;
-    border-radius: 20px;
-    padding: 100px;
-    background-color: transparent;
-    color: white;
-      font-family: 'Rounded Elegance', sans-serif;
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-
-.boxicon:hover{
-    background-color: white;
-    color: black;
-}
-.boxicon:hover .boxicon-image{
-    margin-top: 50px;
-}
-.boxicon-image{
-    translate: 90px -255px;
-    background-color: #d3d3d3;
-    /* -webkit-clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);
-    clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%); */
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 100px;
-}
-.boxicon-image:hover{
-    background-color: #ffffff;
-}
-.boxicon-image img {
-    width: 55px;
-    height: 55px;
-    transition: transform 0.3s ease; 
-}
-
-.boxicon-image img:hover {
-    transform: scale(1.2); /* Adjust the scale factor as needed for your zoom effect */
-}
 
 .ourbrand{
     background-image: url("/src/assets/h2-map-1.05b664b8ce1fe66d30dd.png"); 
@@ -874,68 +799,8 @@ body{
   }
 }
 
-.gallerybrand-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin: 55px 0px;
-}
-.image-item {
-    overflow: hidden;
-    position: relative;
-}
-.image-container{
-    border-radius: 15px;
-    height: 350px;
-    position: relative;
-    width: 350px;
-    overflow: hidden;
-    background-color: #000;
-}
-.image-container img{
-    width: 350px;
-    height: 350px;
-    transition: transform 0.4s;
-}
-.image-container:hover img{
-    transform: scale(1.2);
-}
-
-.ourimg{
-    max-width: 600px;
-}
-.image-text{
-      font-family: 'Rounded Elegance', sans-serif;
-    color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: absolute;
-    bottom: 0px;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    transition: opacity 0.7s ease;
-    background-color: rgba(255, 255, 255, 0.242);
-    backdrop-filter: blur(15px);
-    width: 100%;
-    height: 100%;
-}
-.image-text img{
-    width: 132px;
-    height: 132px
-}
-
-.image-container:hover .image-text{
-    opacity: 1;
-}
-
 .partnerbg{
-    background-image: url("/src/assets/brands-banner.jpg"); 
+    background-image: url("/src/assets/bannerpartner.jpg"); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -943,7 +808,7 @@ body{
 }
 @media only screen and (max-width:480px){
     .partnerbg{
-        background-image: url("/src/assets/brands-banner.jpg"); 
+        background-image: url("/src/assets/bannerpartner.jpg"); 
         background-size: cover; 
         background-position: center;
         background-repeat: no-repeat;
@@ -965,38 +830,6 @@ body{
       font-size: 35px;
       padding-top: 50px;
   }
-}
-.partnergallery-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: center;
-    margin: 100px;
-}
-
-.partner-image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    border-radius: 20px;
-    width: 300px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: transform 0.3s;
-}
-
-.partner-image img{
-    width: 260px;
-    transition: filter 0.3s;
-}
-
-.partner-image:hover img{
-    filter: grayscale(100%);
-}
-
-.partner-image:hover{
-    transform: scale(1.1);
 }
 
 
@@ -1771,7 +1604,7 @@ form{
 @media only screen and (max-width: 1200px){
     .whatwedo-container{
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
     }
     .whatwedo-up{
         visibility: visible;
@@ -1806,6 +1639,12 @@ form{
         height: 921px;
     }
 }
+@media only screen and (max-width:1000px){
+    .whatwedo-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
 @media only screen and (max-width:353px){
     .beyondbrand-left img{
         max-width: 371px;
@@ -1829,9 +1668,7 @@ form{
     .testimonial{
         padding: 20px;
     }
-    .ournetwork{
-        height: 1600px;
-    }
+   
 }
 @media only screen and (max-width: 404px){
     .expand-container h1{
@@ -1862,10 +1699,7 @@ form{
     .wedeliver-banner h1{
         padding: 50px;
     }
-    .ournetwork{
-        height: 1700px;
-    }
-
+  
     
 }
 @media only screen and (max-width: 384px){
@@ -1879,10 +1713,7 @@ form{
         max-width: 300px;
         max-height: 320px;
     }
-    .ournetwork{
-        height: 1770px;
-    }
-
+  
 }
 @media only screen and (max-width: 387px){
     .expand-container h1{
@@ -1926,10 +1757,7 @@ form{
     .gallery{
         height: 190px;
     }
-    .ournetwork
-    {
-        height: 980px;
-    }
+  
 
 }
 
@@ -1945,6 +1773,16 @@ form{
     .whatwedo{
         padding:50px;
         padding-left: 50px;
+    }
+    .video1 {
+        display: flex;
+        border-radius: 50px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+        height: 380px;
     }
     
 }
@@ -2009,7 +1847,7 @@ form{
     .ournetwork{
         padding-top: 100px;
         z-index: 0;
-        height: 782px;
+       
     }
     .imagedisplay{
         display: none;
@@ -2025,6 +1863,7 @@ form{
     
     
 }
+
 @media only screen and (max-width: 1041px) {
     .divider1, .header-phone{
         display: none;

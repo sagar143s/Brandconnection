@@ -35,16 +35,16 @@
 
 @media only screen and (max-width: 768px) {
   .videoins {
-    width: 280px;
-    height: 500px;
+    width: 230px;
+    height: 400px;
     padding: 5px;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .videoins {
-    width: 160px;
-    height: 280px;
+    width: 140px;
+    height: 220px;
   }
   #mainsta {
     padding: 20px 0 45px;
