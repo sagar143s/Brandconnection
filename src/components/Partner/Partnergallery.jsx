@@ -25,21 +25,21 @@ export default function Partnergallery() {
       image: sunandsand,
       ref: "https://en-ae.sssports.com/",
     },
-    {
-      id: 3,
-      image: virgin,
-      ref: "https://www.virginmegastore.ae/en",
-    },
+    // {
+    //   id: 3,
+    //   image: virgin,
+    //   ref: "https://www.virginmegastore.ae/en",
+    // },
     {
       id: 4,
       image: noon,
       ref: "https://www.noon.com/uae-en/",
     },
-    {
-      id: 5,
-      image: sivvi,
-      ref: "https://www.sivvi.com/uae-en/",
-    },
+    // {
+    //   id: 5,
+    //   image: sivvi,
+    //   ref: "https://www.sivvi.com/uae-en/",
+    // },
     {
       id: 6,
       image: deca,
@@ -70,11 +70,11 @@ export default function Partnergallery() {
       image: namshi,
       ref: "https://www.namshi.com/uae-en/",
     },
-    {
-      id: 12,
-      image: chalhoub,
-      ref: "https://www.chalhoubgroup.com/",
-    },
+    // {
+    //   id: 12,
+    //   image: chalhoub,
+    //   ref: "https://www.chalhoubgroup.com/",
+    // },
   ];
   return (
     <div className="partnergallery">

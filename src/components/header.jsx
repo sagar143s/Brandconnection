@@ -86,10 +86,10 @@ export default function Header() {
                 BEYOND US
               </a>
               <a href="/Ecom" onClick={handleLinkClick}>
-              E-COM
+              E-COMMERCE
               </a>
               <a href="/ContactUs" onClick={handleLinkClick}>
-                CONTACT
+                CONTACT US
               </a>
             </div>
           )}

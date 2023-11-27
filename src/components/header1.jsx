@@ -11,7 +11,7 @@ export default function Header1() {
           </a>
         </div>
         <div className="header1-right">
-          <span>Office Hours: Mon-Fri, 9:00 AM - 5:00 PM</span>
+          {/* <span>Office Hours: Mon-Fri, 9:00 AM - 5:00 PM</span> */}
         </div>
       </div>
     </>
