@@ -1149,6 +1149,64 @@ body{
     height: 250px;
 }
 @media only screen and (max-width:480px){
+
+    .boxicon{
+        width: 150px !important;
+        height: 102px;
+        border:1px solid #fff;
+        border: 1;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: transparent;
+        color: white;
+          font-family: 'Rounded Elegance', sans-serif;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .boxicon-image {
+        translate: 39px -147px;
+        background-color: #d3d3d3;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 72px;
+        height: 72px;
+    }
+    .ourimg img{
+
+        display: none;
+    }
+    .video1 {
+        display: flex;
+        border-radius: 50px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+        height: 220px;
+    }
+    .ournetwork{
+        padding-top: 100px;
+        z-index: 0;
+       
+    }
+    .imagedisplay{
+        display: none;
+        
+    }
+    .wedeliver-icons-div {
+        grid-gap: 20px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+        padding-bottom: 10px;
+    }
+    
     
     .contactusbg{
         background-image: url("/src/assets/breadcrumb/B\ v2.jpg"); 
@@ -1165,15 +1223,7 @@ body{
     font-size: 60px;
     padding-top: 100px;
 }
-@media only screen and (max-width:480px){
-    
-    .contactusbg-container h1{
-        font-family: 'Rounded Elegance', sans-serif;
-      color: white;
-      font-size: 35px;
-      padding-top: 50px;
-  }
-  }
+
 
 .contactheader-container{
     padding-top: 40px;
@@ -1203,10 +1253,7 @@ body{
     box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
     border-radius: 10px;
     transition: transform 0.3s;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 65px;
-    padding-right: 65px;
+    padding: 50px 65px;
     margin: 10px;
 }
 .location-box:hover{
@@ -1217,10 +1264,7 @@ body{
     box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
     border-radius: 10px;
     transition: transform 0.3s;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding: 50px 35px;
     margin: 10px;
 }
 .workinghours-box:hover{
@@ -1230,10 +1274,7 @@ body{
     box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
     border-radius: 10px;
     transition: transform 0.3s;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 65px;
-    padding-right: 65px;
+  padding: 40px 65px;
     margin: 10px;
 }
 .contactus-box:hover{
@@ -1351,72 +1392,6 @@ form{
     position: relative;
     z-index: 20;
 }
-@media only screen and (max-width: 832px){
-    .counter-container{
-        column-gap:100px;
-    }
-}
-@media only screen and (max-width: 626px){
-    .counter-container{
-        column-gap:50px;
-    }
-}
-@media only screen and (max-width: 526px){
-   
-}
-
-@media only screen and (max-width:520px){
-    .clientsay-left{
-        height: 502px;
-    }
-    .clientsay-left img{
-        height: 219px;
-        width: 169px;
-        border-radius: 25px;
-    }
-    .client2{
-        position: relative;
-        right: -14px;
-        bottom: -225px;
-        
-
-    }
-    .ournetwork-body1-right{
-      display: none;
-    }
-    .testimonial{
-        display: none;
-    }
-    
-}
-@media only screen and (max-width:523px){
-    .footer-container{
-        padding: 63px;
-    }
-}
-@media only screen and (max-width:449px){
-    .footer-container{
-        padding: 0px;
-    }
-}
-
-
-@media only screen and (max-width:420px){
-    .clientsay-left{
-        height: 452px;
-    }
-    .clientsay-left img{
-        height: 189px;
-        width: 138px;
-        border-radius: 25px;
-    }
-    .client2{
-        position: relative;
-        right: -14px;
-        bottom: -225px;
-        
-    }
-}
 
 
 @media only screen and (max-width: 1417px){
@@ -1445,6 +1420,70 @@ form{
         height: 130px;
     }
 }
+
+@media only screen and (max-width: 1399px){
+    .expand{
+        height: 921px;
+    }
+}
+
+@media only screen and (max-width: 1041px) {
+    .divider1, .header-phone{
+        display: none;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 1280px){
+    .whatwedo-right{
+        margin-right: 30px;
+        padding-left: 20px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .whatwedo-container{
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .whatwedo-up{
+        visibility: visible;
+    }
+    .whatwedo-right h3{
+        display: none;
+    }
+    .whatwedo-right h6{
+        display: none;
+    }
+    .whatwedo img{
+        width: 491px;
+    }
+    .whatwedo-left{
+        justify-content: center;
+        align-items: center;
+    }
+    .expand-container h1{
+        padding-top: 250px;
+    }
+    .beyondbrand-left img{
+        width: 451px;
+        height: 479px;
+    }
+    .newsletter{
+        padding-top: 30px;
+    }
+    
+}
+
+@media only screen and (max-width:1000px){
+    .whatwedo-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 
 @media only screen and (max-width: 992px){
     .wedeliver{
@@ -1494,25 +1533,15 @@ form{
         height: 110px;
     }
 }
-@media only screen and (max-width: 554px){
-    .video1{
-        flex-direction: column;
-    }
-    .wedeliver{
-        height: 1250px;
+@media only screen and (max-width: 859px) {
+    .header-nav, .visit-office-button{
+        display: none;
     }
 }
 
-@media only screen and (max-width: 487px){
-    .beyondbrand-left img{
-        max-width: 401px;
-        max-height: 489px;
-    }
-}
-@media only screen and (max-width: 435px){
-    .beyondbrand-left img{
-        max-width: 251px;
-        max-height: 269px;
+@media only screen and (max-width: 832px){
+    .counter-container{
+        column-gap:100px;
     }
 }
 
@@ -1544,9 +1573,6 @@ form{
         
         margin-right: -120px;
     }
-
-}
-@media only screen and (max-width: 768px){
     .ourbrand-container{
         flex-direction: column;
     }
@@ -1556,11 +1582,127 @@ form{
     .contactinfo-container{
         flex-direction: column;
     }
+
 }
-@media only screen and (max-width: 394px){
-    .ourbrand{
-        height:530px;
+
+
+@media only screen and (max-width: 736px) {
+    .header1-main{
+        flex-direction: column;
+        text-align: center;
     }
+    .footer1{
+        height: 77px;
+    }
+    .footer1-container{
+        flex-direction: column;
+        text-align: center; 
+    }
+    .header1-right, .footer1-right{
+        padding: 5px;
+    }
+    .header1-left, .footer1-left{
+        padding: 5px;
+    }
+}
+@media only screen and (max-width: 660px){
+    .whatwedo img{
+        width: 391px;
+        height: 391px       ;
+    }
+    .whatwedo-right{
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+    .whatwedo{
+        padding:50px;
+        padding-left: 50px;
+    }
+    .video1 {
+        display: flex;
+        border-radius: 50px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+        height: 380px;
+    }
+    
+}
+@media only screen and (max-width: 626px){
+    .counter-container{
+        column-gap:50px;
+    }
+}
+@media only screen and (max-width: 526px){
+   
+}
+
+@media only screen and (max-width:520px){
+    .clientsay-left{
+        height: 502px;
+    }
+    .clientsay-left img{
+        height: 219px;
+        width: 169px;
+        border-radius: 25px;
+    }
+    .client2{
+        position: relative;
+        right: -14px;
+        bottom: -225px;
+        
+
+    }
+    .ournetwork-body1-right{
+      display: none;
+    }
+    .testimonial{
+        display: none;
+    }
+    
+}
+
+
+@media only screen and (max-width: 554px){
+    .video1{
+        flex-direction: column;
+    }
+    .wedeliver{
+        height: 1250px;
+    }
+    .body1-body{
+        padding: 0px;
+    }
+    .body1-title {
+        font-size: 55px;
+    }
+    .body1-title1 {
+        font-size: 55px;
+    }
+    .whatwedo{
+        padding:50px 10px;
+      
+    }
+}
+@media only screen and (max-width:523px){
+    .footer-container{
+        padding: 63px;
+    }
+}
+
+@media only screen and (max-width: 487px){
+    .beyondbrand-left img{
+        max-width: 401px;
+        max-height: 489px;
+    }
+    .contactusbg-container h1{
+        font-family: 'Rounded Elegance', sans-serif;
+      color: white;
+      font-size: 35px;
+      padding-top: 50px;
+  }
 }
 
 @media only screen and (max-width: 478px){
@@ -1595,70 +1737,44 @@ form{
         
     }
 }
+@media only screen and (max-width:449px){
+    .footer-container{
+        padding: 0px;
+    }
+}
+@media only screen and (max-width: 435px){
+    .beyondbrand-left img{
+        max-width: 251px;
+        max-height: 269px;
+    }
+}
 
-@media only screen and (max-width: 1280px){
-    .whatwedo-right{
-        margin-right: 30px;
-        padding-left: 20px;
+@media only screen and (max-width:420px){
+    .clientsay-left{
+        height: 452px;
+    }
+    .clientsay-left img{
+        height: 189px;
+        width: 138px;
+        border-radius: 25px;
+    }
+    .client2{
+        position: relative;
+        right: -14px;
+        bottom: -225px;
+        
     }
 }
-@media only screen and (max-width: 1200px){
-    .whatwedo-container{
-        display: flex;
-        /* flex-direction: column; */
-    }
-    .whatwedo-up{
-        visibility: visible;
-    }
-    .whatwedo-right h3{
-        display: none;
-    }
-    .whatwedo-right h6{
-        display: none;
-    }
-    .whatwedo img{
-        width: 491px;
-    }
-    .whatwedo-left{
-        justify-content: center;
-        align-items: center;
-    }
-    .expand-container h1{
-        padding-top: 250px;
-    }
-    .beyondbrand-left img{
-        width: 451px;
-        height: 479px;
-    }
-    .newsletter{
-        padding-top: 30px;
-    }
-    
-}
-@media only screen and (max-width: 1399px){
-    .expand{
-        height: 921px;
+
+
+
+
+@media only screen and (max-width: 394px){
+    .ourbrand{
+        height:530px;
     }
 }
-@media only screen and (max-width:1000px){
-    .whatwedo-container{
-        display: flex;
-        flex-direction: column;
-    }
-}
-@media only screen and (max-width:353px){
-    .beyondbrand-left img{
-        max-width: 371px;
-        max-height: 449px;
-    }
-    .email-input {
-        padding: 7px 12px;
-        width: 190px;
-    }
-    .subscribe-button {
-        padding: 7px 12px;
-    }
-}
+
 @media only screen and (max-width: 768px){
     .expand-container h1{
         padding-top: 91px;
@@ -1670,6 +1786,15 @@ form{
         padding: 20px;
     }
    
+}
+@media only screen and (max-width: 511px){
+    .wedeliver{
+        height: 1350px;
+    }
+    .ourimg{
+
+        display: none;
+    }
 }
 @media only screen and (max-width: 404px){
     .expand-container h1{
@@ -1684,24 +1809,14 @@ form{
         max-height: 330px;
     }
 }
-@media only screen and (max-width: 511px){
-    .wedeliver{
-        height: 1350px;
+@media only screen and (max-width: 387px){
+    .expand-container h1{
+        padding-top: 350px;
     }
-    .ourimg{
-
-        display: none;
+    .beyondbrand-left img{
+        max-width: 291px;
+        max-height: 309px;
     }
-}
-@media only screen and (max-width: 413px){
-    .wedeliver{
-        height: 1200px;
-    }
-    .wedeliver-banner h1{
-        padding: 50px;
-    }
-  
-    
 }
 @media only screen and (max-width: 384px){
     .wedeliver{
@@ -1716,15 +1831,33 @@ form{
     }
   
 }
-@media only screen and (max-width: 387px){
-    .expand-container h1{
-        padding-top: 350px;
-    }
+
+@media only screen and (max-width:353px){
     .beyondbrand-left img{
-        max-width: 291px;
-        max-height: 309px;
+        max-width: 371px;
+        max-height: 449px;
+    }
+    .email-input {
+        padding: 7px 12px;
+        width: 190px;
+    }
+    .subscribe-button {
+        padding: 7px 12px;
     }
 }
+
+
+@media only screen and (max-width: 413px){
+    .wedeliver{
+        height: 1200px;
+    }
+    .wedeliver-banner h1{
+        padding: 50px;
+    }
+  
+    
+}
+
 @media only screen and (max-width: 518px){
    
     .expand {
@@ -1762,140 +1895,6 @@ form{
 
 }
 
-@media only screen and (max-width: 660px){
-    .whatwedo img{
-        width: 391px;
-        height: 391px       ;
-    }
-    .whatwedo-right{
-        margin-right: 0px;
-        padding-left: 0px;
-    }
-    .whatwedo{
-        padding:50px;
-        padding-left: 50px;
-    }
-    .video1 {
-        display: flex;
-        border-radius: 50px;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-        position: relative;
-        height: 380px;
-    }
-    
-}
-
-@media only screen and (max-width: 500px){
-    .body1-body{
-        padding: 0px;
-    }
-    .body1-title {
-        font-size: 55px;
-    }
-    .body1-title1 {
-        font-size: 55px;
-    }
-    .whatwedo{
-        padding:50px 10px;
-      
-    }
-
-}
-@media only screen and (max-width:480px){
-    .boxicon{
-        width: 150px !important;
-        height: 102px;
-        border:1px solid #fff;
-        border: 1;
-        border-radius: 20px;
-        padding: 10px;
-        background-color: transparent;
-        color: white;
-          font-family: 'Rounded Elegance', sans-serif;
-        font-size: 15px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
-    .boxicon-image {
-        translate: 39px -147px;
-        background-color: #d3d3d3;
-        border-radius: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 72px;
-        height: 72px;
-    }
-    .ourimg img{
-
-        display: none;
-    }
-    .video1 {
-        display: flex;
-        border-radius: 50px;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-        position: relative;
-        height: 220px;
-    }
-    .ournetwork{
-        padding-top: 100px;
-        z-index: 0;
-       
-    }
-    .imagedisplay{
-        display: none;
-        
-    }
-    .wedeliver-icons-div {
-        grid-gap: 20px;
-        display: grid;
-        gap: 20px;
-        grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
-        padding-bottom: 10px;
-    }
-    
-    
-}
-
-@media only screen and (max-width: 1041px) {
-    .divider1, .header-phone{
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 859px) {
-    .header-nav, .visit-office-button{
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 736px) {
-    .header1-main{
-        flex-direction: column;
-        text-align: center;
-    }
-    .footer1{
-        height: 77px;
-    }
-    .footer1-container{
-        flex-direction: column;
-        text-align: center; 
-    }
-    .header1-right, .footer1-right{
-        padding: 5px;
-    }
-    .header1-left, .footer1-left{
-        padding: 5px;
-    }
-}
 
 @media only screen and (min-width: 859px) {
     .mobile-header-nav-toggle{

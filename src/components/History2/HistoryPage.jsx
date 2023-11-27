@@ -23,7 +23,7 @@ const HistoryContent = () => {
       ></Box>
     ));
   return (
-    <>
+    <div style={{padding:"25px 0"}}>
       {/* <Historybg /> */}
       <Box>
         {/* <Box
@@ -653,7 +653,7 @@ const HistoryContent = () => {
           </Container>
         </Box>
       </Box>
-    </>
+    </div>
   );
 };
 
