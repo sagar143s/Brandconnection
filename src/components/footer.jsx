@@ -25,7 +25,7 @@ export default function Footer() {
                 <a href="/BeyondUs">Beyond Us</a>
               </li>
               <li>
-                <a href="/Ecom">E-com</a>
+                <a href="/Ecom">E-commerce</a>
               </li>
               <li>
                 <a href="/ContactUs">Contact Us</a>
