@@ -296,7 +296,7 @@ body{
 .body2{
     display: block;
     height: 650px;
-    background-image: url("/src/assets/banner/banner2.jpg");
+    background-image: url("/src/assets/banner/BC 01.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -304,7 +304,7 @@ body{
 .body3{
     display: block;
     height: 650px;
-    background-image: url("/src/assets/handshake.jpg");
+    background-image: url("/src/assets/banner/BC 02.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -835,7 +835,7 @@ body{
 
 
 .directbg{
-    background-image: url("/src/assets//breadcrumb/B\ v6.jpg"); 
+    background-image: url("/src/assets//breadcrumb/B\ v60.jpg"); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -844,7 +844,7 @@ body{
 @media only screen and (max-width:480px){
     
 .directbg{
-    background-image: url("/src/assets//breadcrumb/B\ v6.jpg"); 
+    background-image: url("/src/assets//breadcrumb/B\ v60.jpg"); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -853,7 +853,7 @@ body{
 
 }
 .ecombg{
-    background-image: url("/src/assets/breadcrumb/B\ v3.jpg"); 
+    background-image: url("/src/assets/breadcrumb/B\ v6.jpg"); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -863,7 +863,7 @@ body{
     
    
     .ecombg{
-        background-image: url("/src/assets/breadcrumb/B\ v3.jpg"); 
+        background-image: url("/src/assets/breadcrumb/B\ v6.jpg"); 
         background-size: cover; 
         background-position: center;
         background-repeat: no-repeat;
