@@ -34,7 +34,7 @@ export default function Gallery() {
       id: 2,
       imgcontainer: Disneyimg,
       imglogo: Disneypng,
-      text: "A magical world of timeless tales and beloved characters that captivates hearts with enchanting joy.",
+      text: "our amazing range of character smart & analogue watches featuring the beloved characters including Mickey, Frozen, LOL, Batman, Spiderman and others.",
     },
     {
       id: 3,
@@ -64,7 +64,7 @@ export default function Gallery() {
       id: 7,
       imgcontainer: filsimg,
       imglogo: filspng,
-      text: "blends athletic performance with street-style flair, globally renowned for timeless designs and classic sneakers.",
+      text: "FILA Watches provide unique appeal to a generation of outgoing, active young men and women who seek a timepiece that reflects their sporty, smart casual lifestyle.",
     },
     {
       id: 8,
@@ -72,12 +72,12 @@ export default function Gallery() {
       imglogo: itouchpng,
       text: " Stylish smartwatches merging fashion and tech with fitness tracking and customizable features for a modern, on-the-go experience.",
     },
-    {
-      id: 9,
-      imgcontainer: marvelimg,
-      imglogo: marvelpng,
-      text: "an entertainment giant, redefines storytelling with iconic superheroes like Spider-Man and the Avengers, captivating audiences worldwide.",
-    },
+    // {
+      // id: 9,
+      // imgcontainer: marvelimg,
+      // imglogo: marvelpng,
+      // text: "an entertainment giant, redefines storytelling with iconic superheroes like Spider-Man and the Avengers, captivating audiences worldwide.",
+    // },
     // {
     //   id: 10,
     //   imgcontainer: minecraftimg,
