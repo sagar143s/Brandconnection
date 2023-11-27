@@ -334,7 +334,7 @@
     }
     
     .box-container{
-        padding-top: 50px;
+        padding-top: 90px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -414,7 +414,7 @@
     }
     
     .box-container{
-        padding-top: 50px;
+        padding-top: 90px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -484,7 +484,7 @@
 
 
 .box-container{
-    padding-top: 35px;
+    padding-top: 25px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
