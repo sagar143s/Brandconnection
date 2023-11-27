@@ -23,6 +23,9 @@
         width: 12px;
         height: 12px
     }
+    .image-text text{
+        font-size: 12px;
+    }
 
 
 .gallerybrand-container{
@@ -82,8 +85,19 @@
 /* .image-text{
         display:none;
     } */
-
+@media only screen and (max-width:768px){
+    .image_text{
+        font-size: 11px;
+        text-align: justify;
+        padding: 0 10px;
+    }
+}
 @media only screen and (min-width:768px){
+    .image_text{
+        font-size: 16px;
+        text-align: justify;
+        padding: 0 10px;
+    }
     .image-container01{
         border-radius: 15px;
         height: 350px;

@@ -801,7 +801,7 @@ body{
 }
 
 .partnerbg{
-    background-image: url("/src/assets/bannerpartner.jpg"); 
+    background-image: url("/src//assets//breadcrumb/bbb02.jpg"); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -809,7 +809,7 @@ body{
 }
 @media only screen and (max-width:480px){
     .partnerbg{
-        background-image: url("/src/assets/bannerpartner.jpg"); 
+        background-image: url("/src//assets//breadcrumb/bbb02.jpg"); 
         background-size: cover; 
         background-position: center;
         background-repeat: no-repeat;

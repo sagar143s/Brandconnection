@@ -101,7 +101,7 @@ export default function Gallery() {
                 <img src={data.imgcontainer} alt="" />
                 <div class="image-text">
                   <img src={data.imglogo} alt="" class="logo1" />
-                  {data.text}
+                  <span className="image_text">{data.text}</span>
                 </div>
               </div>
             </div>
