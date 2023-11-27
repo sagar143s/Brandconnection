@@ -516,3 +516,7 @@
 .boxicon:hover .boxicon-image{
     margin-top: 50px;
 }
+
+.body0{
+    overflow-x: hidden;
+}

@@ -11,7 +11,7 @@ export default function Body1() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000, // Adjust the speed in milliseconds
+    autoplaySpeed: 2000,
   };
 
   return (
@@ -31,13 +31,13 @@ export default function Body1() {
           <h1 className="body1-title1">Fitness</h1>
           <button className="body1-button">GET STARTED</button>
         </div>
-        {/* <div className="body1-slide body3">
+        <div className="body1-slide body3">
         <h1 className="body1-title" style={{ paddingTop: "200px" }}>
             Fashion Meet 
           </h1>
           <h1 className="body1-title1">Fitness</h1>
           <button className="body1-button">GET STARTED</button>
-        </div> */}
+        </div>
       </Slider>
     </div>
   );
