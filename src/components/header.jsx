@@ -52,7 +52,7 @@ export default function Header() {
             BEYOND US
           </a>
           <a href="/Ecom" className="header-nav-tags">
-            E-COM
+            E-COMMERCE
           </a>
           <a href="/ContactUs" className="header-nav-tags">
             CONTACT
