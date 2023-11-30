@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+body{
+  @font-face {
+    font-family: 'Frygia';
+    src: local('Frygia'), url('./font/Frygia-BlackItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+}

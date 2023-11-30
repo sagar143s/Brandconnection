@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Rounded Elegance', sans-serif;
+    font-family: 'Frygia', sans-serif;
 
 }
 ::-webkit-scrollbar {
@@ -34,7 +34,7 @@ body{
     text-decoration: none;
     display: flex;
     justify-content: center;
-      font-family: 'Rounded Elegance', sans-serif;
+    font-family: 'Frygia', sans-serif;
     align-items: center;
     font-size: 15px;
     padding-left: 15px;
@@ -44,9 +44,9 @@ body{
     color: white;
     display: flex;
     justify-content: center;
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'poppins', sans-serif;
     align-items: center;
-    font-size: 15px;
+    font-size: 13px;
     padding-right: 15px;
 }
 
@@ -78,7 +78,7 @@ body{
 .header-nav-tags{
     text-decoration: none;
     color: black;
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'poppins', sans-serif;
     font-size: 15px;
     padding-left: 20px;
     padding-right: 20px;
@@ -106,13 +106,13 @@ body{
 .header-phone{
     text-decoration: none;
     color: rgb(73, 72, 72);
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size: 15px;
     font-weight: 500;
 }
 
 .visit-office-button{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size:  15px;
     font-weight: bold; 
     border: none; 
@@ -134,7 +134,7 @@ body{
     padding: 10px 20px; 
     background-color: transparent;
     color: black;
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'poppins', sans-serif;
     font-size: 15px;
     font-weight: 500;
 }
@@ -144,6 +144,7 @@ body{
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    font-family: 'poppins', sans-serif;
     padding: 12px 16px;
     z-index: 1;
     border-radius: 10px;
@@ -157,8 +158,9 @@ body{
   }
 .dropdown-content-link{
     font-size: 14px;
-    font-weight: 500;
+  
     text-decoration: none;
+    font-family: 'poppins', sans-serif;
     color: black;
     padding: 10px;
 }
@@ -197,7 +199,7 @@ body{
   }
   .mobile-menu a {
     color: black;
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     padding: 12px 16px;
     text-decoration: none;
     display: flex;
@@ -227,13 +229,13 @@ body{
     
 }
 .footer1-left{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size: 16px;
     color: white;
 }
 
 .footer1-right{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size: 16px;
     color: rgb(173, 27, 73);
 }
@@ -274,7 +276,7 @@ body{
 }
 
 .menu-list a{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size: 16px;
     text-decoration: none;
     color: white;
@@ -285,6 +287,16 @@ body{
     list-style-type: none;
     text-align: start;
 }
+.slick-dots{
+    bottom: 31px !important;
+    color: #fff;
+    
+}
+.slick-dots li button:before{
+    color: #fff !important;
+}
+
+
 .body1{
     display: block;
     height: 650px;
@@ -296,7 +308,7 @@ body{
 .body2{
     display: block;
     height: 650px;
-    background-image: url("/src/assets/banner/BC 01.jpg");
+    background-image: url("/src/assets/banner//Fila\ home\ banner\ 01.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -304,7 +316,7 @@ body{
 .body3{
     display: block;
     height: 650px;
-    background-image: url("/src/assets/banner/BC 02.jpg");
+    background-image: url("/src/assets/banner/hummel\ Logo\ v1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -312,7 +324,7 @@ body{
 
 .body1-title{
     padding-top: 200px;
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     padding: 0px;
     margin: 0px;
     font-size: 66px;
@@ -321,16 +333,16 @@ body{
 }
 
 .body1-title1 {
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'poppins', sans-serif;
     padding: 0px;
     margin: 0px;
-    font-size: 66px;
-    font-weight: bold;
+    font-size: 26px;
+    font-weight: 500;
     color: white;
 }
 
 .body1-button{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size:  20px;
     font-weight: normal; 
     border: none; 
@@ -349,7 +361,7 @@ body{
 
 .newsletter{
     margin-top: 0px;
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     color: white;
     font-size: 16px;
 }
@@ -364,7 +376,7 @@ body{
     padding: 10px 15px;
     transition: border-color .3s;
     width: 180px;
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
 }
 .subscribe-button {
     background-color: #d3d1d1;
@@ -373,13 +385,13 @@ body{
     color: #000;
     cursor: pointer;
     font-weight: 700;
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     margin-top: 0;
     padding: 10px 15px;
 }
 .whatwedo{
-    padding:80px 20px ;
-    padding-top: 0px;
+    padding:20px 20px 80px ;
+
     /* padding-left: 150px; */
 }
 .whatwedo-container{
@@ -405,43 +417,56 @@ body{
     flex-direction: column;
     justify-content: start;
     align-items: start;
+    
 }
 .whatwedo-up{
     visibility: hidden;
 }
 .whatwedo-up h6{
-      font-family: 'Rounded Elegance', sans-serif;
-    font-weight: bold; 
+      font-family: 'Frygia', sans-serif;
+    font-weight: 500; 
     margin-top: 50px;
+ 
 }
 .whatwedo-up h3{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-weight: bold; 
     padding-bottom: 20px;
+  
 }
 
 .whatwedo-right h6{
-      font-family: 'Rounded Elegance', sans-serif;
+    font-family: 'eqstdrounded-thin', sans-serif;
     font-weight: bold; 
     margin-top: 50px;
+    font-size: 24px;
 }
 .whatwedo-right p{
-      font-family: 'Rounded Elegance', sans-serif;
+    font-family: 'eqstdrounded-thin', sans-serif;
+      font-weight: 500;
     text-align: left;
+    font-size: 17px;
 }
 .whatwedo-left h3{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-weight: bold; 
     padding-bottom: 20px;
     text-align: left;
+
+}
+.brandbuilders h1{
+    font-size: 29px;
 }
 .whatwedo-button{
-    background: rgb(0, 0, 0); 
+    background: transparent; 
     border-radius: 10px; 
     border: 0;
-    color: rgb(255, 255, 255); 
-    padding: 10px 25px;
-    font-size: 13PX;
+    font-family: 'eqstdrounded-thin', sans-serif;
+    color: rgb(5, 5, 5); 
+    text-decoration: underline;
+    padding: 5px 0px;
+    font-size: 17PX;
+    /* font-weight: 600; */
 }
 .wedeliver{
     display: block;
@@ -457,7 +482,7 @@ body{
     padding-top: 50px;
     padding-bottom: 100px;
     color: white;
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size: 35px;
     font-weight: 500;
 }
@@ -470,7 +495,7 @@ body{
 }
 .wedeliver-icon-box p{
     color: white;
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     text-align: center;
     font-size: 20px;
     font-weight: 700;
@@ -550,7 +575,7 @@ body{
 .video1-right h2{
     color: white;
     font-size: 32px;
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
 }
 
 .ournetwork{
@@ -579,10 +604,10 @@ body{
 }
 
 .ournetwork-body1-left h1{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
 }
 .ournetwork-body1-left h2{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
 }
 .divider {
     background-color: hsla(0,9%,89%,.705);
@@ -600,10 +625,10 @@ body{
     height: 80px;
 }
 .ournetwork-premium-content h3{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
 }
 .ournetwork-premium-content p{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     padding-left: 30px;
 }
 .gallery {
@@ -666,10 +691,10 @@ body{
     flex: 50%;
 }
 .testi h3{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
 }
 .testi h6{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -681,7 +706,7 @@ body{
 .testimonial-text {
     margin-top: 30px;
     color: #353535;
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size: 16px;
     font-style: italic;
     text-decoration: none;
@@ -705,12 +730,12 @@ body{
     margin-top: 10px;
 }
 .profile-name{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size: 14px;
     font-weight: 700;
 }
 .profile-job {
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     color: #888;
     font-size: 14px;
     margin-top: 5px;
@@ -739,15 +764,15 @@ body{
     flex: 50%;
 }
 .ourbrand-right p{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size: 25px;
 }
 .ourbrand-left p{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size: 25px;
 }
 .ourbrand-left h2{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size: 25px;
 }
 .ourbrand-left{
@@ -759,7 +784,7 @@ body{
     text-align: start;
 }
 .ourbrand-right button{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size:  15px;
     font-weight: bold; 
     border: none; 
@@ -786,14 +811,14 @@ body{
     }
 }
 .brandbg-container h1{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     color: white;
     font-size: 60px;
     padding-top: 100px;
 }
 @media only screen and (max-width:480px){
     .brandbg-container h1{
-        font-family: 'Rounded Elegance', sans-serif;
+        font-family: 'Frygia', sans-serif;
       color: white;
       font-size: 35px;
       padding-top: 50px;
@@ -818,7 +843,7 @@ body{
 }
 
 .partnerbg-container h1{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     color: white;
     font-size: 60px;
     padding-top: 100px;
@@ -826,7 +851,7 @@ body{
 @media only screen and (max-width:480px){
 
     .partnerbg-container h1{
-        font-family: 'Rounded Elegance', sans-serif;
+        font-family: 'Frygia', sans-serif;
       color: white;
       font-size: 35px;
       padding-top: 50px;
@@ -872,7 +897,7 @@ body{
     }
 
 .directbg-container h1{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     color: white;
     font-size: 60px;
     padding-top: 100px;
@@ -880,7 +905,7 @@ body{
 @media only screen and (max-width:480px){
     
     .directbg-container h1{
-        font-family: 'Rounded Elegance', sans-serif;
+        font-family: 'Frygia', sans-serif;
       color: white;
       font-size: 35px;
       padding-top: 50px;
@@ -969,14 +994,14 @@ body{
     padding-top: 40px;
 }
 .beyondusbg-container h1{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     color: white;
     font-size: 60px;
     padding-top: 100px;
 }
 @media only screen and (max-width:480px){
     .beyondusbg-container h1 {
-        font-family: 'Rounded Elegance', sans-serif;
+        font-family: 'Frygia', sans-serif;
         color: white;
         font-size: 35px;
         padding-top: 54px;
@@ -995,7 +1020,7 @@ body{
     height: 519px;
 }
 .beyondbrand-right{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -1039,7 +1064,7 @@ body{
     align-items: center;
 }
 .clientsay-right h1{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size: 50px;
     font-weight: 400;
     padding-top: 30px;
@@ -1054,7 +1079,7 @@ body{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .saytestimonial p{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-style: italic;
     padding: 20px;
 }
@@ -1127,7 +1152,7 @@ body{
     flex-direction: column;
 }
 .counter-text{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size: 32px;
     font-weight: 400;
     color: white;
@@ -1159,7 +1184,7 @@ body{
         padding: 10px;
         background-color: transparent;
         color: white;
-          font-family: 'Rounded Elegance', sans-serif;
+          font-family: 'Frygia', sans-serif;
         font-size: 15px;
         display: flex;
         align-items: center;
@@ -1218,7 +1243,7 @@ body{
   }
 
 .contactusbg-container h1{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     color: white;
     font-size: 60px;
     padding-top: 100px;
@@ -1230,13 +1255,13 @@ body{
 }
 
 .contactheader-container h1{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size: 48px;
     font-weight: 400;
 }
 
 .contactheader-container p{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #777777;
@@ -1282,7 +1307,7 @@ body{
 }
 
 .location-box h3{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size: 28px;
     font-weight: 400;
 }
@@ -1291,7 +1316,7 @@ body{
 }
 
 .workinghours-box h3{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size: 28px;
     font-weight: 400;
 }
@@ -1300,7 +1325,7 @@ body{
 }
 
 .contactus-box h3{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size: 28px;
     font-weight: 400;
 }
@@ -1309,7 +1334,7 @@ body{
     color: #777777;
 }
 .contactus-box a{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     color: #777777;
     text-decoration: none;
     font-weight: bold;
@@ -1328,7 +1353,7 @@ iframe{
     margin-bottom: 30px;
 }
 .contactform h2{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     font-size: 24px;
     font-weight: 300;
 }
@@ -1345,7 +1370,7 @@ form{
     padding: 10px;
 }
 .form-group input, .form-group textarea {
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 16px;
@@ -1354,7 +1379,7 @@ form{
 }
 .sm{
     background-color: #000000;
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -1370,7 +1395,7 @@ form{
     height: 250px;
 }
 .historybg-container h1{
-      font-family: 'Rounded Elegance', sans-serif;
+      font-family: 'Frygia', sans-serif;
     color: white;
     font-size: 60px;
     padding-top: 100px;
@@ -1676,15 +1701,44 @@ form{
         padding: 0px;
     }
     .body1-title {
-        font-size: 55px;
+        font-size: 35px;
     }
     .body1-title1 {
-        font-size: 55px;
+        font-size: 15px;
     }
     .whatwedo{
         padding:50px 10px;
       
     }
+    
+.body1{
+    display: block;
+    height: 350px;
+    background-image: url("/src/assets/banner//banner3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.body2{
+    display: block;
+    height: 350px;
+    background-image: url("/src/assets/banner//Fila\ home\ banner\ 01.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.body3{
+    display: block;
+    height: 350px;
+    background-image: url("/src/assets/banner/hummel\ Logo\ v1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.body1-title{
+    padding-top: 140px;
+}
+
 }
 @media only screen and (max-width:523px){
     .footer-container{
@@ -1698,7 +1752,7 @@ form{
         max-height: 489px;
     }
     .contactusbg-container h1{
-        font-family: 'Rounded Elegance', sans-serif;
+        font-family: 'Frygia', sans-serif;
       color: white;
       font-size: 35px;
       padding-top: 50px;
@@ -1895,7 +1949,12 @@ form{
 
 }
 
-
+@media only screen and (min-width:550px){
+    .body1-title{
+        padding-top: 255px ;
+    }
+    
+}
 @media only screen and (min-width: 859px) {
     .mobile-header-nav-toggle{
         display: none;

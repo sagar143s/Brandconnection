@@ -64,7 +64,7 @@ export default function Wedeliversol() {
                   </div>
                 </center>
                 <p>{si.text}</p>
-              </div>
+              </div> 
             ))}
           </div>
         </div>

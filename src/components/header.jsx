@@ -55,7 +55,7 @@ export default function Header() {
             E-COMMERCE
           </a>
           <a href="/ContactUs" className="header-nav-tags">
-            CONTACT
+            CONTACT US
           </a>
         </div>
         <div className="header-right">

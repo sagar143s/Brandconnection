@@ -3,14 +3,14 @@ import aboutus from "../../assets//frame 02.png";
 
 export default function Whatwedo() {
   return (
-    <div className="whatwedo">
+    <div className="whatwedo" style={{marginTop:"-100px"}}>
       <div className="container">
         <div className="whatwedo-up">
           <div>
             <h6>WHAT WE DO?</h6>
           </div>
-          <div>
-            <h3>Brand Builders and Developers</h3>
+          <div >
+            <h1 >Brand Builders and Developers</h1>
           </div>
         </div>
         <div className="whatwedo-container">
@@ -21,8 +21,8 @@ export default function Whatwedo() {
           <center> <div>
              <h6>WHAT WE DO?</h6>
             </div></center> 
-            <center><div>
-              <h3>Brand Builders & Developers</h3>
+            <center><div className="brandbuilders">
+              <h1 style={{fontSize:"35px"}}>Brand Builders & Developers</h1>
             </div></center> 
             <p>
               <div>
@@ -52,8 +52,8 @@ export default function Whatwedo() {
               our journey as we continue to shape the future of lifestyle brand
               distribution in the Middle East.
             </p>
-            <a href="./BeyondUs">
-              <button class="whatwedo-button">READ MORE</button>
+            <a className="whatwedo-button" href="./BeyondUs">
+           Read More
             </a>
           </div>
         </div>

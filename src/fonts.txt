@@ -1,0 +1,5 @@
+font-family: 'eqstdrounded-thin', sans-serif;
+
+      font-family: 'Frygia', sans-serif;
+
+            font-family: 'poppins', sans-serif;
