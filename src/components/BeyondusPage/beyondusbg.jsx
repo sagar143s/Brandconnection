@@ -5,7 +5,7 @@ export default function Beyondusbg() {
     <div className="beyondusbg">
       <div className="container">
         <div className="beyondusbg-container">
-          <h1>Beyond Us</h1>
+     
         </div>
       </div>
     </div>

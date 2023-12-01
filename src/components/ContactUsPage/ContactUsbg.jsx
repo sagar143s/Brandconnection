@@ -5,7 +5,7 @@ export default function Contactusbg() {
     <div className="contactusbg">
       <div className="container">
         <div className="contactusbg-container">
-          <h1>Contact Us</h1>
+          {/* <h1>Contact Us</h1> */}
         </div>
       </div>
     </div>

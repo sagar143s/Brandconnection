@@ -1,0 +1,159 @@
+
+    .image-container01 {
+        border-radius: 15px;
+        height: 200px; /* Add 'px' unit here */
+        position: relative;
+        width: 200px;
+        overflow: hidden;
+        background-color: #000;
+    }
+
+    .image-container01 img {
+        width: 200px;
+        height: 200px;
+        transition: transform 0.4s;
+    }
+    .image-container01 img{
+        width: 200px;
+        height: 200px;
+        transition: transform 0.4s;
+    }
+
+    .image-text img{
+        width: 12px;
+        height: 12px
+    }
+    .image-text text{
+        font-size: 12px;
+    }
+
+
+.gallerybrand-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 55px 0px;
+}
+.image-item {
+    overflow: hidden;
+    position: relative;
+}
+
+
+.image-container01:hover img{
+    transform: scale(1.2);
+}
+
+
+.ourimg{
+    max-width: 600px;
+}
+.image-text{
+      font-family: 'Rounded Elegance', sans-serif;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.7s ease;
+    background-color: rgba(255, 255, 255, 0.242);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    padding-bottom: 25px;
+
+}
+.image-text img{
+    width: 132px;
+    height: 132px
+}
+
+.image-container01:hover .image-text{
+    opacity: 1;
+}
+.bread{
+    padding-top: 100px;
+}
+.brand_brudcrumb{
+    font-size: 35px;
+}
+.bread_p{
+    font-family: 'eqstdrounded-thin', sans-serif;
+    font-size: 17px;
+}
+
+
+.brandbg-container h1{
+    font-family: 'Frygia', sans-serif;
+  color: white;
+  font-size: 70px;
+  padding-top: 250px;
+}
+
+/* .image-text{
+        display:none;
+    } */
+@media only screen and (max-width:768px){
+    .image_text{
+        font-size: 11px;
+        text-align: justify;
+        padding: 0 10px;
+    }
+}
+@media only screen and (min-width:768px){
+    .image_text{
+        font-size: 16px;
+        text-align: justify;
+        padding: 0 10px;
+    }
+    .image-container01{
+        border-radius: 15px;
+        height: 350px;
+        position: relative;
+        width: 350px;
+        overflow: hidden;
+        background-color: #000;
+    }
+    .image-container01 img{
+        width: 350px;
+        height: 350px;
+        transition: transform 0.4s;
+    }
+    .image-text img{
+        width: 132px;
+        height: 132px
+    }
+    .image-text{
+        font-family: 'Rounded Elegance', sans-serif;
+      color: rgb(0, 0, 0);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      right: 0;
+      opacity: 0;
+      transition: opacity 0.7s ease;
+      background-color: rgba(255, 255, 255, 0.242);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      width: 100%;
+      height: 100%;
+      font-size: 20px;
+    padding-bottom: 25px;
+  }
+  
+} 

@@ -1,5 +1,23 @@
 /* Team.css */
 
+.directbg{
+  background-image: url("/src/assets//breadcrumb/B\ v60.jpg"); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+@media only screen and (max-width:480px){
+  
+.directbg{
+  background-image: url("/src/assets//breadcrumb/B\ v60.jpg"); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+}
 .teamMember {
     border-radius: 12px;
     overflow: hidden;

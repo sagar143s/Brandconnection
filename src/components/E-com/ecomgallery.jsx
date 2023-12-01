@@ -33,7 +33,8 @@ export default function Directgallery() {
                 <div className="direct-container">
                   <img src={data.image} alt="" />
                   <div className="direct-logo">
-                    <img src={data.loggo} alt="" />
+                    <img src={data.loggo} alt=""  style={{maxWidth:"140PX",maxHeight:"50px"}}/>
+                    <a href={data.ref} target="blank" style={{color:"#fff",textDecoration:'',marginTop:"40PX"}}> Read more</a>
                   </div>
                 </div>
               </div>

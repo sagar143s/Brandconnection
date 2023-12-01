@@ -5,7 +5,7 @@ export default function Directbg() {
     <div className="ecombg">
       <div className="container">
         <div className="directbg-container">
-          <h1>E-Commerce</h1>
+          {/* <h1>E-Commerce</h1> */}
         </div>
       </div>
     </div>

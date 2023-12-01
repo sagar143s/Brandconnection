@@ -48,6 +48,11 @@
 }
     
 }
+@media only screen and (max-width:550px){
+    .ournetwork{
+        padding-top: 250px;
+    }
+}
 
 @media only screen and (max-width:488px){
     .ourimg {
@@ -58,6 +63,7 @@
     }
     .ournetwork{
         height: 580px;
+        margin-top: 250px;
     }
     .boxicon-image{
         display: none !important;

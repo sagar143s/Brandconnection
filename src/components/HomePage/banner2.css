@@ -1,4 +1,24 @@
-@media only screen and  (min-width:480px){
+
+@media only screen and (max-width:550px){
+    .logos_brands{
+        max-width: 400px !important;
+        padding-bottom: 50px;
+    }
+    .brands_partner02 h1{
+        font-size: 45px  !important;
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        font-weight: bold;
+        font-family: 'eqstdrounded-thin', sans-serif;
+    }
+    .brands_partner02{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    }
+}
+@media only screen and  (min-width:550px){
     .brands_partner{
         display: flex;
         justify-content: center;

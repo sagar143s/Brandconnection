@@ -81,7 +81,7 @@ const HistoryContent = () => {
               align="center"
               sx={{ wordSpacing: "5px" }}
             >
-              Our Journey
+              
             </Typography>
           </Container>
         </Box>
@@ -91,18 +91,19 @@ const HistoryContent = () => {
               <Box sx={{ flex: 2 }}>
                 <Box sx={{ height: "300px" }}>
                   <Typography
-                    fontFamily="Rounded Elegance"
+                    
                     fontSize="35px"
-                    fontWeight="300"
+                    fontWeight="500"
                     align="right"
                     paddingTop="4rem"
                     sx={{ wordSpacing: "5px" }}
+                    className="historyyear"
                   >
                     2018
                   </Typography>
                   <Typography
-                    fontFamily="Rounded Elegance"
-                    fontSize="18px"
+                
+              
                     fontWeight="300"
                     align="right"
                     sx={{ wordSpacing: "2px" }}
@@ -135,7 +136,7 @@ const HistoryContent = () => {
                 </Box>
                 <Box sx={{ height: "300px" }}>
                   <Typography
-                    fontFamily="Rounded Elegance"
+                      className="historyyear"
                     fontSize="35px"
                     fontWeight="300"
                     align="right"
@@ -145,8 +146,7 @@ const HistoryContent = () => {
                     2020
                   </Typography>
                   <Typography
-                    fontFamily="Rounded Elegance"
-                    fontSize="18px"
+                    fontSize="17px"
                     fontWeight="300"
                     align="right"
                     sx={{ wordSpacing: "2px" }}
@@ -179,7 +179,7 @@ const HistoryContent = () => {
                 </Box>
                 <Box sx={{ height: "200px" }}>
                   <Typography
-                    fontFamily="Rounded Elegance"
+                className="historyyear"
                     fontSize="35px"
                     fontWeight="300"
                     align="right"
@@ -189,8 +189,7 @@ const HistoryContent = () => {
                     2022
                   </Typography>
                   <Typography
-                    fontFamily="Rounded Elegance"
-                    fontSize="18px"
+                    fontSize="17px"
                     fontWeight="300"
                     align="right"
                     sx={{ wordSpacing: "2px" }}
@@ -913,7 +912,7 @@ const HistoryContent = () => {
                 </Box>
                 <Box sx={{ height: "300px" }}>
                   <Typography
-                    fontFamily="Rounded Elegance"
+                         className="historyyear"
                     fontSize="35px"
                     fontWeight="300"
                     align="left"
@@ -923,8 +922,8 @@ const HistoryContent = () => {
                     2019
                   </Typography>
                   <Typography
-                    fontFamily="Rounded Elegance"
-                    fontSize="18px"
+                 
+                    fontSize="17px"
                     fontWeight="300"
                     align="left"
                     sx={{ wordSpacing: "2px" }}
@@ -952,7 +951,7 @@ const HistoryContent = () => {
                 </Box>
                 <Box sx={{ height: "300px" }}>
                   <Typography
-                    fontFamily="Rounded Elegance"
+                         className="historyyear"
                     fontSize="35px"
                     fontWeight="300"
                     align="left"
@@ -962,8 +961,8 @@ const HistoryContent = () => {
                     2021
                   </Typography>
                   <Typography
-                    fontFamily="Rounded Elegance"
-                    fontSize="18px"
+               
+                    fontSize="17px"
                     fontWeight="300"
                     align="left"
                     sx={{ wordSpacing: "2px" }}
@@ -990,7 +989,7 @@ const HistoryContent = () => {
                 </Box>
                 <Box sx={{ height: "300px" }}>
                   <Typography
-                    fontFamily="Rounded Elegance"
+                        className="historyyear"
                     fontSize="35px"
                     fontWeight="300"
                     align="left"
@@ -1000,8 +999,8 @@ const HistoryContent = () => {
                     2023
                   </Typography>
                   <Typography
-                    fontFamily="Rounded Elegance"
-                    fontSize="18px"
+                 
+                    fontSize="17px"
                     fontWeight="300"
                     align="left"
                     sx={{ wordSpacing: "2px" }}

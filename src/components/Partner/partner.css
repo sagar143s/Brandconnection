@@ -30,7 +30,23 @@
 
 .partner-image:hover{
     transform: scale(1.1);
+}.partnerbg{
+    background-image: url("/src//assets/breadcrumb//partner.png"); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
 }
+@media only screen and (max-width:480px){
+    .partnerbg{
+        background-image: url("/src//assets//breadcrumb/bbb02.jpg"); 
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 150px;
+    }
+}
+
 
 @media only screen and (min-width:768px){
     .partnergallery-container{

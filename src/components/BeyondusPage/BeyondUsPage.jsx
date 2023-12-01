@@ -3,6 +3,7 @@ import Beyondbrand from "./beyondbrand";
 import Beyondusbg from "./beyondusbg";
 import Clientsay from "./clientsay";
 import Counter from "./counter";
+import Bread from './bread'
 
 import './beyond.css';
 import History from '../HistoryPage/HistoryPage';
@@ -31,6 +32,7 @@ function BeyondUsPage() {
   return (
     <div>
       <Beyondusbg />
+      <Bread/>
       <Beyondbrand />
       <Counter />
       {/* <Clientsay /> */}

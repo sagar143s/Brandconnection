@@ -1,70 +1,53 @@
 import React from "react";
 import brandLogo from "../../src/assets/brand-connection-white-logo.png";
+import Insta from '..//assets/social/instagram.png';
+import Linkedin from '../assets/social/linkedin.png';
+import './footer.css'
 
-export default function Footer() {
-  return (
-    <div className="footer">
-      <div className="container">
-        <div className="footer-container">
-          <div className="column">
-            <div className="footer-logo-div">
-              <a href="#" alt="">
-                <img src={brandLogo} alt="" className="footer-logo" />
-              </a>
-            </div>
-          </div>
-          <div className="column">
-            {/* <ul className="menu-list">
-              <li>
-                <a href="/Brands">Brands</a>
-              </li>
-              <li>
-                <a href="/Partner">Retail</a>
-              </li>
-              <li>
-                <a href="/BeyondUs">Beyond Us</a>
-              </li>
-              <li>
-                <a href="/Ecom">E-commerce</a>
-              </li>
-              <li>
-                <a href="/ContactUs">Contact Us</a>
-              </li>
-            </ul> */}
-          </div>
-          <div className="column">
-            {/* <ul className="menu-list">
-              <li>
-                <a href="/Terms&condition">Terms &amp; Conditions</a>
-              </li>
-              <li>
-                <a href="/Privacy&policy">Privacy Policy</a>
-              </li>
-            </ul> */}
-          </div>
-          <div className="column">
-            <div className="newsletter">
-              {/* <h3>Newsletter</h3> */}
+export default function MyCustomFooter() {
+  // return (
+  //   <div className="my-custom-footer">
+  //     <div className="custom-container">
+  //       <div className="custom-footer-container">
+  //         <div className="custom-column">
+  //           <div className="custom-logo-div">
+  //             <a href="#" alt="">
+  //               <img src={brandLogo} alt="" className="custom-logo" />
+  //             </a>
+  //           </div>
+  //         </div>
           
-              {/* <p>Sign up to receive news & updates.</p>
-              <div className="subscribe-container">
-                <div className="input-button-container">
-                  <input
-                    type="email"
-                    placeholder="Your Email"
-                    class="email-input"
-                    value=""
-                    required
-                  />
-                  <button type="submit" class="subscribe-button">
-                    Subscribe
-                  </button>
-                </div>
-              </div> */}
-            </div>
-          </div>
-        </div>
+       
+  //         <div className="custom-column">
+  //           <div className="custom-newsletter">
+  //             <ul style={{display:"flex", listStyle:"none", gap:"20px", marginTop:"25px"}}>
+  //               <li><img src={Insta} alt="Instagram" style={{maxWidth:"20px", height:"auto"}}/></li>
+  //               <li><img src={Linkedin} alt="LinkedIn" style={{maxWidth:"20px", height:"auto"}}/></li>
+  //             </ul>
+  //           </div>
+  //         </div>
+  //       </div>
+  //     </div>
+  //   </div>
+  return(
+    <div className="background_footer">
+    <div className="container" style={{padding:"50px 0"}} >
+     <div className="footer_main" style={{maxWidth:"1400PX", margin:"0 auto"}}>
+      <div>
+      <a href="#" alt="">
+            <img src={brandLogo} alt="" className="customLogo"  style={{maxWidth:"200PX"}}/>
+         </a>
       </div>
+      <div>
+      <ul className="social_medias" style={{display:"flex", listStyle:"none", gap:"20px", marginTop:"25px"}}>
+               <li><img src={Insta} alt="Instagram" style={{maxWidth:"20px", height:"auto"}}/></li>
+          <li><img src={Linkedin} alt="LinkedIn" style={{maxWidth:"20px", height:"auto"}}/></li>
+             </ul>
+      </div>
+     </div>
+
     </div>
+    </div>
+
   );
 }

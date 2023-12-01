@@ -81,6 +81,24 @@
 .image-container01:hover .image-text{
     opacity: 1;
 }
+.bread{
+    padding-top: 100px;
+}
+.brand_brudcrumb{
+    font-size: 35px;
+}
+.bread_p{
+    font-family: 'eqstdrounded-thin', sans-serif;
+    font-size: 17px;
+}
+
+
+.brandbg-container h1{
+    font-family: 'Frygia', sans-serif;
+  color: white;
+  font-size: 70px;
+  padding-top: 250px;
+}
 
 /* .image-text{
         display:none;

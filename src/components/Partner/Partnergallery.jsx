@@ -76,19 +76,23 @@ export default function Partnergallery() {
     //   ref: "https://www.chalhoubgroup.com/",
     // },
   ];
+
   return (
-    <div className="partnergallery">
+ 
+    <div className="partner-gallery">
       <div className="container">
-        <div className="partnergallery-container">
+        <div className="partner-gallery-container">
           {imgs.map((data) => (
-            <div className="partner-image">
-              <a href={data.ref} target="_blank">
-                <img src={data.image} alt="" />
+            <div className="partner-card" key={data.id}>
+              <img src={data.image} alt="" className="card-image"  style={{maxWidth:"600px"}}/>
+              <a href={data.ref} target="_blank" className="partner-text">
+                {data.id} {/* Add more text if needed */}
               </a>
             </div>
           ))}
         </div>
       </div>
+   
     </div>
   );
 }

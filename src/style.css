@@ -221,7 +221,7 @@ body{
     height: 44px;
 }
 .footer1-container{
-    padding-top: 10px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -251,10 +251,11 @@ body{
     
     padding: 50px 20px 20px;
     
-    background-image: url("/src/assets/footer-banner.jpg"); 
+    background-image: url("/src/assets/footer//map\ banner.jpg"); 
     background-size: cover; 
     background-position: center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
+    object-fit: fill;
     
 }
 .footer-container{
@@ -270,7 +271,7 @@ body{
     flex: 1 1;
     margin: 10px;
     text-align: center;
-    justify-content: center;
+    justify-content:flex-start;
 }
 .footer-logo-div{
     display: flex;
@@ -605,7 +606,7 @@ body{
 }
 
 .ournetwork{
-    padding-top: 300px;
+    padding-top: 200px;
     z-index: 0;
     height: 1216px;
 }
@@ -822,12 +823,13 @@ body{
     color: white;
     cursor: pointer;
 }
+
 .brandsbg{
-    background-image: url("/src/assets/breadcrumb/B\ v8.jpg"); 
+    background-image: url("/src/assets/breadcrumb/BABOLAT_TERRE_BATUE_057.jpg"); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 600px;
 }
 @media only screen and (max-width:480px){
     .brandsbg{
@@ -838,12 +840,7 @@ body{
         height: 150px;
     }
 }
-.brandbg-container h1{
-      font-family: 'Frygia', sans-serif;
-    color: white;
-    font-size: 60px;
-    padding-top: 100px;
-}
+
 @media only screen and (max-width:480px){
     .brandbg-container h1{
         font-family: 'Frygia', sans-serif;
@@ -853,22 +850,6 @@ body{
   }
 }
 
-.partnerbg{
-    background-image: url("/src//assets//breadcrumb/bbb02.jpg"); 
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 250px;
-}
-@media only screen and (max-width:480px){
-    .partnerbg{
-        background-image: url("/src//assets//breadcrumb/bbb02.jpg"); 
-        background-size: cover; 
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 150px;
-    }
-}
 
 .partnerbg-container h1{
       font-family: 'Frygia', sans-serif;
@@ -887,30 +868,12 @@ body{
 }
 
 
-.directbg{
-    background-image: url("/src/assets//breadcrumb/B\ v60.jpg"); 
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 250px;
-}
-@media only screen and (max-width:480px){
-    
-.directbg{
-    background-image: url("/src/assets//breadcrumb/B\ v60.jpg"); 
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 150px;
-}
-
-}
 .ecombg{
     background-image: url("/src/assets/breadcrumb/B\ v6.jpg"); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 600px;
 }
 @media only screen and (max-width:480px){
     
@@ -993,17 +956,21 @@ body{
     width: 250px;
     height: 160px
 }
+.direct-logo A{
+    font-family: 'eqstdrounded-thin', sans-serif;
+    font-size: 17PX;
+}
 
 .direct-container:hover .direct-logo{
     opacity: 1;
 }
 
 .beyondusbg{
-    background-image: url("/src/assets/breadcrumb/B\ v5.jpg"); 
+    background-image: url("/src/assets/breadcrumb/Bc\ 06.jpg"); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 600px;
 }
 @media only screen and (max-width:480px){
    
@@ -1048,12 +1015,16 @@ body{
     height: 519px;
 }
 .beyondbrand-right{
-      font-family: 'Frygia', sans-serif;
+    font-family: 'eqstdrounded-thin', sans-serif;
+  
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
     text-align: start;
+}
+.beyondbrand-right p{
+    font-size: 17px;
 }
 
 .beyondbrand-right h1{
@@ -1195,11 +1166,11 @@ body{
 }
 
 .contactusbg{
-    background-image: url("/src/assets/breadcrumb/B\ v2.jpg"); 
+    background-image: url("/src/assets/contcat//contactb\ land\ line.jpg"); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 600px;
 }
 @media only screen and (max-width:480px){
 
@@ -1303,36 +1274,39 @@ body{
 }
 
 .location-box{
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-    border-radius: 10px;
-    transition: transform 0.3s;
+    /* box-shadow: 0px 0px 10px rgba(0,0,0,0.2); */
+    border-radius: 0px;
+    border: 1px solid rgb(212, 209, 209);
+    /* transition: transform 0.3s; */
     padding: 50px 65px;
     margin: 10px;
 }
-.location-box:hover{
+/* .location-box:hover{
     transform: scale(1.05);
-}
+} */
 
 .workinghours-box{
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-    border-radius: 10px;
-    transition: transform 0.3s;
+    /* box-shadow: 0px 0px 10px rgba(0,0,0,0.2); */
+    border-radius: 0px;
+    /* transition: transform 0.3s; */
+    border: 1px solid rgb(212, 209, 209);
     padding: 50px 35px;
     margin: 10px;
 }
-.workinghours-box:hover{
+/* .workinghours-box:hover{
     transform: scale(1.05);
-}
+} */
 .contactus-box{
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-    border-radius: 10px;
-    transition: transform 0.3s;
-  padding: 40px 65px;
+    /* box-shadow: 0px 0px 10px rgba(0,0,0,0.2); */
+    border-radius: 0px;
+    /* transition: transform 0.3s; */
+  padding: 49px 65px;
+  border: 1px solid rgb(212, 209, 209);
     margin: 10px;
 }
-.contactus-box:hover{
+/* .contactus-box:hover{
     transform: scale(1.05);
-}
+} */
 
 .location-box h3{
       font-family: 'Frygia', sans-serif;
@@ -1483,12 +1457,6 @@ form{
     }
 }
 
-@media only screen and (max-width: 1041px) {
-    .divider1, .header-phone{
-        display: none;
-    }
-}
-
 
 
 
@@ -1532,6 +1500,12 @@ form{
     }
     
 }
+@media only screen and (max-width: 1041px) {
+    .divider1, .header-phone{
+        display: none;
+    }
+}
+
 
 @media only screen and (max-width:1000px){
     .whatwedo-container{
@@ -1646,9 +1620,17 @@ form{
     .contactinfo-container{
         flex-direction: column;
     }
+    .expand-container h1{
+        padding-top: 91px;
+    }
+    .expand{
+        height: 1721px;
+    }
+    .testimonial{
+        padding: 20px;
+    }
 
 }
-
 
 @media only screen and (max-width: 736px) {
     .header1-main{
@@ -1656,7 +1638,7 @@ form{
         text-align: center;
     }
     .footer1{
-        height: 77px;
+        height: 115px;
     }
     .footer1-container{
         flex-direction: column;
@@ -1666,7 +1648,7 @@ form{
         padding: 5px;
     }
     .header1-left, .footer1-left{
-        padding: 5px;
+        padding: 0px;
     }
 }
 @media only screen and (max-width: 660px){
@@ -1699,35 +1681,6 @@ form{
         column-gap:50px;
     }
 }
-@media only screen and (max-width: 526px){
-   
-}
-
-@media only screen and (max-width:520px){
-    .clientsay-left{
-        height: 502px;
-    }
-    .clientsay-left img{
-        height: 219px;
-        width: 169px;
-        border-radius: 25px;
-    }
-    .client2{
-        position: relative;
-        right: -14px;
-        bottom: -225px;
-        
-
-    }
-    .ournetwork-body1-right{
-      display: none;
-    }
-    .testimonial{
-        display: none;
-    }
-    
-}
-
 
 @media only screen and (max-width: 554px){
     .video1{
@@ -1748,6 +1701,12 @@ form{
     .whatwedo{
         padding:50px 10px;
       
+    }
+    .header1-main{
+      
+        min-height: 25px;
+      
+ 
     }
     
 .body1{
@@ -1779,11 +1738,92 @@ form{
 }
 
 }
+
+
 @media only screen and (max-width:523px){
     .footer-container{
         padding: 63px;
     }
 }
+
+@media only screen and (max-width:520px){
+    .clientsay-left{
+        height: 502px;
+    }
+    .clientsay-left img{
+        height: 219px;
+        width: 169px;
+        border-radius: 25px;
+    }
+    .client2{
+        position: relative;
+        right: -14px;
+        bottom: -225px;
+        
+
+    }
+    .ournetwork-body1-right{
+      display: none;
+    }
+    .testimonial{
+        display: none;
+    }
+    
+}
+
+
+@media only screen and (max-width: 518px){
+   
+    .expand {
+        margin: 230px 0 0 0px;
+        height: 621px;
+    }
+    .testimonial{
+        padding: 0px;
+    }
+    .center-image img{
+        width: 170px;
+        height: 100px;
+        margin-top: -50px;
+    }
+    .top-left-image img{
+        width: 150px;
+        height: 80px;
+    }
+    .top-right-image img{
+        width: 150px;
+        height: 80px;
+    }
+    .bottom-left-image img{
+        width: 150px;
+        height: 80px;
+    }
+    .bottom-right-image img{
+        width: 150px;
+        height: 80px;
+    }
+    .gallery{
+        height: 190px;
+    }
+    .ournetwork{
+        padding-top: 180px !important;
+        z-index: 0;
+        height: 1216px;
+    }
+  
+
+}
+
+@media only screen and (max-width: 511px){
+    .wedeliver{
+        height: 1350px;
+    }
+    .ourimg{
+
+        display: none;
+    }
+}
+
 
 @media only screen and (max-width: 487px){
     .beyondbrand-left img{
@@ -1862,32 +1902,17 @@ form{
 
 
 
-@media only screen and (max-width: 394px){
-    .ourbrand{
-        height:530px;
-    }
-}
 
-@media only screen and (max-width: 768px){
-    .expand-container h1{
-        padding-top: 91px;
-    }
-    .expand{
-        height: 1721px;
-    }
-    .testimonial{
-        padding: 20px;
-    }
-   
-}
-@media only screen and (max-width: 511px){
+
+@media only screen and (max-width: 413px){
     .wedeliver{
-        height: 1350px;
+        height: 1200px;
     }
-    .ourimg{
-
-        display: none;
+    .wedeliver-banner h1{
+        padding: 50px;
     }
+  
+    
 }
 @media only screen and (max-width: 404px){
     .expand-container h1{
@@ -1902,6 +1927,11 @@ form{
         max-height: 330px;
     }
 }
+@media only screen and (max-width: 394px){
+    .ourbrand{
+        height:530px;
+    }
+}
 @media only screen and (max-width: 387px){
     .expand-container h1{
         padding-top: 350px;
@@ -1911,6 +1941,7 @@ form{
         max-height: 309px;
     }
 }
+
 @media only screen and (max-width: 384px){
     .wedeliver{
         height: 1450px;
@@ -1940,58 +1971,6 @@ form{
 }
 
 
-@media only screen and (max-width: 413px){
-    .wedeliver{
-        height: 1200px;
-    }
-    .wedeliver-banner h1{
-        padding: 50px;
-    }
-  
-    
-}
-
-@media only screen and (max-width: 518px){
-   
-    .expand {
-        margin: 230px 0 0 0px;
-        height: 621px;
-    }
-    .testimonial{
-        padding: 0px;
-    }
-    .center-image img{
-        width: 170px;
-        height: 100px;
-        margin-top: -50px;
-    }
-    .top-left-image img{
-        width: 150px;
-        height: 80px;
-    }
-    .top-right-image img{
-        width: 150px;
-        height: 80px;
-    }
-    .bottom-left-image img{
-        width: 150px;
-        height: 80px;
-    }
-    .bottom-right-image img{
-        width: 150px;
-        height: 80px;
-    }
-    .gallery{
-        height: 190px;
-    }
-    .ournetwork{
-        padding-top: 50px !important;
-        z-index: 0;
-        height: 1216px;
-    }
-  
-
-}
 
 
 @media only screen and (min-width:550px){
@@ -2009,3 +1988,12 @@ form{
     }
 }
 
+
+.historyyear{
+    font-family: 'eqstdrounded-thin', sans-serif !important;
+    font-size: 35px;
+}
+.texthistory{
+    font-family: 'eqstdrounded-thin', sans-serif !important;
+    font-size: 17px;
+}

@@ -10,7 +10,7 @@ export default function Whatwedo() {
             <h6>WHAT WE DO?</h6>
           </div>
           <div >
-            <h1 >Brand Builders and Developers</h1>
+            <h1  style={{color:"#000"}}>Brand Builders and Developers</h1>
           </div>
         </div>
         <div className="whatwedo-container">
@@ -22,7 +22,7 @@ export default function Whatwedo() {
              <h6>WHAT WE DO?</h6>
             </div></center> 
             <center><div className="brandbuilders">
-              <h1 style={{fontSize:"35px"}}>Brand Builders & Developers</h1>
+              <h1 style={{fontSize:"35px",color:"#000"}}>Brand Builders & Developers</h1>
             </div></center> 
             <p>
               <div>
