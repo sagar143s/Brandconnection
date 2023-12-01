@@ -1734,7 +1734,7 @@ form{
     background-repeat: no-repeat;
 }
 .body1-title{
-    padding-top: 140px;
+    padding-top: 270px;
 }
 
 }
@@ -1743,6 +1743,30 @@ form{
 @media only screen and (max-width:523px){
     .footer-container{
         padding: 63px;
+    }
+    .body1{
+        display: block;
+        height: 650px;
+        background-image: url("/src/assets/banner//B\ p\ \ 01.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .body2{
+        display: block;
+        height: 650px;
+        background-image: url("/src/assets/banner//B\ p\ \ 02.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .body3{
+        display: block;
+        height: 650px;
+        background-image: url("/src/assets/banner//B\ p\ \ 03.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }
 
@@ -1869,6 +1893,9 @@ form{
         margin-left: -10px;
         
     }
+
+   
+
 }
 @media only screen and (max-width:449px){
     .footer-container{
