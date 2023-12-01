@@ -1,0 +1,84 @@
+/* Expand.css */
+
+.expand {
+    /* background-color: #f0f0f0; */
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.expand-container {
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    background-size: cover; /* Add this line */
+}
+
+.box-content {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust background color and opacity */
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Customize box colors if needed */
+.box1 {
+    background-image: url('../../assets/babplat.jpg');
+    width: 200px;
+}
+
+.box2 {
+    background-image: url('../../assets/expand/mobile_home_banner_08_L.jpg');
+}
+
+.box3 {
+    background-image: url('../../assets/expand/mobile_home_banner_08_L.jpg');
+}
+
+.box4 {
+    background-image: url('../../assets/expand/mobile_home_banner_08_L.jpg');
+}
+/* Expand.css */
+
+/* ... (existing styles) */
+
+.box-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .box-icon {
+    width: 50px; /* Adjust the width of the icon */
+    height: 50px; /* Adjust the height of the icon */
+    position: absolute;
+    top: 10px; /* Adjust the top position of the icon */
+    left: 50%; /* Center the icon horizontally */
+    transform: translateX(-50%);
+  }
+  
+  /* ... (existing styles) */
+  

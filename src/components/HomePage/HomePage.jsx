@@ -6,6 +6,7 @@ import Expand from "./expand";
 import Ourbrands from "./ourbrands";
 import Insta from './instavideos'
 import Marquee from '../BeyondusPage/marquee'
+import Banner2 from "./banner2";
 
 function HomePage() {
   return (
@@ -13,12 +14,15 @@ function HomePage() {
       <Body1 />
       <Whatwedo />
       <Wedeliversol />
+      
       <Ournetwork />
-      <Expand />
+
+      {/* <Expand /> */}
       {/* <Ourbrands /> */}
+      <Banner2/>
     
       <Insta/>
-      <Marquee />
+
   
     </div>
   );

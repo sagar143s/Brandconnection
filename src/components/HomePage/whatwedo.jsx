@@ -53,7 +53,7 @@ export default function Whatwedo() {
               distribution in the Middle East.
             </p>
             <a className="whatwedo-button" href="./BeyondUs">
-           Read More
+           Read more
             </a>
           </div>
         </div>

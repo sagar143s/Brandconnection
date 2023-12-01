@@ -1,0 +1,26 @@
+@media only screen and  (min-width:480px){
+    .brands_partner{
+        display: flex;
+        justify-content: center;
+        color: #000;
+    }
+    .background_banner2{
+        /* background-image: url('../../assets/banner2/Artboard\ ÔÇô\ 1.png'); */
+        height: 35rem;
+        /* margin-top: -150px; */
+    }
+}
+
+.background_banner2{
+    /* background-image: url('../../assets/banner2/Artboard\ ÔÇô\ 1.png'); */
+    background-image: url('../../assets/banner2/Artboard\ ÔÇô\ 2.png');
+}
+
+.brands_partner02 h1{
+    font-size: 65px;
+    text-align: left;
+    margin-top: -10px;
+}
+.brands_partner02{
+    margin-top: 180px;
+}

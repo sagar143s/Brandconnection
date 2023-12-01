@@ -29,14 +29,14 @@
         display: none !important;
     }
     .expand{
-        background-image: url("/src/assets/banner-building.jpg"); 
+        /* background-image: url("/src/assets/banner-building.jpg");  */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         height: 361px;
         z-index: 0;
         position: relative;
-        margin-top: 250px;
+        margin-top: 380px;
     }
     
 .expand-container h1{
@@ -76,7 +76,7 @@
 
 @media only screen and (min-width:768px){
     .expand{
-        background-image: url("/src/assets/banner-building.jpg"); 
+        /* background-image: url("/src/assets/banner-building.jpg");  */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -110,7 +110,7 @@
         border-radius: 20px;
         padding: 50px;
         background-color: transparent;
-        color: white;
+        color: rgb(17, 17, 17);
           font-family: 'Rounded Elegance', sans-serif;
         font-size: 25px!important;
         display: flex;
@@ -156,7 +156,7 @@
 
 @media only screen and (min-width:968px){
     .expand{
-        background-image: url("/src/assets/banner-building.jpg"); 
+        /* background-image: url("/src/assets/banner-building.jpg");  */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -190,7 +190,7 @@
         border-radius: 20px;
         padding: 50px;
         background-color: transparent;
-        color: white;
+        color: rgb(0, 0, 0);
         font-family: 'Frygia', sans-serif;
         font-size: 25px!important;
         display: flex;
@@ -236,7 +236,7 @@
 
 @media only screen and (min-width:1000px){
     .expand{
-        background-image: url("/src/assets/banner-building.jpg"); 
+        /* background-image: url("/src/assets/banner-building.jpg");  */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -270,7 +270,7 @@
         border-radius: 20px;
         padding: 50px;
         background-color: transparent;
-        color: white;
+        color: rgb(0, 0, 0);
         font-family: 'Frygia', sans-serif;
         font-size: 25px!important;
         display: flex;
@@ -316,7 +316,7 @@
 
 @media only screen and (min-width:1200px){
     .expand{
-        background-image: url("/src/assets/banner-building.jpg"); 
+        /* background-image: url("/src/assets/banner-building.jpg");  */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -350,7 +350,7 @@
         border-radius: 20px;
         padding: 100px;
         background-color: transparent;
-        color: white;
+        color: rgb(0, 0, 0);
         font-family: 'Frygia', sans-serif;
         font-size: 25px!important;
         display: flex;
@@ -396,7 +396,7 @@
 
 @media only screen and (min-width:1400px){
     .expand{
-        background-image: url("/src/assets/banner-building.jpg"); 
+        /* background-image: url("/src/assets/banner-building.jpg");  */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -430,7 +430,7 @@
         border-radius: 20px;
         padding: 100px;
         background-color: transparent;
-        color: white;
+        color: rgb(0, 0, 0);
         font-family: 'Frygia', sans-serif;
         font-size: 25px!important;
         display: flex;
@@ -495,12 +495,12 @@
 .boxicon{
     width: 100px;
     height: 102px;
-    border:1px solid #fff;
+    border:1px solid #000000;
     border: 1;
     border-radius: 20px;
     padding: 0 50px;
     background-color: transparent;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: 'Frygia', sans-serif;
     font-size: 13px;
     display: flex;

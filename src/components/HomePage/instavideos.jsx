@@ -6,7 +6,7 @@ import './insta.css';
 const instavideos = () => {
   return (
     <div className='instamain'>
-      <div className='brandcon'><center>#BabolatArabia</center></div>
+      <div className='brandcon'><center><i>#BabolatArabia</i></center></div>
       <div className='container' id='mainsta'>
         <video autoPlay loop muted  className='videoins' >
           <source className='videoins1' src={Video1} type="video/mp4" style={{borderRadius:"105PX"}} />

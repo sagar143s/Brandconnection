@@ -226,16 +226,23 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    max-width: 1400px;
+    margin: 0 auto;
     
 }
 .footer1-left{
-      font-family: 'Frygia', sans-serif;
+    font-family: 'eqstdrounded-thin', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.footer1-center{
+    font-family: 'eqstdrounded-thin', sans-serif;
     font-size: 16px;
     color: white;
 }
 
 .footer1-right{
-      font-family: 'Frygia', sans-serif;
+    font-family: 'eqstdrounded-thin', sans-serif;
     font-size: 16px;
     color: rgb(173, 27, 73);
 }
@@ -454,8 +461,26 @@ body{
     text-align: left;
 
 }
+
+.wedeliver_font{
+    font-family: 'eqstdrounded-thin', sans-serif !important;
+}
 .brandbuilders h1{
     font-size: 29px;
+}
+.ournetwotk_title{
+    font-family: 'eqstdrounded-thin', sans-serif !important;
+    font-size: 24px;
+}
+.brands_ournetwork{
+    font-family: 'Frygia', sans-serif;
+    font-size: 35px;
+}
+.ournetwork_para{
+    font-size: 17px;
+    font-family: 'eqstdrounded-thin', sans-serif !important;
+    text-align: left;
+
 }
 .whatwedo-button{
     background: transparent; 
@@ -506,11 +531,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #666;
-    -webkit-clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);
-    clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);
+    background-color: #ffffff;
+    /* -webkit-clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);
+    clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%); */
+    border-radius: 50%;
     cursor: pointer;
-    height: 115px;
+    height: 105px;
     overflow: hidden;
     padding: 10px 0;
     position: relative;
@@ -668,7 +694,7 @@ body{
     left: 0px
 }
 .testimonial{
-    margin-top: 100px;
+    margin-top: 0px;
     padding: 10px 50px 20px;
     z-index: 2;
     position: relative;
@@ -680,7 +706,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-image: url("/src/assets/h5-slider1-2.jpg");
+    background-image: url("/src/assets//bablot.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -692,6 +718,7 @@ body{
 }
 .testi h3{
       font-family: 'Frygia', sans-serif;
+      margin-top: -20px;
 }
 .testi h6{
       font-family: 'Frygia', sans-serif;
@@ -706,18 +733,19 @@ body{
 .testimonial-text {
     margin-top: 30px;
     color: #353535;
-      font-family: 'Frygia', sans-serif;
-    font-size: 16px;
+    font-family: 'eqstdrounded-thin', sans-serif;
+    font-size: 17px;
     font-style: italic;
     text-decoration: none;
-    background: #e2e2e2;
+    /* background: #e2e2e2; */
     border-radius: 15px;
-    box-shadow: 5px 5px 15px rgba(0,0,0,.3);
+    /* box-shadow: 5px 5px 15px rgba(0,0,0,.3); */
     padding: 20px;
 }
 .profile{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .profile-image img{
     border-radius: 50px;
@@ -1444,6 +1472,9 @@ form{
         width: 200px;
         height: 130px;
     }
+    .expand{
+        margin-top:350px
+    }
 }
 
 @media only screen and (max-width: 1399px){
@@ -1557,6 +1588,9 @@ form{
         width: 150px;
         height: 110px;
     }
+    .expand{
+        margin-top:50px
+    }
 }
 @media only screen and (max-width: 859px) {
     .header-nav, .visit-office-button{
@@ -1567,6 +1601,11 @@ form{
 @media only screen and (max-width: 832px){
     .counter-container{
         column-gap:100px;
+    }
+    .ournetwork{
+        padding-top: 150px !important;
+        z-index: 0;
+        height: 1216px;
     }
 }
 
@@ -1945,9 +1984,15 @@ form{
     .gallery{
         height: 190px;
     }
+    .ournetwork{
+        padding-top: 50px !important;
+        z-index: 0;
+        height: 1216px;
+    }
   
 
 }
+
 
 @media only screen and (min-width:550px){
     .body1-title{
@@ -1959,5 +2004,8 @@ form{
     .mobile-header-nav-toggle{
         display: none;
     }    
+    .expand{
+        margin-top:150px
+    }
 }
 

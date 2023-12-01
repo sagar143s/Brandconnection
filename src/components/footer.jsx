@@ -14,7 +14,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="column">
-            <ul className="menu-list">
+            {/* <ul className="menu-list">
               <li>
                 <a href="/Brands">Brands</a>
               </li>
@@ -30,23 +30,23 @@ export default function Footer() {
               <li>
                 <a href="/ContactUs">Contact Us</a>
               </li>
-            </ul>
+            </ul> */}
           </div>
           <div className="column">
-            <ul className="menu-list">
+            {/* <ul className="menu-list">
               <li>
                 <a href="/Terms&condition">Terms &amp; Conditions</a>
               </li>
               <li>
                 <a href="/Privacy&policy">Privacy Policy</a>
               </li>
-            </ul>
+            </ul> */}
           </div>
           <div className="column">
             <div className="newsletter">
               {/* <h3>Newsletter</h3> */}
           
-              <p>Sign up to receive news & updates.</p>
+              {/* <p>Sign up to receive news & updates.</p>
               <div className="subscribe-container">
                 <div className="input-button-container">
                   <input
@@ -60,7 +60,7 @@ export default function Footer() {
                     Subscribe
                   </button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

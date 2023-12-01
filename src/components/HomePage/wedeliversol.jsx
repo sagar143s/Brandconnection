@@ -1,10 +1,10 @@
 import React from "react";
 import youtubelogo from "../../assets/you.png";
-import distri from "../../assets/official-distributors.png";
-import liasion from "../../assets/liaison.png";
-import com from "../../assets/E-commerce.png";
-import rell from "../../assets/sell-retailers.png";
-import lae from "../../assets/private-label.png";
+import distri from "../../assets/icons02/official-distributors.png";
+import liasion from "../../assets//icons02/liaison.png";
+import com from "../../assets/icons02/E-commerce.png";
+import rell from "../../assets/icons02/sell-retailers.png";
+import lae from "../../assets/icons02/private-label.png";
 
 export default function Wedeliversol() {
   // const YTPlayerOverlay = document.querySelector(".youtube-player-overlay");
@@ -53,7 +53,7 @@ export default function Wedeliversol() {
       <div className="container">
         <div className="wedeliver-container">
           <div class="wedeliver-banner">
-            <h1>We Deliver Solution with the Goal<br></br> of Trusting Relationships</h1>
+            <h1>Our Journey Towards Meaningful Connections<br></br> </h1>
           </div>
           <div className="wedeliver-icons-div">
             {calm.map((si) => (
@@ -63,7 +63,7 @@ export default function Wedeliversol() {
                     {<img src={si.image} alt="" />}
                   </div>
                 </center>
-                <p>{si.text}</p>
+                <p className="wedeliver_font">{si.text}</p>
               </div> 
             ))}
           </div>
