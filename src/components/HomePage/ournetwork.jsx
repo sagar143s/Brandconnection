@@ -72,7 +72,9 @@ export default function Ournetwork() {
             </div>
         
           </div>
+          <div className="desktopmarquee">
           <Marquee/>
+          </div>
           </div>
           <div className="container">
           <div className="testimonial" >

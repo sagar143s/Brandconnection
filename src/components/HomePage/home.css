@@ -28,6 +28,12 @@
     .boxicon-image{
         display: none !important;
     }
+    .brandbuilders{
+        display: none;
+    }
+    .desktopmarquee{
+        display: none;
+    }
     .expand{
         /* background-image: url("/src/assets/banner-building.jpg");  */
         background-size: cover;
@@ -63,11 +69,19 @@
     }
     .ournetwork{
         height: 580px;
-        margin-top: 250px;
+        margin-top: 10px;
     }
     .boxicon-image{
         display: none !important;
     }
+}
+@media only screen and (max-width:414px){
+    .brands_partner02{
+    padding-top: 130px;
+    }
+    .brands_partner02 h1{
+        font-size: 13px;
+        }
 }
 @media only screen and (max-width:390px){
     .box-container {
@@ -81,6 +95,9 @@
 }
 
 @media only screen and (min-width:768px){
+    .mobilemarquee{
+        display: none;
+    }
     .expand{
         /* background-image: url("/src/assets/banner-building.jpg");  */
         background-size: cover;

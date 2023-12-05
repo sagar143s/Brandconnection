@@ -1,11 +1,11 @@
 
 @media only screen and (max-width:550px){
     .logos_brands{
-        max-width: 400px !important;
+        max-width: 360px !important;
         padding-bottom: 50px;
     }
     .brands_partner02 h1{
-        font-size: 45px  !important;
+        font-size: 35px  !important;
         display: flex;
         justify-content: center;
         margin-top: 25px;

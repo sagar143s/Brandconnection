@@ -1936,7 +1936,11 @@ form{
         height: 1200px;
     }
     .wedeliver-banner h1{
-        padding: 50px;
+        padding: 0 0 10px 0px;
+    }
+    .ournetwork{
+
+        padding-top: 100px !important;
     }
   
     

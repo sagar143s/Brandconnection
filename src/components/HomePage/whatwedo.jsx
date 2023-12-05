@@ -3,7 +3,7 @@ import aboutus from "../../assets//frame 02.png";
 
 export default function Whatwedo() {
   return (
-    <div className="whatwedo" style={{marginTop:"-100px"}}>
+    <div className="whatwedo" style={{marginTop:"-80px"}}>
       <div className="container">
         <div className="whatwedo-up">
           <div>

@@ -20,6 +20,9 @@ function HomePage() {
       {/* <Expand /> */}
       {/* <Ourbrands /> */}
       <Banner2/>
+      <div className="mobilemarquee">
+      <Marquee/>
+      </div>
     
       <Insta/>
 
