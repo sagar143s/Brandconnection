@@ -36,14 +36,14 @@ const PartnerGallery = () => {
                 className="card-image"
               />
               <div className="partner-text-container">
-                <a
+                {/* <a
                   href={partner.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="partner-text"
                 >
                   Partner {partner.id}
-                </a>
+                </a> */}
               </div>
             </div>
           ))}
