@@ -38,7 +38,7 @@ export default function Header() {
             BRANDS
           </a>
           <div className="dropdown">
-            <button className="dropbtn">RETAIL</button>
+            <button className="dropbtn">DIRECT RETAIL</button>
             <div className="dropdown-content">
               <a href="/Partner" className="dropdown-content-link">
                 Partners
