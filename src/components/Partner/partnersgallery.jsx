@@ -25,7 +25,7 @@ const PartnerGallery = () => {
   ];
 
   return (
-    <div className="partner-gallery">
+    <div className="partner-gallery" style={{padding:"10px 0 80px"}}>
       <div className="container">
         <div className="partner-gallery-container">
           {partnerData.map((partner) => (
@@ -36,14 +36,14 @@ const PartnerGallery = () => {
                 className="card-image"
               />
               <div className="partner-text-container">
-                {/* <a
+                <a
                   href={partner.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="partner-text"
                 >
-                  Partner {partner.id}
-                </a> */}
+                  {/* Partner {partner.id} */}
+                </a>
               </div>
             </div>
           ))}
