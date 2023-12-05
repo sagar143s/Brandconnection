@@ -7,7 +7,7 @@ import sivvi from "../../assets/sivvi.png";
 import deca from "../../assets/decathlon.png";
 import xcite from "../../assets/xcite.png";
 import azeg from "../../assets/amazon-eg.png";
-import azae from "../../assets/amazon.ae.png";
+import azae from "../../assets/latest/amzon.ae. changed.png";
 import gosport from "../../assets/gosport.png";
 import namshi from "../../assets/namshi.png";
 import chalhoub from "../../assets/chalhoub.png";

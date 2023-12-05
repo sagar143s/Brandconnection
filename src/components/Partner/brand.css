@@ -131,7 +131,7 @@
     }
     .image-text img{
         width: 132px;
-        height: 132px
+        height: auto;
     }
     .image-text{
         font-family: 'Rounded Elegance', sans-serif;
