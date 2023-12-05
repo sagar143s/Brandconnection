@@ -1,7 +1,7 @@
 /* Team.css */
 
 .directbg{
-  background-image: url("/src/assets//breadcrumb/B\ v60.jpg"); 
+  background-image: url("/src/assets/breadcrumb//latest//D.\ Retailers.jpg"); 
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
@@ -10,7 +10,7 @@
 @media only screen and (max-width:480px){
   
 .directbg{
-  background-image: url("/src/assets//breadcrumb/B\ v60.jpg"); 
+  background-image: url("/src/assets/breadcrumb//latest//D.\ Retailers.jpg"); 
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;

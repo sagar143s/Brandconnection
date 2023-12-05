@@ -31,7 +31,7 @@
 .partner-image:hover{
     transform: scale(1.1);
 }.partnerbg{
-    background-image: url("/src//assets/breadcrumb//partner.png"); 
+    background-image: url("/src//assets/breadcrumb/latest/Partners.jpg"); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@
 }
 @media only screen and (max-width:480px){
     .partnerbg{
-        background-image: url("/src//assets//breadcrumb/bbb02.jpg"); 
+        background-image: url("/src//assets//breadcrumb/latest/Partners.jpg"); 
         background-size: cover; 
         background-position: center;
         background-repeat: no-repeat;
