@@ -869,7 +869,7 @@ body{
 
 
 .ecombg{
-    background-image: url("/src/assets/breadcrumb/B\ v6.jpg"); 
+    background-image: url("/src/assets/breadcrumb/latest/E\ commerce.jpg"); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -879,7 +879,7 @@ body{
     
    
     .ecombg{
-        background-image: url("/src/assets/breadcrumb/B\ v6.jpg"); 
+        background-image: url("/src/assets/breadcrumb/latest//E\ commerce.jpg"); 
         background-size: cover; 
         background-position: center;
         background-repeat: no-repeat;
