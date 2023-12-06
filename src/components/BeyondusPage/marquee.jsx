@@ -7,6 +7,10 @@ import filspng from "../../assets/fils.png";
 import itouchpng from "../../assets/i-touch.png";
 import marvelpng from "../../assets/marvel.png";
 import winniepng from "../../assets/winnie-the-pool.png";
+import Tikka from '../../assets/breadcrumb/tickers.png'
+import Apparel from '../../assets/breadcrumb/xcite.png'
+import Intersport from '../../assets/breadcrumb/Intersports.png'
+import Brandforless from '../../assets/breadcrumb/brand for less.png'
 
 export default function Marquee() {
  
@@ -70,6 +74,23 @@ export default function Marquee() {
             maxWidth: isMobile ? "150px" : "300px",
             padding: isMobile ? "10px 20px" : "10px 60px",
           }} />
+           <img src={Tikka} alt="" style={{
+            maxWidth: isMobile ? "150px" : "300px",
+            padding: isMobile ? "10px 20px" : "10px 60px",
+          }} />
+            <img src={Apparel} alt="" style={{
+            maxWidth: isMobile ? "150px" : "300px",
+            padding: isMobile ? "10px 20px" : "10px 60px",
+          }} />
+          <img src={Intersport} alt="" style={{
+            maxWidth: isMobile ? "150px" : "300px",
+            padding: isMobile ? "10px 20px" : "10px 60px",
+          }} />
+               <img src={Brandforless} alt="" style={{
+            maxWidth: isMobile ? "150px" : "300px",
+            padding: isMobile ? "10px 20px" : "10px 60px",
+          }} />
+    
         {/* <img src={minecraftpng} alt="" /> */}
    
           <img src={buckleypng} alt="" style={{
@@ -102,7 +123,23 @@ export default function Marquee() {
             maxWidth: isMobile ? "150px" : "300px",
             padding: isMobile ? "10px 20px" : "10px 60px",
           }} />
-        {/* <img src={minecraftpng} alt="" /> */}
+            <img src={Tikka} alt="" style={{
+            maxWidth: isMobile ? "150px" : "300px",
+            padding: isMobile ? "10px 20px" : "10px 60px",
+          }} />
+           <img src={Apparel} alt="" style={{
+            maxWidth: isMobile ? "150px" : "300px",
+            padding: isMobile ? "10px 20px" : "10px 60px",
+          }} />   
+          <img src={Intersport} alt="" style={{
+            maxWidth: isMobile ? "150px" : "300px",
+            padding: isMobile ? "10px 20px" : "10px 60px",
+          }} />
+            <img src={Brandforless} alt="" style={{
+            maxWidth: isMobile ? "150px" : "300px",
+            padding: isMobile ? "10px 20px" : "10px 60px",
+          }} />
+    
     
         
       </marquee>
