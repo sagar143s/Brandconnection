@@ -90,6 +90,7 @@
 .bread_p{
     font-family: 'eqstdrounded-thin', sans-serif;
     font-size: 17px;
+    padding: 0 10px;
 }
 
 
@@ -108,6 +109,11 @@
         font-size: 11px;
         text-align: justify;
         padding: 0 10px;
+    }
+}
+@media only screen and (max-width:550px){
+    .bread_p{
+       padding: 0 10px;
     }
 }
 @media only screen and (min-width:768px){

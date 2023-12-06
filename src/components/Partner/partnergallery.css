@@ -1,0 +1,23 @@
+.partner-gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+
+  }
+  
+  .partner-card {
+    text-align: center;
+  }
+  
+  .card-image {
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .categoryheading{
+    padding: 0 10px;
+  }
+  .boxmain{
+    background-color: rgba(236, 236, 236, 0.322);
+    padding: 30px 10px;
+  }
