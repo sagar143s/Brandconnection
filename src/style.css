@@ -141,6 +141,7 @@ body{
 .dropbtn:hover{
     background-color: transparent;
     color: #000;
+    text-decoration: underline;
 }
 .dropdown-content {
     display: none;
