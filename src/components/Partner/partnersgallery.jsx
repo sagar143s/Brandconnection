@@ -15,7 +15,7 @@ import namshi from "../../assets/namshi.png";
 const PartnerGallery = () => {
   // Define your partner data
   const partnerData = [
-    { id: 1, image: alshaya, link: "https://www.alshaya.com/en/", category: "LIFESTYLE", href: 'https://www.google.com/' },
+    { id: 1, image: alshaya, link: "https://www.alshaya.com/en/", category: "LIFESTYLE",  },
     { id: 2, image: sunAndSand, link: "https://en-ae.sssports.com/", category: "SPORTS SPECIALIST" },
     { id: 4, image: noon, link: "https://www.noon.com/uae-en/", category: "E-COMMERCE" },
     { id: 6, image: decathlon, link: "https://www.decathlon.com/", category: "SPORTS SPECIALIST" },
@@ -40,7 +40,7 @@ const PartnerGallery = () => {
                 .filter((partner) => partner.category === category)
                 .map((partner) => (
                   <div className="partner-card" key={partner.id}>
-                    <a href={partner.href} target="_blank" rel="noopener noreferrer">
+                    <a href={partner.link} target="_blank" rel="noopener noreferrer">
                       <img
                         src={partner.image}
                         alt={`Partner ${partner.id}`}

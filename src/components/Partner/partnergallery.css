@@ -13,13 +13,16 @@
   .card-image {
     max-width: 200px;
     height: auto;
-    padding: 20px;
-    background-color: rgba(221, 221, 221, 0.548);
+    padding: 10px;
+    background-color: rgba(221, 221, 221, 0.253);
     border-radius: 5px;
+   
   }
   
   .categoryheading{
     padding: 0 10px;
+    font-family: 'eqstdrounded-thin', sans-serif;
+    font-size: 24px;
   }
   .boxmain{
     /* background-color: rgba(236, 236, 236, 0.322); */
