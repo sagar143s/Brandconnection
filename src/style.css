@@ -138,6 +138,10 @@ body{
     font-size: 15px;
     font-weight: 500;
 }
+.dropbtn:hover{
+    background-color: transparent;
+    color: #000;
+}
 .dropdown-content {
     display: none;
     position: absolute;

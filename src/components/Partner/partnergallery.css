@@ -1,23 +1,35 @@
 .partner-gallery-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 16px;
 
   }
   
   .partner-card {
     text-align: center;
+    padding: 10px 0;
   }
   
   .card-image {
     max-width: 200px;
     height: auto;
+    padding: 20px;
+    background-color: rgba(221, 221, 221, 0.548);
+    border-radius: 5px;
   }
   
   .categoryheading{
     padding: 0 10px;
   }
   .boxmain{
-    background-color: rgba(236, 236, 236, 0.322);
+    /* background-color: rgba(236, 236, 236, 0.322); */
     padding: 30px 10px;
+  }
+  @media only screen and (max-width:550px){
+    .partner-gallery-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 2fr));
+      gap: 16px;
+  
+    }
   }

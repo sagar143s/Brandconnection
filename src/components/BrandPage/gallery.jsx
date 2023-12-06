@@ -8,7 +8,7 @@ import koralpng from "../../assets/Koral.png";
 import pokemonimg from "../../assets/Pokemon.jpg";
 import pokemonpng from "../../assets/Pokemon.png";
 import babplatimg from "../../assets/babplat.jpg";
-import babplatpng from "../../assets/babplat.png";
+import babplatpng from "../../assets/brandss/Logo S 02.png";
 import diadoraimg from "../../assets/diadora.jpg";
 import diadorapng from "../../assets/diadora.png";
 import filsimg from "../../assets/fils.jpg";
@@ -21,6 +21,8 @@ import minecraftimg from "../../assets/minecraft.jpg";
 import minecraftpng from "../../assets/minecraft.png";
 import winnieimg from "../../assets/winnie-the-pooh.jpg";
 import winniepng from "../../assets/winnie-the-pool.png";
+import Hummel from '../../assets/brandss/Hummel 1.1.jpg'
+import HummelLogo from '../../assets/brandss/Logo S 01.png'
 import './brand.css';
 export default function Gallery() {
   const info = [
@@ -72,12 +74,12 @@ export default function Gallery() {
       imglogo: itouchpng,
       text: " Stylish smartwatches merging fashion and tech with fitness tracking and customizable features for a modern, on-the-go experience.",
     },
-    // {
-      // id: 9,
-      // imgcontainer: marvelimg,
-      // imglogo: marvelpng,
-      // text: "an entertainment giant, redefines storytelling with iconic superheroes like Spider-Man and the Avengers, captivating audiences worldwide.",
-    // },
+    {
+      id: 9,
+      imgcontainer: Hummel,
+      imglogo: HummelLogo,
+      text: "an entertainment giant, redefines storytelling with iconic superheroes like Spider-Man and the Avengers, captivating audiences worldwide.",
+    },
     // {
     //   id: 10,
     //   imgcontainer: minecraftimg,

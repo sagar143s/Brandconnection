@@ -37,8 +37,8 @@ export default function Header() {
           <a href="/Brands" className="header-nav-tags">
             BRANDS
           </a>
-          <div className="dropdown">
-            <button className="dropbtn">DIRECT RETAIL</button>
+          <div className="dropdown" >
+            <button className="dropbtn" >DIRECT RETAIL</button>
             <div className="dropdown-content">
               <a href="/Partner" className="dropdown-content-link">
                 Partners
