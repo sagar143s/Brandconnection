@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import brandLogo from "../../src/assets/brand-connection-logo.png";
+import './header.css'
+
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const mobileMenuRef = useRef(null);
