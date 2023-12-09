@@ -1,8 +1,8 @@
 import React from "react";
 import babolatimg from "../../assets/bablot.jpg";
-import babolatpng from "../../assets/babplat.png";
+import babolatpng from "../../assets//brandss//Logo S 02 - Copy.png";
 import hummelimg from "../../assets/Hummel.jpg";
-import hummelpng from "../../assets/hummel.png";
+import hummelpng from "../../assets/brandss/Logo S 01 - Copy.png";
 
 export default function Directgallery() {
   const info = [

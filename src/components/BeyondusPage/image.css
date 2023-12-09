@@ -1,0 +1,11 @@
+.image-slider-container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.slides {
+    /* Your slider styles here */
+    border: 1px solid #000; /* Replace #000 with your desired border color */
+    outline: none; /* Removes the focus outline */
+  }
+  

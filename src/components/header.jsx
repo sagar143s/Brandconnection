@@ -37,7 +37,7 @@ export default function Header() {
           <a href="/Brands" className="header-nav-tags">
             BRANDS
           </a>
-          <div className="dropdown" >
+          {/* <div className="dropdown" >
             <button className="dropbtn" >DIRECT RETAIL</button>
             <div className="dropdown-content">
               <a href="/Partner" className="dropdown-content-link">
@@ -47,7 +47,14 @@ export default function Header() {
                 Direct Retails
               </a>
             </div>
-          </div>
+          </div> */}
+          <a href="/Partner" className="header-nav-tags">
+            PARTNER
+          </a>
+            <a  href="./#retails_part" className="header-nav-tags">
+            DIRECT RETAIL
+          </a>
+          
           <a href="/BeyondUs" className="header-nav-tags">
             BEYOND US
           </a>

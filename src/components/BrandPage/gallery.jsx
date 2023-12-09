@@ -36,7 +36,7 @@ export default function Gallery() {
       id: 2,
       imgcontainer: Disneyimg,
       imglogo: Disneypng,
-      text: "our amazing range of character smart & analogue watches featuring the beloved characters including Mickey, Frozen, LOL, Batman, Spiderman and others.",
+      text: "Our amazing range of character smart & analogue watches featuring the beloved characters including Mickey, Frozen, LOL, Batman, Spiderman and others.",
     },
     {
       id: 3,
@@ -78,7 +78,7 @@ export default function Gallery() {
       id: 9,
       imgcontainer: Hummel,
       imglogo: HummelLogo,
-      text: "an entertainment giant, redefines storytelling with iconic superheroes like Spider-Man and the Avengers, captivating audiences worldwide.",
+      text: "An entertainment giant, redefines storytelling with iconic superheroes like Spider-Man and the Avengers, captivating audiences worldwide.",
     },
     // {
     //   id: 10,

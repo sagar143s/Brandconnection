@@ -4,7 +4,7 @@ import Image1 from '../../assets/brandss/Artboard ÔÇô 1111.png'
 
 const Banner2 = () => {
   return (
- <div className='background_banner2' style={{marginTop:"250PX" }}>
+ <div className='background_banner2' id='retails_part' style={{marginTop:"250PX" }}>
     <div className='container'>
         <div className='col-lg-12 col-md-12 col-md-12 brands_partner' >
             <div className='col-lg-4 col-md-6 col-md-6 brands_partner02'>

@@ -8,6 +8,8 @@ import Bread from './bread'
 import './beyond.css';
 import History from '../HistoryPage/HistoryPage';
 import Historymobile from '../History2/HistoryPage';
+// import Slider from './imageSlider'
+import Team from '../DirectPage/team'
 
 function BeyondUsPage() {
   const [isMobile, setIsMobile] = useState(false);
@@ -34,6 +36,7 @@ function BeyondUsPage() {
       <Beyondusbg />
       <Bread/>
       <Beyondbrand />
+      <Team/>
       <Counter />
       {/* <Clientsay /> */}
       {isMobile ? <Historymobile /> : <History />}

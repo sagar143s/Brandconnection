@@ -1,0 +1,254 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<title>Responsive Card Slider</title>-->
+
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+
+      
+      
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            .slide-container01{
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-container01{
+    margin-top: -55px;
+} 
+.slide-content01{
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card01{
+  border-radius: 25px;
+  background-color: #FFF;
+}
+.image-content01,
+.card-content01{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.image-content01{
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.overlay01{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  border-radius: 25px 25px 0 25px;
+}
+.overlay01::before,
+.overlay01::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #000000;
+}
+.overlay01::after{
+  border-radius: 0 25px 0 0;
+  background-color: #FFF;
+}
+
+.card-image01 video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  /* border: 4px solid #4070F4; */
+}
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+/* .button{
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #000000;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover{
+  background: #000000;
+} */
+
+.swiper-navBtn{
+  color: #000000;
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+  color: #000000;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 28px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-pagination-bullet{
+  background-color: #000000;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #000000;
+}
+/* .swiper-navBtn{
+    display: none;
+  } */
+
+@media screen and (max-width: 768px) {
+  .slide-content01{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+  .card-image01{
+  position: relative;
+  height: 280px;
+  width: 180px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+}
+}
+
+        </style>
+                                        
+    </head>
+    <body>
+       
+        <div class="slide-container01 swiper">
+            <center style="font-family: poppins;padding: 0 ;text-decoration: none;"><a href="https://bossini.ae/collections/bossini">View All</a></center>
+            <div class="slide-content01">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card01 swiper-slide">
+                        <div class="image-content01">
+                            <span class="overlay01s"></span>
+
+                            <div class="card-image01">
+                                <video class="video" autoplay loop muted>
+                                    <source class="videoframe" src="https://res.cloudinary.com/dzwyhgoer/video/upload/v1701851079/bossini.ae/BOSSINI_Reel_009_sykn4s_rf1bek.mp4" type="video/mp4">
+                                </video>                            </div>
+                        </div>
+
+                     
+                    </div>
+                    <div class="card01 swiper-slide">
+                        <div class="image-content01">
+                            <span class="overlay01s"></span>
+
+                            <div class="card-image01">
+                                <video class="video" autoplay loop muted>
+                                    <source class="videoframe" src="https://res.cloudinary.com/dzwyhgoer/video/upload/v1701851076/bossini.ae/BOSSINI_Reel_009_1_xmycdu_jesx1i.mp4" type="video/mp4">
+                                </video>                        </div>
+                        </div>
+
+                     
+                    </div>
+                    <div class="card01 swiper-slide">
+                        <div class="image-content01">
+                            <span class="overlay01s"></span>
+
+                            <div class="card-image01">
+                                <video class="video" autoplay loop muted>
+                                    <source class="videoframe" src="https://res.cloudinary.com/dzwyhgoer/video/upload/v1701851077/bossini.ae/BOSSINI_Reel_009_1_1_zgz1j3_d6pp77.mp4" type="video/mp4">
+                                </video>                           </div>
+                        </div>
+
+                     
+                    </div>
+                    <div class="card01 swiper-slide">
+                        <div class="image-content01">
+                            <span class="overlay01s"></span>
+
+                            <div class="card-image01">
+                                <video class="video" autoplay loop muted>
+                                    <source class="videoframe" src="https://res.cloudinary.com/dzwyhgoer/video/upload/v1701851074/bossini.ae/BOSSINI_Reel_001_1_1_nb9ywo_ghm5tb.mp4" type="video/mp4">
+                                </video>                         </div>
+                        </div>
+
+                     
+                    </div>
+                  
+             
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        
+    </body>
+
+    <!-- Swiper JS -->
+   <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+      <!--Uncomment this line-->
+    <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/script.js"></script>
+    <script>
+         
+var swiper = new Swiper(".slide-content01", {
+    slidesPerView: 4,
+    spaceBetween: 25,
+    loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    grabCursor: 'true',
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+
+    breakpoints:{
+        0: {
+            slidesPerView: 2,
+        },
+        520: {
+            slidesPerView: 3,
+        },
+        950: {
+            slidesPerView: 3,
+        },
+    },
+  });
+
+    </script>
+</html>
