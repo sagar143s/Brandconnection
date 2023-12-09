@@ -99,7 +99,7 @@ export default function Ournetwork() {
                 <div className="profile-image">
                   <img src={profileimg} alt="" />
                 </div>
-                <div className="profile-info">
+                <div className="profile-info" id='direct_path'>
                   <p class="profile-name" style={{textAlign:"left"}}>John Smith</p>
                   <p class="profile-job" style={{marginTop:"-20PX"}}>PARTNER - Amazon</p>
                 </div>
