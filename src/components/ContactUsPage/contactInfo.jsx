@@ -12,8 +12,8 @@ export default function ContactInfo() {
               <p className="ournetwork_para"  style={{textAlign:'center' , fontSize:'16px'}}>
               Marasi Drive, Business Bay District
                 <br></br>Burlington Tower, Office 411<br/>Dubai- UAE 
-                <a href="tel:+97143410500" style={{ fontWeight: '100 !important', fontFamily: 'eqstdrounded-thin, sans-serif',textDecoration:'none',color:'grey',fontSize:'16px' }}>
-                +971 4 341 0500
+                <a href="tel:+97143410500" style={{ fontWeight: 'bold', fontFamily: 'eqstdrounded-thin, sans-serif',textDecoration:'none',color:'grey',fontSize:'16px' }}>
+                 &nbsp;+971 4 341 0500
   </a>
               </p>
             </div>

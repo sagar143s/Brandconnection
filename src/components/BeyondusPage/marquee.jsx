@@ -78,18 +78,18 @@ export default function Marquee() {
             maxWidth: isMobile ? "150px" : "300px",
             padding: isMobile ? "10px 20px" : "10px 60px",
           }} />
-            <img src={Apparel} alt="" style={{
+            {/* <img src={Apparel} alt="" style={{
             maxWidth: isMobile ? "150px" : "300px",
             padding: isMobile ? "10px 20px" : "10px 60px",
-          }} />
-          <img src={Intersport} alt="" style={{
+          }} /> */}
+          {/* <img src={Intersport} alt="" style={{
             maxWidth: isMobile ? "150px" : "300px",
             padding: isMobile ? "10px 20px" : "10px 60px",
-          }} />
-               <img src={Brandforless} alt="" style={{
+          }} /> */}
+               {/* <img src={Brandforless} alt="" style={{
             maxWidth: isMobile ? "150px" : "300px",
             padding: isMobile ? "10px 20px" : "10px 60px",
-          }} />
+          }} /> */}
     
         {/* <img src={minecraftpng} alt="" /> */}
    
@@ -127,18 +127,18 @@ export default function Marquee() {
             maxWidth: isMobile ? "150px" : "300px",
             padding: isMobile ? "10px 20px" : "10px 60px",
           }} />
-           <img src={Apparel} alt="" style={{
+           {/* <img src={Apparel} alt="" style={{
             maxWidth: isMobile ? "150px" : "300px",
             padding: isMobile ? "10px 20px" : "10px 60px",
-          }} />   
-          <img src={Intersport} alt="" style={{
+          }} />    */}
+          {/* <img src={Intersport} alt="" style={{
             maxWidth: isMobile ? "150px" : "300px",
             padding: isMobile ? "10px 20px" : "10px 60px",
-          }} />
-            <img src={Brandforless} alt="" style={{
+          }} /> */}
+            {/* <img src={Brandforless} alt="" style={{
             maxWidth: isMobile ? "150px" : "300px",
             padding: isMobile ? "10px 20px" : "10px 60px",
-          }} />
+          }} /> */}
     
     
         
