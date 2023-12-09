@@ -53,7 +53,7 @@ export default function Header() {
           <a href="/Partner" className="header-nav-tags">
             PARTNER
           </a>
-            <a  href="https://brandconnectionme.com/#direct_path" className="header-nav-tags">
+            <a  href="./#direct_path" className="header-nav-tags">
             DIRECT RETAIL
           </a>
           
