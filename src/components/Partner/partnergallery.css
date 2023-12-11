@@ -17,10 +17,11 @@
     height: auto;
     padding: 10px;
     /* background-color: rgba(221, 221, 221, 0.253); */
+    border: 1px solid #000;
     border-radius: 5px;
    
   }
-  
+
   .categoryheading{
     padding: 0 10px;
     font-family: 'eqstdrounded-thin', sans-serif;
