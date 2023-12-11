@@ -21,13 +21,13 @@ const TeamMember = ({ imageUrl }) => {
 const Team = () => {
   const teamMembers = [
     { imageUrl: Image9 },
-    { imageUrl: Image2 },
+
     { imageUrl: Image3 },
     { imageUrl: Image4 },
     { imageUrl: Image5 },
 
     { imageUrl: Image7},
-    { imageUrl: Image8},
+
     { imageUrl: Image1},
   ];
 

@@ -1,9 +1,10 @@
 import React from "react";
 import aboutus from "../../assets//frame 02.png";
+import './home.css';
 
 export default function Whatwedo() {
   return (
-    <div className="whatwedo" style={{marginTop:"-80px"}}>
+    <div className="whatwedo" >
       <div className="container">
         <div className="whatwedo-up">
           <div>
@@ -19,7 +20,7 @@ export default function Whatwedo() {
           </div>
           <div className="whatwedo-right col-lg-6 col-md-12 col-sm-12">
           <center> <div>
-             <h6>WHAT WE DO?</h6>
+             <h5 style={{ fontFamily: 'eqstdrounded-thin, sans-serif',fontWeight:'100 !important' }}>WHAT WE DO?</h5>
             </div></center> 
             <center><div className="brandbuilders">
               <h1 style={{fontSize:"35px",color:"#000"}}>Brand Builders & Developers</h1>

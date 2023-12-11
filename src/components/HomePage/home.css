@@ -1,4 +1,6 @@
-
+.ournetwork-body1{
+    padding: 0 50px;
+}
 @media only screen and (max-width:1400px){
     .boxicon{
         width: 200px;
@@ -12,8 +14,13 @@
     .ourimg {
         display: none;
     }
+ 
 
-
+}
+@media only screen and (max-width:830px){
+    /* .testimonial{
+      display: none;
+    } */
 }
 @media only screen and (max-width:768px){
     .ourimg {
@@ -24,6 +31,7 @@
     }
     .ournetwork{
         height: 680px;
+        margin-top: 50px;
     }
     .boxicon-image{
         display: none !important;
@@ -54,9 +62,15 @@
 }
     
 }
+@media only screen and (max-width:650px){
+    .ournetwork{
+    
+        margin-top: 0px;
+    }
+}
 @media only screen and (max-width:550px){
     .ournetwork{
-        padding-top: 250px;
+        padding-top: 180px !important;
     }
 }
 
@@ -67,22 +81,15 @@
     .testimonial{
         display: none;
     }
-    .ournetwork{
-        height: 580px;
-        margin-top: 10px;
+    .brands_partner02{
+        margin-top: 200px;
     }
+  
     .boxicon-image{
         display: none !important;
     }
 }
-@media only screen and (max-width:414px){
-    .brands_partner02{
-    padding-top: 60px;
-    }
-    .brands_partner02 h1{
-        font-size: 13px;
-        }
-}
+
 @media only screen and (max-width:390px){
     .box-container {
         padding-top: 10px;
@@ -267,6 +274,9 @@
         z-index: 0;
         position: relative;
     }
+    .whatwedo-up{
+        display: none !important;
+    }
     
     .expand-container h1{
         padding-top: 220px;
@@ -338,6 +348,13 @@
 }
 
 @media only screen and (min-width:1200px){
+    /* .whatwedo-up{
+        display: none;
+    } */
+
+    .whatwedo-right{
+        padding-top: 50px;
+    }
     .expand{
         /* background-image: url("/src/assets/banner-building.jpg");  */
         background-size: cover;

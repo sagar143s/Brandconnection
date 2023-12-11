@@ -187,9 +187,11 @@ body{
     color: black;
     background-color: transparent;
     border: 0;
+    text-decoration: none;
+    width: 50px;
 
 }
-.mobile-menu{
+.mobile-menu {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -198,10 +200,22 @@ body{
     min-width: 160px;
     /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
     z-index: 1;
-    right: -25px;
+    right: -100%; /* Off-screen initially */
     top: 90px;
     font-size: 13px;
-  }
+    transition: right 0.3s ease-in-out;
+    animation: fadeIn 0.5s ease-in-out; 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
   .mobile-menu a {
     color: black;
       font-family: 'Frygia', sans-serif;
@@ -1504,12 +1518,17 @@ form{
     .newsletter{
         padding-top: 30px;
     }
+    .ourimg{
+
+        display: none;
+    }
     
 }
 @media only screen and (max-width: 1041px) {
     .divider1, .header-phone{
         display: none;
     }
+    
 }
 
 
@@ -1722,6 +1741,7 @@ form{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 50px;
 }
 .body2{
     display: block;
@@ -1730,6 +1750,7 @@ form{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 50px;
 }
 .body3{
     display: block;
@@ -1738,9 +1759,14 @@ form{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 50px;
 }
 .body1-title{
     padding-top: 270px;
+  
+}
+.body1-title1{
+    padding: 0 20px;
 }
 
 }

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import brandLogo from "../../src/assets/brand-connection-logo.png";
-import './header.css'
+import './header.css';
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -17,16 +17,29 @@ export default function Header() {
     }
   };
 
-  useEffect(() => {
-    document.addEventListener("click", closeMenu);
-    return () => {
-      document.removeEventListener("click", closeMenu);
-    };
-  }, []);
-
   const handleLinkClick = () => {
     setIsMobileMenuOpen(false);
   };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", closeMenu);
+    return () => {
+      document.removeEventListener("mousedown", closeMenu);
+    };
+  }, []);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsMobileMenuOpen(false);
+    };
+
+    document.addEventListener("scroll", handleScroll);
+
+    return () => {
+      document.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
       <div className="header">
@@ -77,9 +90,9 @@ export default function Header() {
           </div> */}
         </div>
         <div className="mobile-header-nav-toggle">
-          <button className="Mobile-Menu-toggle" onClick={(e) => toggleMenu(e)}>
+          <a className="Mobile-Menu-toggle" onClick={(e) => toggleMenu(e)} >
             ☰
-          </button>
+          </a>
           {isMobileMenuOpen && (
             <div className="mobile-menu" ref={mobileMenuRef}>
               <a href="/Brands" onClick={handleLinkClick}>
@@ -89,7 +102,7 @@ export default function Header() {
                 PARTNERS
               </a>
               <a href="/Direct" onClick={handleLinkClick}>
-                DIRECT RETAILS
+                DIRECT RETAIL
               </a>
               <a href="/BeyondUs" onClick={handleLinkClick}>
                 BEYOND US
