@@ -15,7 +15,7 @@ export default function Whatwedo() {
           </div>
         </div>
         <div className="whatwedo-container">
-          <div className="whatwedo-left col-lg-6 col-md-12 col-sm-12">
+          <div className="whatwedo-left col-lg-6 col-md-12 col-sm-12"style={{marginTop:"25PX"}} >
             <img src={aboutus} className="whatwedo-image" alt="" />
           </div>
           <div className="whatwedo-right col-lg-6 col-md-12 col-sm-12">
@@ -38,15 +38,8 @@ export default function Whatwedo() {
               retail environment.
               <div>
                 <br></br>
-              </div>
-              At Brand Connection Trading, we are driven by our passion for
-              connecting people with the lifestyle brands they love. Our mission
-              is to bring innovation, style, and quality to every corner of the
-              MENA region. Whether you are a retailer seeking premium brands or
-              a consumer in search of the latest trends, you can trust Brand
-              Connection Trading to be your partner in style and fitness.
-              <div>
-                <br></br>
+              
+              
               </div>
               Explore our website to learn more about our brands and services,
               and discover how we can enhance your retail experience. Join us on

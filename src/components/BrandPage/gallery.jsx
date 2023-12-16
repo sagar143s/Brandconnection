@@ -1,7 +1,7 @@
 import React from "react";
 import buckleyimg from "../../assets/Buckley-London.jpg";
 import buckleypng from "../../assets/buckley-london.png";
-import Disneyimg from "../../assets/Disney.jpg";
+import Disneyimg from "../../assets/New folder/456.jpg";
 import Disneypng from "../../assets/Disney.png";
 import koralimg from "../../assets/KORAL.jpg";
 import koralpng from "../../assets/Koral.png";
@@ -11,7 +11,7 @@ import babplatimg from "../../assets/babplat.jpg";
 import babplatpng from "../../assets/brandss/Logo S 02.png";
 import diadoraimg from "../../assets/diadora.jpg";
 import diadorapng from "../../assets/diadora.png";
-import filsimg from "../../assets/fils.jpg";
+import filsimg from "../../assets//brands/Fila poster Dec 14.jpg";
 import filspng from "../../assets/fils.png";
 import itouchimg from "../../assets/i-touch.jpg";
 import itouchpng from "../../assets/i-touch.png";

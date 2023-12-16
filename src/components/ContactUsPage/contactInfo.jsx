@@ -37,8 +37,8 @@ export default function ContactInfo() {
             <h3 className="ournetwotk_title">Working Hours</h3>
             <div>
               <p  className="ournetwork_para" style={{textAlign:'center', fontSize:'16px 15px '}}>
-                Monday - Friday: 09:00 to 18:00.
-                <br></br> Closed on Saturday & Sunday.
+                Monday - Friday:  10am - 10pm.
+                <br></br> Weekends & Holidays:  10am to 12pm.
                 <div style={{padding:" 11px 15px"}}></div>
               </p>
             </div>

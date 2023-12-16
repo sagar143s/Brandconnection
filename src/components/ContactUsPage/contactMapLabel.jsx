@@ -28,7 +28,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className='container' style={{ padding: '20px 0' }}>
+    <div className='container01' style={{ padding: '20px 0' }}>
       <div className='contact-container'>
         <div className='contact-image'>
           <img src={Image01} alt='Contact' />

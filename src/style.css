@@ -542,8 +542,8 @@ body{
     color: white;
       font-family: 'Frygia', sans-serif;
     text-align: center;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 500;
     margin: 0;
     padding: 20px 0;
 }
@@ -627,7 +627,7 @@ body{
 .ournetwork{
     padding-top: 200px;
     z-index: 0;
-    height: 1216px;
+    height: 796px;
 }
 .ournetwork-container{
     text-align: center;
@@ -1545,7 +1545,7 @@ form{
         height: 1100px;
     }
     .ournetwork{
-        height: 1450px;
+        height: 950px;
     }
     .testimonial{
         flex-direction: column;
@@ -1604,7 +1604,7 @@ form{
     .ournetwork{
         padding-top: 150px !important;
         z-index: 0;
-        height: 1216px;
+        height: 916px;
     }
 }
 
@@ -1864,7 +1864,7 @@ form{
     .ournetwork{
         padding-top: 180px !important;
         z-index: 0;
-        height: 1216px;
+        height: 916px;
     }
   
 
@@ -1972,7 +1972,7 @@ form{
     }
     .ournetwork{
 
-        padding-top: 100px !important;
+        padding-top: 10px !important;
     }
   
     

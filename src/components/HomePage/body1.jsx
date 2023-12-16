@@ -19,9 +19,9 @@ export default function Body1() {
       <Slider {...sliderSettings}>
         <div className="body1-slide body1">
           <h1 className="body1-title">
-          Fashion Meet Fitness
+          Fashion Meets Fitness
           </h1>
-          <h3 className="body1-title1">Crafting a Legacy for your brand's Middle East chapter</h3>
+          {/* <h3 className="body1-title1">Crafting a Legacy for your brand's Middle East chapter</h3> */}
           {/* <button className="body1-button">GET STARTED</button> */}
         </div>
         <div className="body1-slide body2">

@@ -63,19 +63,20 @@ export default function Header() {
               </a>
             </div>
           </div> */}
-          <a href="/Partner" className="header-nav-tags">
-            PARTNER
+          <a href="./#direct_path" className="header-nav-tags">
+            PARTNERS
           </a>
-            <a  href="./#direct_path" className="header-nav-tags">
+            <a  href="./Direct" className="header-nav-tags">
             DIRECT RETAIL
           </a>
-          
-          <a href="/BeyondUs" className="header-nav-tags">
-            BEYOND US
-          </a>
+         
           <a href="/Ecom" className="header-nav-tags">
             E-COMMERCE
           </a>
+          <a href="/BeyondUs" className="header-nav-tags">
+            BEYOND
+          </a>
+         
           <a href="/ContactUs" className="header-nav-tags">
             CONTACT US
           </a>
@@ -104,12 +105,13 @@ export default function Header() {
               <a href="/Direct" onClick={handleLinkClick}>
                 DIRECT RETAIL
               </a>
-              <a href="/BeyondUs" onClick={handleLinkClick}>
-                BEYOND US
-              </a>
               <a href="/Ecom" onClick={handleLinkClick}>
               E-COMMERCE
               </a>
+              <a href="/BeyondUs" onClick={handleLinkClick}>
+                BEYOND 
+              </a>
+             
               <a href="/ContactUs" onClick={handleLinkClick}>
                 CONTACT US
               </a>

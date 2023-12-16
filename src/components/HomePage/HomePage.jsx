@@ -7,6 +7,7 @@ import Ourbrands from "./ourbrands";
 import Insta from './instavideos'
 import Marquee from '../BeyondusPage/marquee'
 import Banner2 from "./banner2";
+import Feedback from './partnerwithus'
 
 function HomePage() {
   return (
@@ -14,8 +15,9 @@ function HomePage() {
       <Body1 />
       <Whatwedo />
       <Wedeliversol />
-      
+      {/* <Insta/> */}
       <Ournetwork />
+  
 
       {/* <Expand /> */}
       {/* <Ourbrands /> */}
@@ -23,8 +25,9 @@ function HomePage() {
       <div className="mobilemarquee">
       <Marquee/>
       </div>
+      <Feedback/>
     
-      <Insta/>
+      {/* <Insta/> */}
 
   
     </div>

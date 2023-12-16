@@ -7,7 +7,7 @@ import topleft from "../../assets/home/01.png";
 import topright from "../../assets/home/02.png";
 import bottomleft from "../../assets/bottomleft.jpg";
 import bottomright from "../../assets//home/03.png";
-import profileimg from "../../assets/people.png"
+
 import Gall from '../../assets/Artboard220.png'
 import './home.css';
 import Marquee from "../BeyondusPage/marquee";
@@ -44,10 +44,9 @@ export default function Ournetwork() {
                   <img src={worldmap} alt="" />
                 </div>
                 <div className="ournetwork-premium-content">
-                  <h3 className="ournetwotk_title">Global Presence</h3>
+                  <h3 className="ournetwotk_title">Regional Presence</h3>
                   <p className="ournetwork_para">
-                    Our reach extends across 9 countries, connecting consumers
-                    with the latest trends from around the world.
+                  Our distribution reach extends to 9 countries across GCC, Levant and Egypt.
                   </p>
                 </div>
               </div>
@@ -75,38 +74,7 @@ export default function Ournetwork() {
           <div className="desktopmarquee">
           <Marquee/>
           </div>
-          </div>
-          <div className="container">
-          <div className="testimonial" >
-            <div className="testimonial-left">
-              <div class="testi">
-                <h3 className="brands_ournetwork"  >FROM THE PARTNER</h3>
-                <h6 className="ournetwork_para" style={{textAlign:"center"}}>
-                  At the heart of our business lies an unwavering commitment to
-                  passion and integrity.
-                </h6>
-              </div>
-            </div>
-            
-            <div className="testimonial-right">
-              <blockquote class="testimonial-text">
-                "Our dedication goes beyond profit; it's about understanding the
-                unique needs and desires of both our partners and consumers. We
-                aspire to cultivate a dynamic lifestyle ecosystem that blends
-                the worlds of fashion and fitness seamlessly."
-              </blockquote>
-              <div className="profile">
-                <div className="profile-image">
-                  <img src={profileimg} alt="" />
-                </div>
-                <div className="profile-info" id='direct_path'>
-                  <p class="profile-name" style={{textAlign:"left"}}>John Smith</p>
-                  <p class="profile-job" style={{marginTop:"-20PX"}}>PARTNER - Amazon</p>
-                </div>
-              </div>
-            </div>
-        
-          </div>
+         
      
         </div>
 
