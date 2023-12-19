@@ -8,7 +8,7 @@ import Typography from "@mui/material/Typography";
 import Historybg from "./historybg";
 
 const HistoryContent = () => {
-  const boxArray = Array(197)
+  const boxArray = Array(106)
     .fill()
     .map((_, index) => (
       <Box
@@ -72,7 +72,7 @@ const HistoryContent = () => {
           </Container>
         </Box> */}
 
-        <Box sx={{ marginTop: "4rem" }}>
+        <Box sx={{ marginTop: "8rem"}}>
           <Container>
             <Typography
               fontFamily="Rounded Elegance"
@@ -122,25 +122,13 @@ const HistoryContent = () => {
                     paddingTop: "2.5rem",
                   }}
                 >
-                  <img
-                    src={Image2}
-                    className="historyimg"
-                    alt="Img1"
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      borderRadius: "20px",
-                      objectFit: "fill",
-                    }}
-                  />
-                </Box>
-                <Box sx={{ height: "300px" }}>
+                 <Box sx={{ height: "000px" }}>
                   <Typography
                       className="historyyear"
                     fontSize="35px"
                     fontWeight="300"
                     align="right"
-                    paddingTop="9rem"
+                    paddingTop="1.2rem"
                     sx={{ wordSpacing: "5px" }}
                   >
                     2020
@@ -157,33 +145,15 @@ const HistoryContent = () => {
                     Freezone Set up Launched Fila watch{" "}
                   </Typography>
                 </Box>
-                <Box
-                  sx={{
-                    height: "410px",
-                    borderRadius: "20px",
-                    overflow: "hidden",
-                    paddingTop: "8rem",
-                  }}
-                >
-                  <img
-                    src={Image2}
-                    className="historyimg"
-                    alt="Img1"
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      borderRadius: "20px",
-                      objectFit: "fill",
-                    }}
-                  />
                 </Box>
+               
                 <Box sx={{ height: "200px" }}>
                   <Typography
                 className="historyyear"
                     fontSize="35px"
                     fontWeight="300"
                     align="right"
-                    paddingTop="7rem"
+                    paddingTop="3rem"
                     sx={{ wordSpacing: "5px" }}
                   >
                     2022
@@ -200,6 +170,7 @@ const HistoryContent = () => {
                     Freezone Set up Launched Fila watch{" "}
                   </Typography>
                 </Box>
+               
                 <Box
                   sx={{
                     height: "450px",
@@ -208,17 +179,7 @@ const HistoryContent = () => {
                     paddingTop: "10rem",
                   }}
                 >
-                  <img
-                    src={Image3}
-                    className="historyimg"
-                    alt="Img1"
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      borderRadius: "20px",
-                      objectFit: "fill",
-                    }}
-                  />
+                  
                 </Box>
               </Box>
               <Box sx={{ flex: 1 }}>
@@ -228,7 +189,7 @@ const HistoryContent = () => {
                     {boxArray}
                   </Box>
                   {/* Right Dots */}
-                  <Box sx={{ position: "absolute", top: "150px", left: "48%" }}>
+                  <Box sx={{ position: "absolute", top: "280px", left: "48%" }}>
                     <Box sx={{ display: "flex", alignItems: "center" }}>
                       <Box
                         sx={{
@@ -336,7 +297,7 @@ const HistoryContent = () => {
 
                   {/* Left Dots */}
                   <Box
-                    sx={{ position: "absolute", top: "470px", right: "45%" }}
+                    sx={{ position: "absolute", top: "130px", right: "45%" }}
                   >
                     <Box
                       sx={{
@@ -451,7 +412,7 @@ const HistoryContent = () => {
                   {/* Column Dots */}
 
                   {/* Right Dots */}
-                  <Box sx={{ position: "absolute", top: "850px", left: "48%" }}>
+                  <Box sx={{ position: "absolute", top: "580px", left: "48%" }}>
                     <Box sx={{ display: "flex", alignItems: "center" }}>
                       <Box
                         sx={{
@@ -559,7 +520,7 @@ const HistoryContent = () => {
 
                   {/* Left Dots */}
                   <Box
-                    sx={{ position: "absolute", top: "1170px", right: "45%" }}
+                    sx={{ position: "absolute", top: "430px", right: "45%" }}
                   >
                     <Box
                       sx={{
@@ -674,7 +635,7 @@ const HistoryContent = () => {
                   {/* Column Dots */}
                   {/* Right Dots */}
                   <Box
-                    sx={{ position: "absolute", top: "1520px", left: "48%" }}
+                    sx={{ position: "absolute", top: "900px", left: "48%" }}
                   >
                     <Box sx={{ display: "flex", alignItems: "center" }}>
                       <Box
@@ -781,7 +742,7 @@ const HistoryContent = () => {
                   </Box>
 
                   <Box
-                    sx={{ position: "absolute", top: "1820px", right: "45%" }}
+                    sx={{ position: "absolute", top: "740px", right: "45%" }}
                   >
                     <Box
                       sx={{
@@ -896,27 +857,13 @@ const HistoryContent = () => {
                 </Box>
               </Box>
               <Box sx={{ flex: 2 }}>
-                <Box
-                  sx={{
-                    height: "300px",
-                    borderRadius: "20px",
-                    overflow: "hidden",
-                  }}
-                >
-                  <img
-                    src={Image1}
-                    className="historyimg"
-                    alt="Img1"
-                    style={{ width: "100%", height: "100%", objectFit: "fill" }}
-                  />
-                </Box>
-                <Box sx={{ height: "300px" }}>
+                <Box sx={{ height: "150px" }}>
                   <Typography
                          className="historyyear"
                     fontSize="35px"
                     fontWeight="300"
                     align="left"
-                    marginTop="5rem"
+                    marginTop="13rem"
                     sx={{ wordSpacing: "5px" }}
                   >
                     2019
@@ -934,28 +881,15 @@ const HistoryContent = () => {
                     Freezone Set up Launched Fila watch{" "}
                   </Typography>
                 </Box>
-                <Box
-                  sx={{
-                    height: "300px",
-                    borderRadius: "20px",
-                    overflow: "hidden",
-                    marginTop: "2rem",
-                  }}
-                >
-                  <img
-                    src={Image3}
-                    className="historyimg"
-                    alt="Img1"
-                    style={{ width: "100%", height: "100%", objectFit: "fill" }}
-                  />
-                </Box>
+               
+                
                 <Box sx={{ height: "300px" }}>
                   <Typography
                          className="historyyear"
                     fontSize="35px"
                     fontWeight="300"
                     align="left"
-                    marginTop="5rem"
+                    marginTop="9.5rem"
                     sx={{ wordSpacing: "5px" }}
                   >
                     2021
@@ -973,27 +907,13 @@ const HistoryContent = () => {
                     Freezone Set up Launched Fila watch{" "}
                   </Typography>
                 </Box>
-                <Box
-                  sx={{
-                    height: "300px",
-                    borderRadius: "20px",
-                    overflow: "hidden",
-                  }}
-                >
-                  <img
-                    src={Image1}
-                    className="historyimg"
-                    alt="Img1"
-                    style={{ width: "100%", height: "100%", objectFit: "fill" }}
-                  />
-                </Box>
                 <Box sx={{ height: "300px" }}>
                   <Typography
                         className="historyyear"
                     fontSize="35px"
                     fontWeight="300"
                     align="left"
-                    marginTop="4rem"
+                    marginTop="1.5rem"
                     sx={{ wordSpacing: "5px" }}
                   >
                     2023
@@ -1010,6 +930,7 @@ const HistoryContent = () => {
                     Sports and fashion. over 25 years of Market experience,
                     Freezone Set up Launched Fila watch{" "}
                   </Typography>
+               
                 </Box>
               </Box>
             </Box>

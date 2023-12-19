@@ -8,6 +8,7 @@ import Insta from './instavideos'
 import Marquee from '../BeyondusPage/marquee'
 import Banner2 from "./banner2";
 import Feedback from './partnerwithus'
+import Instagramfeeds from './instafeed'
 
 function HomePage() {
   return (
@@ -26,6 +27,7 @@ function HomePage() {
       <Marquee/>
       </div>
       <Feedback/>
+      <Instagramfeeds/>
     
       {/* <Insta/> */}
 

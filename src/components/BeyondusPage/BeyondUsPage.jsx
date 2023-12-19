@@ -36,7 +36,7 @@ function BeyondUsPage() {
       <Beyondusbg />
       <Bread/>
       <Beyondbrand />
-      <Team/>
+      {/* <Team/> */}
       <Counter />
       {/* <Clientsay /> */}
       {isMobile ? <Historymobile /> : <History />}

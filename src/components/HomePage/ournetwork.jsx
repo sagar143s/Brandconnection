@@ -7,7 +7,7 @@ import topleft from "../../assets/home/01.png";
 import topright from "../../assets/home/02.png";
 import bottomleft from "../../assets/bottomleft.jpg";
 import bottomright from "../../assets//home/03.png";
-
+import profileimg from "../../assets/people.png"
 import Gall from '../../assets/Artboard220.png'
 import './home.css';
 import Marquee from "../BeyondusPage/marquee";
@@ -74,9 +74,8 @@ export default function Ournetwork() {
           <div className="desktopmarquee">
           <Marquee/>
           </div>
-         
-     
-        </div>
+          </div>
+        
 
       </div>
       </div>

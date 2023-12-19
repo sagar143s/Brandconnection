@@ -1,0 +1,30 @@
+/* instafeed.css */
+
+.instafeed-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .container01{
+    padding: 60px 0 0px;
+  }
+  .instafeed-container h2{
+    padding: 20px 0;
+    font-size: 35px;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+  }
+  
+  @media only screen and (max-width:550px){
+    .container01{
+        padding: 0px 0 0px;
+        margin-top: -30px;
+      }
+      .instafeed-container h2{
+        padding: 20px 0;
+        font-size: 35px;
+      }
+  }

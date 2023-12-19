@@ -72,17 +72,9 @@ const HistoryContent = () => {
           </Container>
         </Box> */}
 
-        <Box sx={{ marginTop: "5rem" }}>
+        <Box sx={{ marginTop: "1rem" }}>
           <Container>
-            <Typography
-              fontFamily="Rounded Elegance"
-              fontSize="20px"
-              fontWeight="500"
-              align="center"
-              sx={{ wordSpacing: "5px" }}
-            >
-              Our Journey
-            </Typography>
+           
           </Container>
         </Box>
         <Box>
@@ -121,17 +113,7 @@ const HistoryContent = () => {
                     paddingTop: "0rem",
                   }}
                 >
-                  <img
-                    src={Image2}
-                    className="historyimg"
-                    alt="Img1"
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      borderRadius: "20px",
-                      objectFit: "fill",
-                    }}
-                  />
+             
                 </Box>
                 <Box sx={{ height: "240px" }}>
                   <Typography
@@ -139,7 +121,7 @@ const HistoryContent = () => {
                     fontSize="35px"
                     fontWeight="300"
                     align="right"
-                    paddingTop="0rem"
+                    paddingTop="2rem"
                     sx={{ wordSpacing: "5px" }}
                   >
                     2020
@@ -165,17 +147,7 @@ const HistoryContent = () => {
                     paddingTop: "1rem",
                   }}
                 >
-                  <img
-                    src={Image2}
-                    className="historyimg"
-                    alt="Img1"
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      borderRadius: "20px",
-                      objectFit: "fill",
-                    }}
-                  />
+                 
                 </Box>
                 <Box sx={{ height: "240px" }}>
                   <Typography
@@ -209,17 +181,7 @@ const HistoryContent = () => {
                     paddingTop: "1rem",
                   }}
                 >
-                  <img
-                    src={Image3}
-                    className="historyimg"
-                    alt="Img1"
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      borderRadius: "20px",
-                      objectFit: "fill",
-                    }}
-                  />
+               
                 </Box>
               </Box>
               <Box sx={{ flex: 1 }}>
@@ -248,7 +210,7 @@ const HistoryContent = () => {
                   </Box>
                   {/* Column Dots */}
                   {/* Right Dots */}
-                  <Box sx={{ position: "absolute", top: "120px", left: "45%" }}>
+                  <Box sx={{ position: "absolute", top: "320px", left: "45%" }}>
                     <Box sx={{ display: "flex", alignItems: "center" }}>
                       <Box
                         sx={{
@@ -290,7 +252,7 @@ const HistoryContent = () => {
 
                   {/* Left Dots */}
                   <Box
-                    sx={{ position: "absolute", top: "290px", right: "38%" }}
+                    sx={{ position: "absolute", top: "150px", right: "38%" }}
                   >
                     <Box
                       sx={{
@@ -337,7 +299,7 @@ const HistoryContent = () => {
                   {/* Column Dots */}
 
                   {/* Right Dots */}
-                  <Box sx={{ position: "absolute", top: "490px", left: "45%" }}>
+                  <Box sx={{ position: "absolute", top: "690px", left: "45%" }}>
                     <Box sx={{ display: "flex", alignItems: "center" }}>
                       <Box
                         sx={{
@@ -377,7 +339,7 @@ const HistoryContent = () => {
 
                   {/* Left Dots */}
                   <Box
-                    sx={{ position: "absolute", top: "690px", right: "38%" }}
+                    sx={{ position: "absolute", top: "530px", right: "38%" }}
                   >
                     <Box
                       sx={{
@@ -427,7 +389,7 @@ const HistoryContent = () => {
                   
                 </Box>
                  {/* Right Dots */}
-                 <Box sx={{ position: "absolute", top: "870px", left: "45%" }}>
+                 <Box sx={{ position: "absolute", top: "1080px", left: "45%" }}>
                     <Box sx={{ display: "flex", alignItems: "center" }}>
                       <Box
                         sx={{
@@ -466,7 +428,7 @@ const HistoryContent = () => {
                   {/* Column Dots */}
                   {/* Left Dots */}
                   <Box
-                    sx={{ position: "absolute", top: "1080px", right: "38%" }}
+                    sx={{ position: "absolute", top: "890px", right: "38%" }}
                   >
                     <Box
                       sx={{
@@ -540,12 +502,7 @@ const HistoryContent = () => {
                     marginTop:"5rem" 
                   }}
                 >
-                  <img
-                    src={Image1}
-                    className="historyimg"
-                    alt="Img1"
-                    style={{ width: "100%", height: "100%", objectFit: "fill",borderRadius:"20px"}}
-                  />
+                
                 </Box>
                 <Box sx={{ height: "220px" }}>
                   <Typography
@@ -579,12 +536,7 @@ const HistoryContent = () => {
                     marginTop: "0rem",
                   }}
                 >
-                  <img
-                    src={Image3}
-                    className="historyimg"
-                    alt="Img1"
-                    style={{ width: "100%", height: "100%", objectFit: "fill",borderRadius:"20px" }}
-                  />
+              
                 </Box>
                 <Box sx={{ height: "230px" }}>
                   <Typography
@@ -617,12 +569,7 @@ const HistoryContent = () => {
                     overflow: "hidden",
                   }}
                 >
-                  <img
-                    src={Image1}
-                    className="historyimg"
-                    alt="Img1"
-                    style={{ width: "100%", height: "100%", objectFit: "fill",borderRadius:"20px" }}
-                  />
+            
                 </Box>
                 <Box sx={{ height: "150px" }}>
                   <Typography

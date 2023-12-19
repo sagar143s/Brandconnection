@@ -63,7 +63,7 @@ export default function Header() {
               </a>
             </div>
           </div> */}
-          <a href="./#direct_path" className="header-nav-tags">
+          <a href="./#marquepartner" className="header-nav-tags">
             PARTNERS
           </a>
             <a  href="./Direct" className="header-nav-tags">
@@ -99,7 +99,7 @@ export default function Header() {
               <a href="/Brands" onClick={handleLinkClick}>
                 BRANDS
               </a>
-              <a href="/Partner" onClick={handleLinkClick}>
+              <a href="./#marquepartner" onClick={handleLinkClick}>
                 PARTNERS
               </a>
               <a href="/Direct" onClick={handleLinkClick}>

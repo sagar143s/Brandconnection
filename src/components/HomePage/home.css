@@ -4,6 +4,9 @@
 .ournetwork{
     margin-top: 280px;
 }
+#feedback{
+    padding: 90px 0 0 0;
+}
 @media only screen and (max-width:1400px){
     .boxicon{
         width: 200px;
@@ -70,11 +73,18 @@
     
         margin-top: 0px;
     }
+    .feedback{
+        display: none;
+    }
 }
 @media only screen and (max-width:550px){
     .ournetwork{
         padding-top: 180px !important;
     }
+    #feedback{
+        padding: 0px 0 0 0;
+    }
+
 }
 
 @media only screen and (max-width:488px){

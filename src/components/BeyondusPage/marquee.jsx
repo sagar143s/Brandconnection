@@ -33,7 +33,7 @@ export default function Marquee() {
     };
   }, []);
   return (
-    <div className="marquee-container">
+    <div className="marquee-container" id="marquepartner">
     <marquee
       id="my-marquee"
       loop="infinite"
