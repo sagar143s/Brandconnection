@@ -11,7 +11,7 @@ const TwoColumnComponent = () => {
    
       <div className="left-column">
         <h2>WHO ARE WE ? </h2>
-        <ul style={{textAlign:'left',margin:'0 auto',maxWidth:"550px"}}>
+        <ul style={{textAlign:'center',margin:'0 auto',maxWidth:"550px",listStyle:'none'}}>
             <li>We drive our business with passion and integrity</li>
             <li>We strive to understand our partners and consumers needs</li>
             <li>We aim to create a lifestyle environment driven by Fashion Fitness</li>
