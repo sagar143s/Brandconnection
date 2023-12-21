@@ -13,7 +13,7 @@ import diadoraimg from "../../assets/diadora.jpg";
 import diadorapng from "../../assets/diadora.png";
 import filsimg from "../../assets//brands/Fila poster Dec 14.jpg";
 import filspng from "../../assets/fils.png";
-import itouchimg from "../../assets/i-touch.jpg";
+import itouchimg from "../../assets/brands/iTouch image 1 (1).jpg";
 import itouchpng from "../../assets/i-touch.png";
 import marvelimg from "../../assets/kidsdisney.jpg";
 import marvelpng from "../../assets/marvel.png";

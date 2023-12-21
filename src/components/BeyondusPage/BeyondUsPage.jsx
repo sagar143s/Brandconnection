@@ -4,10 +4,11 @@ import Beyondusbg from "./beyondusbg";
 import Clientsay from "./clientsay";
 import Counter from "./counter";
 import Bread from './bread'
+import His from '../../components/BeyondusPage/hist'
 
 import './beyond.css';
-import History from '../HistoryPage/HistoryPage';
-import Historymobile from '../History2/HistoryPage';
+// import History from '../HistoryPage/HistoryPage';
+// import Historymobile from '../History2/HistoryPage';
 // import Slider from './imageSlider'
 import Team from '../DirectPage/team'
 
@@ -36,10 +37,11 @@ function BeyondUsPage() {
       <Beyondusbg />
       <Bread/>
       <Beyondbrand />
+      <His/>
       {/* <Team/> */}
       <Counter />
       {/* <Clientsay /> */}
-      {isMobile ? <Historymobile /> : <History />}
+      {/* {isMobile ? <Historymobile /> : <History />} */}
     
     </div>
   );

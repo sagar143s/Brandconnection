@@ -54,7 +54,7 @@ export default function Wedeliversol() {
       <div className="container">
         <div className="wedeliver-container">
           <div class="wedeliver-banner">
-            <h1>Our Journey Towards Meaningful Connections<br></br> </h1>
+            <h1>Our well established Omni-channel Business model<br></br> </h1>
           </div>
           <div className="wedeliver-icons-div">
             {calm.map((si) => (
@@ -71,7 +71,7 @@ export default function Wedeliversol() {
         </div>
         <div className="videinsta" >
         {/* <iframe className="youtube-video" src="https://www.youtube.com/embed/BVCiEqbCL6Y?autoplay=1&controls=0&mute=1" frameBorder="0" allowFullScreen /> */}
-       <Insta/>
+       {/* <Insta/> */}
         </div>
 
       </div>

@@ -517,8 +517,8 @@ body{
 .wedeliver{
     display: block;
     padding: 50px 20px 20px;
-    height: 850px;
-    background-image: url("/src/assets/wedeliver-banner.jpg");
+    height: 550px;
+    background-image: url("/src/assets/grid//mobile\ bnr.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1549,7 +1549,7 @@ form{
 
 @media only screen and (max-width: 992px){
     .wedeliver{
-        height: 1100px;
+        height: 500px;
     }
     .ournetwork{
         height: 950px;
@@ -1719,7 +1719,7 @@ form{
         flex-direction: column;
     }
     .wedeliver{
-        height: 1250px;
+        height: 550px;
     }
     .body1-body{
         padding: 0px;
@@ -1879,7 +1879,7 @@ form{
 
 @media only screen and (max-width: 511px){
     .wedeliver{
-        height: 1350px;
+        height: 550px;
     }
     .ourimg{
 
@@ -1972,7 +1972,7 @@ form{
 
 @media only screen and (max-width: 413px){
     .wedeliver{
-        height: 1200px;
+        height: 500px;
     }
     .wedeliver-banner h1{
         padding: 0 0 10px 0px;
@@ -2014,7 +2014,7 @@ form{
 
 @media only screen and (max-width: 384px){
     .wedeliver{
-        height: 1450px;
+        height: 550px;
     }
     .wedeliver-banner h1{
         padding: 20px;

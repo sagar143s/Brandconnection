@@ -74,7 +74,7 @@ export default function Header() {
             E-COMMERCE
           </a>
           <a href="/BeyondUs" className="header-nav-tags">
-            BEYOND
+            BEYOND US
           </a>
          
           <a href="/ContactUs" className="header-nav-tags">
@@ -109,7 +109,7 @@ export default function Header() {
               E-COMMERCE
               </a>
               <a href="/BeyondUs" onClick={handleLinkClick}>
-                BEYOND 
+                BEYOND US
               </a>
              
               <a href="/ContactUs" onClick={handleLinkClick}>
